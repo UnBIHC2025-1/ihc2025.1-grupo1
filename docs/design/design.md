@@ -30,6 +30,42 @@
 - [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
 
+## Novidades WCAG 2.2 e ABNT NBR 17225:2025 - Design
+
+### Foco e Visibilidade
+- [ ] Foco não obscurecido mínimo - Item com foco não totalmente oculto por conteúdo sobreposto. WCAG 2.2 - Nível AA
+- [ ] Foco não obscurecido aprimorado - Nenhuma parte do item com foco é oculta. WCAG 2.2 - Nível AAA
+- [ ] Aparência do foco aprimorada - Contraste mínimo 3:1 para indicadores de foco. WCAG 2.2 - Nível AAA
+- [ ] Foco visível em todos os elementos interativos - Garantir visibilidade em modais e overlays. ABNT NBR 17225
+
+### Interação Táctil e Móvel
+- [ ] Tamanho do alvo mínimo - Alvos com pelo menos 24x24 pixels CSS. WCAG 2.2 - Nível AA
+- [ ] Movimentos de arrastar alternativos - Funcionalidades drag-and-drop operáveis com um ponto. WCAG 2.2 - Nível AA
+- [ ] Gestos complexos simplificados - Alternativas para gestos multitouch. ABNT NBR 17225
+- [ ] Área de toque adequada - Elementos interativos com espaçamento suficiente. ABNT NBR 17225
+
+### Design Responsivo Avançado  
+- [ ] Orientação flexível - Suporte a todas as orientações de dispositivo. ABNT NBR 17225
+- [ ] Zoom até 400% - Conteúdo utilizável com ampliação extrema. ABNT NBR 17225
+- [ ] Reflow otimizado - Layout adaptável sem scroll horizontal. ABNT NBR 17225
+- [ ] Pontos de quebra acessíveis - Breakpoints considerando necessidades especiais. ABNT NBR 17225
+
+### Consistência Visual
+- [ ] Ajuda consistente - Elementos de ajuda na mesma posição relativa. WCAG 2.2 - Nível A
+- [ ] Padrões visuais consistentes - Manter consistência em ícones, cores e layouts. ABNT NBR 17225
+- [ ] Identificação de elementos - Componentes similares têm aparência similar. ABNT NBR 17225
+
+### Acessibilidade Cognitiva no Design
+- [ ] Simplicidade visual - Reduzir elementos desnecessários para melhor compreensão. ABNT NBR 17225
+- [ ] Feedback visual claro - Indicações visuais para estados e ações. ABNT NBR 17225
+- [ ] Hierarquia visual clara - Organização visual que facilita a compreensão. ABNT NBR 17225
+- [ ] Carga cognitiva reduzida - Evitar sobrecarga de informações visuais. ABNT NBR 17225
+
+### Tecnologias Emergentes no Design
+- [ ] Interface para reconhecimento de voz - Design que suporta comandos de voz. ABNT NBR 17225
+- [ ] Compatibilidade com eye-tracking - Layout compatível com rastreamento ocular. ABNT NBR 17225
+- [ ] Design para tecnologias assistivas - Considerar diferentes tipos de interação. ABNT NBR 17225
+
 ## Referências Bibliograficas
 
 > <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 9 Mai. 2024.

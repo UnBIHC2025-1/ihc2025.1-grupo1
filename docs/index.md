@@ -4,6 +4,23 @@
 
 O VerificaAAA é um projeto criado a partir do curso de Interação Humano Computador, ministrado pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). Nesse sentido, seu objetivo final é fornecer um checklist prático de acessibilidade para projetos, principalmente de desenvolvimento, que incluem: desenvolvimento web, design, geração de conteúdo e gestão de projetos.
 
+### Conformidade com Padrões Atuais
+
+Este projeto está atualizado com as mais recentes diretrizes de acessibilidade:
+
+- **WCAG 2.2** (W3C, outubro de 2023) - Incorpora os 9 novos critérios de sucesso focados em acessibilidade cognitiva, baixa visão e dispositivos móveis
+- **ABNT NBR 17225:2025** - Nova norma brasileira de acessibilidade digital com 146 diretrizes baseadas no WCAG 2.2
+
+### Novidades do WCAG 2.2
+
+O WCAG 2.2 mantém compatibilidade total com versões anteriores e adiciona:
+
+- **3 critérios** para uso de teclado e exibição de conteúdo com foco
+- **2 critérios** para entrada com touchscreen e mouse (gestos de deslizar e áreas clicáveis)
+- **4 critérios** adicionais para suporte a pessoas com deficiências cognitivas
+- Critério 2.4.7 "Foco visível" retornou ao nível AA
+- Total de 87 critérios de sucesso (removido critério 4.1.1)
+
 ## Equipe
 
 <table>

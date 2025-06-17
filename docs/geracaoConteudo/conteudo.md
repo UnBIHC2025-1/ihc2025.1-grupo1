@@ -49,6 +49,35 @@
 ## Hiperlinks
 - [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
 
+## Novidades WCAG 2.2 e ABNT NBR 17225:2025 - Geração de Conteúdo
+
+### Ajuda e Consistência
+- [ ] Ajuda consistente - Posicionar mecanismos de ajuda no mesmo local em todas as páginas. WCAG 2.2 - Nível A
+- [ ] Ajuda contextual - Fornecer ajuda específica no contexto onde é necessária. ABNT NBR 17225
+- [ ] Documentação de acessibilidade - Criar guias de uso acessível para o conteúdo produzido. ABNT NBR 17225
+
+### Cognição e Compreensão  
+- [ ] Entrada redundante - Evitar solicitar informações já fornecidas pelo usuário. WCAG 2.2 - Nível A
+- [ ] Autenticação acessível - Reduzir testes cognitivos em processos de login. WCAG 2.2 - Nível AA
+- [ ] Reconhecimento vs recordação - Priorizar reconhecimento em vez de memorização. ABNT NBR 17225
+- [ ] Linguagem simples e clara - Usar vocabulário acessível para pessoas com deficiências cognitivas. ABNT NBR 17225
+
+### Conteúdo Multimídia Atualizado
+- [ ] Legendas automáticas - Implementar legendas geradas automaticamente com revisão humana. ABNT NBR 17225  
+- [ ] Audiodescrição expandida - Incluir pausas no conteúdo para descrições detalhadas. ABNT NBR 17225
+- [ ] Transcrições interativas - Criar transcrições navegáveis e pesquisáveis. ABNT NBR 17225
+- [ ] Interpretação em Libras - Garantir interpretação para conteúdo em português. ABNT NBR 17225
+
+### Tecnologias Assistivas
+- [ ] Compatibilidade com leitores de tela - Testar conteúdo com diferentes leitores. ABNT NBR 17225
+- [ ] Reconhecimento de voz - Garantir que conteúdo seja acessível via comando de voz. ABNT NBR 17225  
+- [ ] Tecnologias emergentes - Considerar captcha, reconhecimento facial e biometria acessíveis. ABNT NBR 17225
+
+### Validação de Conteúdo
+- [ ] Testes com usuários - Validar conteúdo com pessoas com deficiência. ABNT NBR 17225
+- [ ] Feedback contínuo - Implementar canais para feedback sobre acessibilidade. ABNT NBR 17225
+- [ ] Métricas de acessibilidade - Monitorar uso e eficácia do conteúdo acessível. ABNT NBR 17225
+
 ## Bibliografia
 
 > <a id="RP1" href="#TEC1"></a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.

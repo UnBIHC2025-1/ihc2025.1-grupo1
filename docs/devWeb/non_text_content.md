@@ -1,3 +1,4 @@
+
 # Desenvolvimento
 
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
@@ -27,6 +28,10 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] <b> Exibir ``` errors ``` </b> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a>
 - [x] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
 - [ ] <b> Exibir mensagens de erro e sucesso</b> não só visualmente. <a id="TEC5" href="#RP5">[5]</a>
+- [ ] <b> Entrada redundante </b> - Reutilizar informações previamente inseridas pelo usuário. <b>WCAG 2.2 - Nível A</b>
+- [ ] <b> Autenticação acessível (mínimo) </b> - Teste cognitivo não é necessário para autenticação. <b>WCAG 2.2 - Nível AA</b>
+- [ ] <b> Autenticação acessível (aprimorada) </b> - Nenhum teste cognitivo é necessário para autenticação. <b>WCAG 2.2 - Nível AAA</b>
+- [ ] <b> Reconhecimento vs recordação </b> - Permitir reconhecimento em vez de memorização. <b>ABNT NBR 17225</b>
 
 ## Mídia
 - [x] <b> Impedir ``` autoplay ```</b> para vídeos e audios. <a id="TEC12" href="#RP12">[12]</a>
@@ -52,7 +57,10 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] <b>Foco visível</b> remova elementos focalizáveis ​​invisíveis. 
 - [ ] Adicione o <b> ``` .hover, .focus { } ```</b>  para tornar o foco visível. 
 - [ ] Permite/visa o uso de <b> Atalhos de teclado </b> como o ```TAB```. 
-- [ ] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>. 
+- [ ] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>.
+- [ ] <b> Foco não obscurecido (mínimo) </b> - Item com foco não é totalmente oculto por conteúdo sobreposto. <b>WCAG 2.2 - Nível AA</b>
+- [ ] <b> Foco não obscurecido (aprimorado) </b> - Nenhuma parte do item com foco é oculta por conteúdo sobreposto. <b>WCAG 2.2 - Nível AAA</b>
+- [ ] <b> Aparência do foco </b> - Indicador de foco tem contraste mínimo 3:1 e área mínima do contorno. <b>WCAG 2.2 - Nível AAA</b> 
 
 ## Título
 - [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
@@ -77,6 +85,9 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
 - [ ] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
 - [ ] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
+- [ ] <b> Movimentos de arrastar </b> - Funcionalidades que usam arrastar podem ser operadas com ponteiro único. <b>WCAG 2.2 - Nível AA</b>
+- [ ] <b> Tamanho do alvo (mínimo) </b> - Alvos têm área de pelo menos 24x24 pixels CSS. <b>WCAG 2.2 - Nível AA</b>
+- [ ] <b> Gestos alternativos </b> - Fornecer alternativas de um único ponto para gestos complexos. <b>ABNT NBR 17225</b>
 
 ## Ferramentas e extras
 - [ ] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
@@ -85,6 +96,42 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
 - [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
 - [ ] Incluir um <b> campo de busca </b>.
+- [ ] <b> Ajuda consistente </b> - Mecanismo de ajuda localizado no mesmo local relativo em cada página. <b>WCAG 2.2 - Nível A</b>
+- [ ] <b> Ajuda contextual </b> - Fornecer ajuda no contexto onde é necessária. <b>ABNT NBR 17225</b>
+- [ ] <b> Mecanismos de ajuda </b> - Incluir contato humano, autoajuda ou mecanismo automatizado. <b>ABNT NBR 17225</b>
+- [ ] <b> Compatibilidade com tecnologias assistivas </b> - Garantir funcionamento com leitores de tela e reconhecimento de voz. <b>ABNT NBR 17225</b>
+- [ ] <b> Implementar captcha acessível </b> - Com alternativas para reconhecimento facial e outras tecnologias. <b>ABNT NBR 17225</b>
+
+## Checklist ABNT NBR 17225:2025 - Conformidade
+
+### Conformidade Regular (Níveis A e AA - WCAG 2.2)
+- [ ] <b> Todos os critérios de nível A e AA </b> do WCAG 2.2 implementados.
+- [ ] <b> Tecnologias assistivas </b> - Compatibilidade com leitores de tela, reconhecimento de voz.
+- [ ] <b> Navegadores e dispositivos </b> - Funcionamento em diferentes navegadores e dispositivos móveis.
+- [ ] <b> Documentação de acessibilidade </b> - Manter registro das implementações de acessibilidade.
+
+### Conformidade Plena (Inclui Nível AAA - WCAG 2.2)
+- [ ] <b> Todos os critérios de conformidade regular </b> atendidos.
+- [ ] <b> Critérios de nível AAA </b> aplicáveis implementados.
+- [ ] <b> Recursos de alta acessibilidade </b> - Para usuários com múltiplas deficiências.
+- [ ] <b> Mecanismos de ajuda contextuais </b> - Ajuda específica no contexto de uso.
+- [ ] <b> Testes com usuários </b> - Validação com pessoas com deficiência.
+
+## Novos Critérios WCAG 2.2 (Resumo)
+
+### Critérios de Nível A
+- [ ] <b> 3.2.6 - Ajuda consistente </b> - Localização consistente dos mecanismos de ajuda.
+- [ ] <b> 3.3.7 - Entrada redundante </b> - Reutilização de informações previamente inseridas.
+
+### Critérios de Nível AA  
+- [ ] <b> 2.4.12 - Foco não obscurecido (mínimo) </b> - Foco não totalmente oculto por conteúdo.
+- [ ] <b> 2.5.7 - Movimentos de arrastar </b> - Alternativas para funcionalidades de arrastar.
+- [ ] <b> 2.5.8 - Tamanho do alvo (mínimo) </b> - Alvos com pelo menos 24x24 pixels CSS.
+- [ ] <b> 3.3.8 - Autenticação acessível (mínimo) </b> - Redução de testes cognitivos na autenticação.
+
+### Critérios de Nível AAA
+- [ ] <b> 2.4.13 - Foco não obscurecido (aprimorado) </b> - Foco nunca oculto por conteúdo.
+- [ ] <b> 3.3.9 - Autenticação acessível (aprimorada) </b> - Eliminação de testes cognitivos.
 
 ## Referência Bibliográfica
 

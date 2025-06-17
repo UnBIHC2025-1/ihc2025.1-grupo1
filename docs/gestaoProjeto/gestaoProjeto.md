@@ -48,6 +48,44 @@ Em seu planejamento, há...
 - [ ] Recursos alocados (pessoas, softwares, cursos, tarefas)?
 - [ ] Tarefas com critérios de sucesso que atendam pelo menos os níveis A e AA, segundo a documentação de acessibilidade (WCAG)?
 
+## Novidades WCAG 2.2 e ABNT NBR 17225:2025 - Gestão de Projeto
+
+### Planejamento Atualizado com Novas Normas
+- [ ] Conformidade com ABNT NBR 17225:2025 - Incluir requisitos da norma brasileira no planejamento. ABNT NBR 17225
+- [ ] Atualização para WCAG 2.2 - Migrar critérios de WCAG 2.1 para 2.2 com 9 novos critérios. WCAG 2.2
+- [ ] Dois níveis de conformidade - Planejar conformidade regular e plena segundo a norma brasileira. ABNT NBR 17225
+- [ ] Orçamento para novos critérios - Alocar recursos para implementação dos novos requisitos. ABNT NBR 17225
+
+### Gestão de Equipe e Capacitação
+- [ ] Treinamento em WCAG 2.2 - Capacitar equipe nos novos critérios de acessibilidade. WCAG 2.2
+- [ ] Especialização em norma brasileira - Formar equipe na ABNT NBR 17225:2025. ABNT NBR 17225
+- [ ] Testes com usuários - Incluir pessoas com deficiência no processo de validação. ABNT NBR 17225
+- [ ] Consultoria especializada - Contratar especialistas em acessibilidade digital quando necessário. ABNT NBR 17225
+
+### Documentação e Compliance
+- [ ] Documentação de conformidade - Manter registros de implementação dos critérios. ABNT NBR 17225
+- [ ] Auditoria periódica - Planejar verificações regulares de acessibilidade. ABNT NBR 17225
+- [ ] Relatórios de acessibilidade - Criar documentação para demonstrar conformidade. ABNT NBR 17225
+- [ ] Marco legal brasileiro - Considerar Lei Brasileira de Inclusão no planejamento. ABNT NBR 17225
+
+### Tecnologias e Ferramentas Atualizadas
+- [ ] Ferramentas de teste WCAG 2.2 - Adquirir ferramentas atualizadas para novos critérios. WCAG 2.2
+- [ ] Tecnologias assistivas emergentes - Considerar captcha, reconhecimento facial e biometria. ABNT NBR 17225
+- [ ] Compatibilidade ampliada - Planejar testes com diferentes tecnologias assistivas. ABNT NBR 17225
+- [ ] Automação de testes - Implementar testes automatizados para novos critérios. ABNT NBR 17225
+
+### Métricas e Indicadores
+- [ ] KPIs de acessibilidade - Definir indicadores baseados na norma brasileira. ABNT NBR 17225
+- [ ] Monitoramento contínuo - Estabelecer processo de monitoramento de conformidade. ABNT NBR 17225
+- [ ] Feedback de usuários - Implementar canais para receber feedback sobre acessibilidade. ABNT NBR 17225
+- [ ] Métricas de impacto - Medir efetividade das implementações de acessibilidade. ABNT NBR 17225
+
+### Riscos e Contingências
+- [ ] Riscos de não conformidade - Identificar e mitigar riscos relacionados às normas. ABNT NBR 17225
+- [ ] Plano de atualização - Estratégia para futuras atualizações das normas. WCAG 2.2
+- [ ] Cronograma de adequação - Planejamento escalonado para implementação dos critérios. ABNT NBR 17225
+- [ ] Orçamento de contingência - Reserva financeira para adequações não previstas. ABNT NBR 17225
+
 ## Referências Bibliográficas
 
 > <a id="RP1" href="#TEC1">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
