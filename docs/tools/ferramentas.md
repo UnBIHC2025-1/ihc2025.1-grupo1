@@ -1,4 +1,4 @@
-# Ferramentas de Acessibilidade
+# Ferramentas
 
 Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, foram elencadas ferramentas de acessibilidade abaixo. 
 
