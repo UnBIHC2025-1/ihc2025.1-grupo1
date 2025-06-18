@@ -15,9 +15,8 @@ nav:
   - Ferramentas: 'tools/ferramentas.md'
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
+  name: material
+  language: pt
   logo: imagens/logo-verificaaa.png
   favicon: imagens/logo-verificaaa.png
 
