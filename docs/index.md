@@ -19,10 +19,6 @@ O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais 
   </tr>
 </table>
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/vitorfleonardo/VerificaAAA/tree/main?tab=License-1-ov-file) para detalhes.
-
 ## Histórico de Versões
 
 | Versão | Descrição                                                      | Autor(es)                            | Data       | Revisor(es)         | Data de revisão |
