@@ -6,11 +6,11 @@
 
 ## Introdução
 
-Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original para uma aplicação web interativa focada na verificação de acessibilidade digital. Esta versão incorpora as atualizações do WCAG 2.2, diretrizes da norma ABNT NBR 17225 e orientações do Guia de Boas Práticas para Acessibilidade Digital do Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital.
+Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade melhorado. Esta versão é construída a partir dos tópicos da disciplina IHC e incorpora documentos do Gov.Br, diretrizes do WCAG 2.2, norma ABNT NBR 17225 e orientações do Guia de Boas Práticas para Acessibilidade Digital do Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital.
 
 ## WebAAA
 
-O WebAAA é uma aplicação web interativa de verificação de acessibilidade digital que oferece ferramentas práticas para profissionais que desejam criar projetos mais inclusivos. Através de análises automatizadas, relatórios detalhados e verificações em tempo real, a plataforma implementa as diretrizes do WCAG 2.2, norma ABNT NBR 17225 e orientações do Guia de Boas Práticas para Acessibilidade Digital do Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, facilitando a aplicação de boas práticas de acessibilidade em desenvolvimento web, design, criação de conteúdo e gestão de projetos.
+O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Construído a partir dos tópicos da disciplina IHC e baseado em documentos do Gov.Br, WCAG 2.2, norma ABNT NBR 17225 e outras diretrizes relevantes, o guia facilita a implementação de boas práticas de acessibilidade em projetos de desenvolvimento web, design, geração de conteúdo e gestão de projetos.
 
 ## Contribuidores
 
