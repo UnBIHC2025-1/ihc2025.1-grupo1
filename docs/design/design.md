@@ -30,6 +30,25 @@
 - [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
 
+## WCAG 2.2 - Atualizações para Design
+### Focus Appearance (AAA)
+- [ ] <b>Indicador de foco com contraste mínimo de 3:1</b> contra cores adjacentes.
+- [ ] <b>Área do indicador de foco</b> com pelo menos 2 pixels CSS de largura.
+- [ ] <b>Foco sempre visível</b> - não pode ser oculto por outros elementos (modais, tooltips, etc).
+
+### Target Size - Novo Padrão
+- [ ] <b>Áreas interativas mínimas de 24x24 pixels CSS</b> (reduzido de 44x44).
+- [ ] <b>Espaçamento adequado</b> entre elementos clicáveis adjacentes.
+- [ ] <b>Exceções</b>: texto inline, controles nativos do navegador, quando o tamanho é essencial.
+
+## Guia UK-Brasil - Adaptações
+### Design Inclusivo para Brasil
+- [ ] <b>Mobile-first obrigatório</b> - 67% dos brasileiros acessam internet só pelo celular.
+- [ ] <b>Imagens otimizadas</b> - considerar planos de dados limitados.
+- [ ] <b>Layout simples e limpo</b> - facilitar compreensão em telas pequenas.
+- [ ] <b>Ícones com texto</b> - não assumir familiaridade com símbolos.
+- [ ] <b>Cores culturalmente apropriadas</b> - considerar significados locais.
+
 ## Referências Bibliograficas
 
 > <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html). Acesso em: 9 Mai. 2024.
@@ -53,3 +72,10 @@
 ## Bibliografia
 
 > </a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+
+## Histórico de Versões
+
+| Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
+|--------|-----------|-----------|------|-------------|-----------------|
+| 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
+| 2.0 | Adição de WCAG 2.2 Focus Appearance, Target Size e adaptações UK-Brasil | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |

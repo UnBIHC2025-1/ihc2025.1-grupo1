@@ -49,6 +49,49 @@
 ## Hiperlinks
 - [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
 
+## WCAG 2.2 - Atualizações para Conteúdo
+
+### Ajuda Consistente
+- [ ] <b>Localização consistente</b> de links de ajuda, chat, FAQ em todas as páginas.
+- [ ] <b>Mesma ordem</b> quando múltiplas opções de ajuda são oferecidas.
+- [ ] <b>Texto idêntico</b> para os mesmos mecanismos de ajuda.
+
+### Entrada Redundante
+- [ ] <b>Não repetir solicitações</b> de informações já fornecidas.
+- [ ] <b>Autocompletar dados</b> quando possível.
+- [ ] <b>Permitir seleção</b> de informações previamente inseridas.
+
+## Norma ABNT - Conteúdo Acessível
+
+### Linguagem e Comunicação
+- [ ] <b>Português brasileiro claro</b> - evitar regionalismos excessivos.
+- [ ] <b>Frases na ordem direta</b> - sujeito, verbo, complemento.
+- [ ] <b>Parágrafos curtos</b> - máximo 5 linhas quando possível.
+- [ ] <b>Listas e tópicos</b> para facilitar leitura.
+- [ ] <b>Definir siglas</b> na primeira ocorrência.
+
+### Multimídia Acessível
+- [ ] <b>Audiodescrição</b> em vídeos com informação visual relevante.
+- [ ] <b>Legendas em português</b> - não apenas tradução automática.
+- [ ] <b>Janela de LIBRAS</b> quando apropriado.
+- [ ] <b>Controles acessíveis</b> para reprodução de mídia.
+
+## Guia UK-Brasil - Conteúdo Inclusivo
+
+### Considerações Culturais
+- [ ] <b>Exemplos contextualizados</b> para realidade brasileira.
+- [ ] <b>Evitar referências culturais</b> excludentes.
+- [ ] <b>Considerar diversidade regional</b> do Brasil.
+- [ ] <b>Linguagem neutra</b> quando apropriado.
+- [ ] <b>Respeitar diferentes níveis</b> de escolaridade.
+
 ## Bibliografia
 
 > <a id="RP1" href="#TEC1"></a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+
+## Histórico de Versões
+
+| Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
+|--------|-----------|-----------|------|-------------|-----------------|
+| 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
+| 2.0 | Adição de WCAG 2.2, Norma ABNT e Guia UK-Brasil para conteúdo | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |

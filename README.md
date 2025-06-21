@@ -1,4 +1,4 @@
-# WebAAA
+# WebAAA - Guia de Acessibilidade v2.0
 
 <div align="center">
   <img src="docs/imagens/logo-webaa.png" alt="Logo WebAAA" width="300">
@@ -6,11 +6,26 @@
 
 ## Introdução
 
-Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade melhorado. Esta versão é construída a partir dos tópicos da disciplina IHC e incorpora documentos do Gov.Br, diretrizes do WCAG 2.2, norma ABNT NBR 17225 e orientações do Guia de Boas Práticas para Acessibilidade Digital do Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital.
+Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
+
+## Atualizações Recentes
+
+Esta versão foi atualizada para incluir:
+- ✅ **WCAG 2.2**: Todos os novos critérios de sucesso da versão mais recente
+- ✅ **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
+- ✅ **Guia UK-Brasil**: Boas práticas do programa de cooperação internacional
 
 ## WebAAA
 
-O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Construído a partir dos tópicos da disciplina IHC e baseado em documentos do Gov.Br, WCAG 2.2, norma ABNT NBR 17225 e outras diretrizes relevantes, o guia facilita a implementação de boas práticas de acessibilidade em projetos de desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Este guia fornece checklists práticos e orientações detalhadas para implementar acessibilidade em:
+
+- **Desenvolvimento Web**: Técnicas e validações para código acessível
+- **Design**: Princípios visuais e de interação inclusivos
+- **Geração de Conteúdo**: Como criar conteúdo acessível
+- **Gestão de Projetos**: Planejamento e gestão com foco em acessibilidade
+- **WCAG 2.2**: Novos critérios e atualizações importantes
+- **Norma ABNT**: Requisitos específicos para o contexto brasileiro
+- **Guia UK-Brasil**: Metodologias práticas e contextualizadas
 
 ## Contribuidores
 
@@ -23,8 +38,25 @@ O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais 
   </tr>
 </table>
 
+## Como Usar Este Guia
+
+1. **Desenvolvimento Web**: Checklists técnicos e novos critérios WCAG 2.2
+2. **Design**: Diretrizes visuais e de interação acessíveis
+3. **Conteúdo**: Como criar textos e mídias inclusivos
+4. **Gestão**: Planejamento e metodologia para projetos acessíveis
+5. **Ferramentas**: Tutoriais detalhados e recomendações de uso
+
+## Documentação Completa
+
+Este repositório materializa o **Guia de Acessibilidade WebAAA**, construído com base em:
+- Literatura acadêmica sobre acessibilidade digital
+- Documentos oficiais (Gov.Br, WCAG 2.2, ABNT NBR 17225:2025)
+- Guias internacionais de boas práticas
+- Experiências práticas e casos de uso brasileiros
+
 ## Histórico de Versões
 
 | Versão | Descrição                                                      | Autor(es)                            | Data       | Revisor(es)         | Data de revisão |
 |--------|----------------------------------------------------------------|--------------------------------------|------------|---------------------|------------------|
-| 1.0    | Versão inicial do README                                       | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
+| 1.0    | Versão inicial do WebAAA                                       | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
+| 2.0    | Guia completo: WCAG 2.2, ABNT, UK-Brasil, ferramentas com tutoriais | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |

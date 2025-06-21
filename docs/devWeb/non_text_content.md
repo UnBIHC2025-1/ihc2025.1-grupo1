@@ -86,6 +86,27 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 - [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
 - [ ] Incluir um <b> campo de busca </b>.
 
+## WCAG 2.2 - Novos Critérios
+### Nível A
+- [ ] <b>2.4.11 Focus Not Obscured (Minimum)</b> - Garantir que o foco não seja completamente oculto por outro conteúdo.
+- [ ] <b>3.2.6 Consistent Help</b> - Manter mecanismos de ajuda na mesma posição em todas as páginas.
+
+### Nível AA
+- [ ] <b>2.4.12 Focus Not Obscured (Enhanced)</b> - Nenhuma parte do componente focado pode ser oculta.
+- [ ] <b>2.5.7 Dragging Movements</b> - Fornecer alternativas ao arrastar (botões ou campos de entrada).
+- [ ] <b>2.5.8 Target Size (Minimum)</b> - Áreas clicáveis de pelo menos <b>24x24 pixels CSS</b> (novo padrão).
+- [ ] <b>3.3.7 Redundant Entry</b> - Não solicitar informações já fornecidas no mesmo processo.
+- [ ] <b>3.3.8 Accessible Authentication</b> - Não exigir testes cognitivos (puzzles, cálculos) para autenticação.
+
+## Checklist ABNT NBR 17225:2025
+### Conformidade Brasileira
+- [ ] <b>Declaração de acessibilidade</b> em português brasileiro publicada no site.
+- [ ] <b>Canal de comunicação acessível</b> para feedback sobre acessibilidade.
+- [ ] <b>Conformidade com Lei Brasileira de Inclusão</b> (13.146/2015).
+- [ ] <b>Otimização para dispositivos móveis</b> (principal meio de acesso no Brasil).
+- [ ] <b>Considerar conexões lentas</b> - performance otimizada para 3G/4G.
+- [ ] <b>Linguagem adequada</b> para diferentes níveis de alfabetização.
+
 ## Referência Bibliográfica
 
 > <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A) . Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html). Acesso em: 9 Mai. 2024.
@@ -129,3 +150,10 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 ## Bibliografia
 
 > </a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+
+## Histórico de Versões
+
+| Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
+|--------|-----------|-----------|------|-------------|-----------------|
+| 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
+| 2.0 | Adição de WCAG 2.2 e checklist ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
