@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Com
 
 ## WebAAA
 
-O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Construído a partir dos tópicos da disciplina IHC e baseado em documentos do Gov.Br, WCAG 2.2, norma ABNT NBR 17225 e outras diretrizes relevantes, o guia facilita a implementação de boas práticas de acessibilidade em projetos de desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Construído a partir dos tópicos da disciplina IHC e baseado em documentos do Gov.Br, WCAG 2.2, norma ABNT NBR 17225 e outras diretrizes relevantes, o guia facilita a implementação de boas práticas de acessibilidade em projetos de desenvolvimento web, design, geração de conteúdo e gestão de projetos. Essas informações estão disponíveis para o semestre 2025.1.
 
 ## Equipe
 
