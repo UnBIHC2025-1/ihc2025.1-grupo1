@@ -10,6 +10,8 @@ Esta versão foi atualizada para incluir:
 - ✅ **WCAG 2.2**: Todos os novos critérios de sucesso da versão mais recente
 - ✅ **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
 - ✅ **Guia UK-Brasil**: Boas práticas do programa de cooperação internacional
+- 🆕 **Conformidade ABNT**: Distinção entre conformidade regular (A+AA) e plena (A+AA+AAA)
+- 🆕 **Academia de Acessibilidade**: Ferramentas de checklist e análise heurística
 
 ## WebAAA
 
@@ -43,12 +45,22 @@ Este documento materializa o **Guia de Acessibilidade WebAAA v2.0**, construído
 - 📋 Norma ABNT NBR 17225:2025
 - 🤝 Guia de Boas Práticas UK-Brasil
 - 🔬 Literatura acadêmica e pesquisas recentes
+- 🛠️ Ferramentas da Academia de Acessibilidade
 
 O guia oferece checklists práticos, tutoriais detalhados e recomendações contextualizadas para a realidade brasileira, servindo como referência completa para implementação de acessibilidade digital.
+
+## Norma ABNT NBR 17225:2025
+
+A nova norma brasileira estabelece:
+- **Conformidade Regular**: Atender requisitos (WCAG A+AA) - mínimo obrigatório
+- **Conformidade Plena**: Atender requisitos + recomendações (WCAG A+AA+AAA)
+- **16 categorias organizadas**: Por área de responsabilidade (UI/UX, Conteúdo, DEV)
+- **Checklist interativo**: Disponível na Academia de Acessibilidade
+- **Análise heurística**: 10 heurísticas específicas para acessibilidade digital
 
 ## Histórico de Versões
 
 | Versão | Descrição                                                      | Autor(es)                            | Data       | Revisor(es)         | Data de revisão |
 |--------|----------------------------------------------------------------|--------------------------------------|------------|---------------------|------------------|
 | 1.0    | Versão inicial do WebAAA                                        | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
-| 2.0    | Guia completo com WCAG 2.2, ABNT, UK-Brasil e ferramentas     | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
+| 2.0    | Atualização com WCAG 2.2, ABNT NBR 17225 e Academia de Acessibilidade | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |

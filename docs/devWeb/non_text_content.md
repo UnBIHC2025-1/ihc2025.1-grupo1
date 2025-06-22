@@ -44,7 +44,7 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 ## Texto
 - [ ] <b>Evitar</b> o uso de <b>textos dentro de imagens</b>. 
 - [x] <b>Redimensiona os textos na página</b>, aumentando o zoom em até 200%. 
-- [x] <b>Alturas </b> das fontes <b> não é fixa </b>. 
+- [ ] <b>Alturas </b> das fontes <b> não é fixa </b>. 
 
 ## Teclado
 - [ ] <b> Funcionalidades </b> da página web estão <b> disponíveis por teclado </b>. 
@@ -100,12 +100,13 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 
 ## Checklist ABNT NBR 17225:2025
 ### Conformidade Brasileira
-- [ ] <b>Declaração de acessibilidade</b> em português brasileiro publicada no site.
-- [ ] <b>Canal de comunicação acessível</b> para feedback sobre acessibilidade.
-- [ ] <b>Conformidade com Lei Brasileira de Inclusão</b> (13.146/2015).
+- [ ] <b>Conformidade Regular</b> - atender requisitos (A+AA).
+- [ ] <b>Conformidade Plena</b> - atender requisitos + recomendações (A+AA+AAA).
 - [ ] <b>Otimização para dispositivos móveis</b> (principal meio de acesso no Brasil).
-- [ ] <b>Considerar conexões lentas</b> - performance otimizada para 3G/4G.
-- [ ] <b>Linguagem adequada</b> para diferentes níveis de alfabetização.
+- [ ] <b>Semântica HTML</b> determinada programaticamente.
+- [ ] <b>Nome acessível</b> para todos os componentes interativos.
+- [ ] <b>Estados e propriedades</b> definidos programaticamente.
+- [ ] <b>Ordem de leitura</b> lógica no código fonte.
 
 ## Referência Bibliográfica
 
@@ -149,11 +150,13 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 
 ## Bibliografia
 
-> </a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
+> ABNT. NBR 17225:2025 - Acessibilidade em conteúdo para a web. Associação Brasileira de Normas Técnicas, 2025.
+
+> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
 
 ## Histórico de Versões
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
-| 2.0 | Adição de WCAG 2.2 e checklist ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
+| 2.0 | Adição de WCAG 2.2 e conformidade ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
