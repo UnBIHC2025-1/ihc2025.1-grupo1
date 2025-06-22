@@ -2,7 +2,7 @@
 
 Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia apresenta ferramentas organizadas por categoria, com análises detalhadas, tutoriais e recomendações de uso baseadas em testes práticos e literatura acadêmica.
 
-## 🎯 Guia Rápido: Qual Ferramenta Usar?
+## Guia Rápido: Qual Ferramenta Usar?
 
 ### Para Começar (Iniciantes)
 - **WAVE** - Interface visual intuitiva, ideal para aprender
@@ -44,7 +44,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 **💡 Dica:** Use o ASES como primeira validação para sites brasileiros
 
 ### 2. WAVE - Web Accessibility Evaluation Tool
-🌊 **Melhor para Aprendizado Visual**
+ **Melhor para Aprendizado Visual**
 
 **Quando usar:** Ideal para desenvolvedores iniciantes e análise visual rápida
 **Vantagens:** Interface intuitiva, mostra problemas diretamente na página
@@ -65,7 +65,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 **💡 Dica:** Comece corrigindo erros de contraste e alt text ausente
 
 ### 3. axe DevTools
-🛠️ **Padrão da Indústria para Profissionais**
+ **Padrão da Indústria para Profissionais**
 
 **Quando usar:** Desenvolvimento profissional, integração com CI/CD
 **Vantagens:** Mais preciso, menos falsos positivos, integração com frameworks
@@ -88,7 +88,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 **💡 Dica:** Configure o axe-core no seu pipeline de CI para testes automatizados
 
 ### 4. Lighthouse
-🏮 **Integrado e Completo**
+ **Integrado e Completo**
 
 **Quando usar:** Análise geral de performance + acessibilidade
 **Vantagens:** Já vem no Chrome, métricas de performance
@@ -119,7 +119,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 ## Leitores de Tela - Testes com Usuários Reais
 
 ### NVDA - NonVisual Desktop Access
-🆓 **Melhor Opção Gratuita para Windows**
+ **Melhor Opção Gratuita para Windows**
 
 **Quando usar:** Testes em Windows, desenvolvimento web, validação de ARIA
 **Vantagens:** Gratuito, open source, atualizações frequentes, comunidade ativa
@@ -151,7 +151,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 **💡 Dica:** Configure vozes em português no menu NVDA > Preferências > Configurações de Voz
 
 ### JAWS - Job Access With Speech
-💼 **Padrão Corporativo no Brasil**
+ **Padrão Corporativo no Brasil**
 
 **Quando usar:** Ambientes corporativos, testes profissionais, validação completa
 **Vantagens:** Mais recursos, melhor suporte para aplicações complexas
@@ -171,7 +171,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 **💡 Dica:** Use a versão demo de 40 minutos para testes rápidos
 
 ### VoiceOver (macOS/iOS)
-🍎 **Integrado em Dispositivos Apple**
+ **Integrado em Dispositivos Apple**
 
 #### 📖 Ativação Rápida - VoiceOver
 **macOS:**
@@ -186,7 +186,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 3. **Gestos:** Deslizar para navegar, toque duplo para ativar
 
 ### TalkBack (Android)
-🤖 **Padrão Android**
+ **Padrão Android**
 
 #### 📖 Ativação - TalkBack
 1. Configurações > Acessibilidade > TalkBack
@@ -252,25 +252,25 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 
 ### Recomendações por Cenário
 
-#### 🏢 Site Governamental Brasileiro
+####  Site Governamental Brasileiro
 1. **ASES** - Validação e-MAG obrigatória
 2. **VLibras** - Widget de tradução LIBRAS
 3. **NVDA** - Teste com leitor de tela
 4. **Contrast Checker** - Validar cores institucionais
 
-#### 🛒 E-commerce
+####  E-commerce
 1. **axe DevTools** - Cobertura completa WCAG 2.2
 2. **WAVE** - Validação visual rápida
 3. **Pa11y** - Testes automatizados de checkout
 4. **Mobile** - TalkBack/VoiceOver para app mobile
 
-#### 📱 Aplicação Web Progressiva (PWA)
+####  Aplicação Web Progressiva (PWA)
 1. **Lighthouse** - Performance + Acessibilidade
 2. **Accessibility Insights** - Testes manuais guiados
 3. **NVDA + JAWS** - Compatibilidade com leitores
 4. **Simuladores** - Testar diferentes deficiências
 
-## 🔄 Fluxo de Trabalho Recomendado
+## Fluxo de Trabalho Recomendado
 
 ### Fase 1: Desenvolvimento (Durante Codificação)
 ```
@@ -304,7 +304,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 4. Relatórios automáticos
 ```
 
-## 🎯 Métricas e KPIs de Acessibilidade
+## Métricas e KPIs de Acessibilidade
 
 ### Indicadores Quantitativos
 - **Taxa de Conformidade WCAG**: >95% nível AA
@@ -339,7 +339,7 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 
 4. **Deque Systems** (2023). "The Automated Accessibility Coverage Report". Análise de eficácia de ferramentas automatizadas.
 
-## ✅ Checklist Final - Ferramentas Essenciais
+## Checklist Final - Ferramentas Essenciais
 
 - [ ] **Validador automático** instalado (WAVE ou axe)
 - [ ] **Leitor de tela** configurado (NVDA ou JAWS)
@@ -352,12 +352,9 @@ Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia
 
 ---
 
-**💭 Reflexão Final:** As ferramentas são apenas o meio. O objetivo é criar experiências verdadeiramente inclusivas. Use-as como apoio, mas sempre priorize o feedback de usuários reais com deficiência.
-
 ## Histórico de Versões
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
-| 1.0 | Versão inicial com lista de ferramentas | Equipe WebAAA | 17/06/2025 | - | - |
-| 2.0 | Adição de tutoriais, análises comparativas e recomendações baseadas em literatura acadêmica | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
+| 1.0 | Adição de tutoriais, análises comparativas e recomendações baseadas em literatura acadêmica | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 
