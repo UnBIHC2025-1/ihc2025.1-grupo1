@@ -1,12 +1,29 @@
-# WebAAA
+# WebAAA - Guia de Acessibilidade v2.0
 
 ## Introdução
 
-Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade melhorado. Esta versão é construída a partir dos tópicos da disciplina IHC e incorpora documentos do Gov.Br, diretrizes do WCAG 2.2, norma ABNT NBR 17225 e orientações do Guia de Boas Práticas para Acessibilidade Digital do Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital.
+Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
+
+## Atualizações Recentes
+
+Esta versão foi atualizada para incluir:
+- ✅ **WCAG 2.2**: Todos os novos critérios de sucesso da versão mais recente
+- ✅ **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
+- ✅ **Guia UK-Brasil**: Boas práticas do programa de cooperação internacional
+- 🆕 **Conformidade ABNT**: Distinção entre conformidade regular (A+AA) e plena (A+AA+AAA)
+- 🆕 **Academia de Acessibilidade**: Ferramentas de checklist e análise heurística
 
 ## WebAAA
 
-O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Construído a partir dos tópicos da disciplina IHC e baseado em documentos do Gov.Br, WCAG 2.2, norma ABNT NBR 17225 e outras diretrizes relevantes, o guia facilita a implementação de boas práticas de acessibilidade em projetos de desenvolvimento web, design, geração de conteúdo e gestão de projetos.
+O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Este guia fornece checklists práticos e orientações detalhadas para implementar acessibilidade em:
+
+- **Desenvolvimento Web**: Técnicas e validações para código acessível
+- **Design**: Princípios visuais e de interação inclusivos
+- **Geração de Conteúdo**: Como criar conteúdo acessível
+- **Gestão de Projetos**: Planejamento e gestão com foco em acessibilidade
+- **WCAG 2.2**: Novos critérios e atualizações importantes
+- **Norma ABNT**: Requisitos específicos para o contexto brasileiro
+- **Guia UK-Brasil**: Metodologias práticas e contextualizadas
 
 ## Equipe
 
@@ -19,8 +36,31 @@ O WebAAA é um Guia de Acessibilidade melhorado que oferece recursos essenciais 
   </tr>
 </table>
 
+## Sobre Este Guia
+
+Este documento materializa o **Guia de Acessibilidade WebAAA v2.0**, construído a partir de:
+- 📚 Tópicos da disciplina IHC (UnB)
+- 🏛️ Documentos oficiais do Gov.Br e e-MAG
+- 🌐 WCAG 2.2 - Diretrizes internacionais mais recentes
+- 📋 Norma ABNT NBR 17225:2025
+- 🤝 Guia de Boas Práticas UK-Brasil
+- 🔬 Literatura acadêmica e pesquisas recentes
+- 🛠️ Ferramentas da Academia de Acessibilidade
+
+O guia oferece checklists práticos, tutoriais detalhados e recomendações contextualizadas para a realidade brasileira, servindo como referência completa para implementação de acessibilidade digital.
+
+## Norma ABNT NBR 17225:2025
+
+A nova norma brasileira estabelece:
+- **Conformidade Regular**: Atender requisitos (WCAG A+AA) - mínimo obrigatório
+- **Conformidade Plena**: Atender requisitos + recomendações (WCAG A+AA+AAA)
+- **16 categorias organizadas**: Por área de responsabilidade (UI/UX, Conteúdo, DEV)
+- **Checklist interativo**: Disponível na Academia de Acessibilidade
+- **Análise heurística**: 10 heurísticas específicas para acessibilidade digital
+
 ## Histórico de Versões
 
 | Versão | Descrição                                                      | Autor(es)                            | Data       | Revisor(es)         | Data de revisão |
 |--------|----------------------------------------------------------------|--------------------------------------|------------|---------------------|------------------|
-| 1.0    | Versão inicial do index.md                                      | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
+| 1.0    | Versão inicial do WebAAA                                        | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
+| 2.0    | Atualização com WCAG 2.2, ABNT NBR 17225 e Academia de Acessibilidade | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |

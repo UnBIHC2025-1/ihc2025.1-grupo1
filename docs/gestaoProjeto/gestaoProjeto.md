@@ -48,6 +48,39 @@ Em seu planejamento, há...
 - [ ] Recursos alocados (pessoas, softwares, cursos, tarefas)?
 - [ ] Tarefas com critérios de sucesso que atendam pelo menos os níveis A e AA, segundo a documentação de acessibilidade (WCAG)?
 
+## WCAG 2.2 - Impacto na Gestão
+
+### Novas Considerações para Projetos
+- [ ] <b>Testes de autenticação acessível</b> - planejar alternativas aos CAPTCHAs tradicionais.
+- [ ] <b>Revisão de componentes de arrastar</b> - garantir alternativas em toda interface.
+- [ ] <b>Auditoria de tamanhos de alvo</b> - verificar novo padrão de 24x24 pixels.
+- [ ] <b>Gestão de dados do usuário</b> - evitar solicitar informações redundantes.
+
+### Recursos Adicionais Necessários
+- [ ] <b>Tempo extra para testes</b> - novos critérios exigem validações adicionais.
+- [ ] <b>Treinamento da equipe</b> sobre WCAG 2.2 e suas implicações.
+- [ ] <b>Atualização de templates</b> e componentes para conformidade.
+- [ ] <b>Revisão de processos</b> de autenticação e formulários.
+
+## Norma ABNT NBR 17225:2025
+
+### Requisitos de Gestão
+- [ ] <b>Designar responsável pela acessibilidade</b> no projeto.
+- [ ] <b>Documentar decisões de acessibilidade</b> e justificativas técnicas.
+- [ ] <b>Manter registro de testes</b> com usuários com deficiência.
+- [ ] <b>Publicar declaração de conformidade</b> em português.
+- [ ] <b>Estabelecer canal de feedback</b> sobre acessibilidade.
+- [ ] <b>Criar plano de ação</b> para correção de problemas identificados.
+
+## Guia UK-Brasil - Metodologia
+
+### Fases do Projeto
+- [ ] <b>Fase 1 - Conscientização</b>: Toda equipe treinada sobre importância da acessibilidade.
+- [ ] <b>Fase 2 - Planejamento</b>: Recursos e cronograma específicos para acessibilidade.
+- [ ] <b>Fase 3 - Execução</b>: Testes contínuos durante desenvolvimento.
+- [ ] <b>Fase 4 - Validação</b>: Testes com usuários reais antes do lançamento.
+- [ ] <b>Fase 5 - Manutenção</b>: Monitoramento e melhorias contínuas.
+
 ## Referências Bibliográficas
 
 > <a id="RP1" href="#TEC1">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
@@ -60,4 +93,11 @@ Em seu planejamento, há...
 
 > </a> MORDOR INTELLIGENCE. Digital Accessibility Software Market Size & Share Analysis- Growth Trends & Forecasts (2024-2029). Disponível em: [https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market](https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market). Acesso em: 9 Mai. 2024
 
-> </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.1. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG21/#sotd](https://www.w3.org/TR/WCAG21/#sotd). Acesso em: 9 Mai. 2024
+> </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 5 outubro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/). Acesso em: 17 Jun. 2025
+
+## Histórico de Versões
+
+| Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
+|--------|-----------|-----------|------|-------------|-----------------|
+| 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
+| 2.0 | Adição de impacto WCAG 2.2, requisitos ABNT e metodologia UK-Brasil | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
