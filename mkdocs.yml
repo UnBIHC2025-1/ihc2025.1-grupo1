@@ -13,6 +13,7 @@ nav:
   - Geração de Conteúdo: 'geracaoConteudo/conteudo.md'
   - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
   - Ferramentas: 'tools/ferramentas.md'
+  - Site Avaliado: 'siteAvaliado/siteAvaliado.md'
 
 theme:
   name: material
