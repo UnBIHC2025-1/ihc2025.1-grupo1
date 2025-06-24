@@ -14,7 +14,11 @@ nav:
   - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
   - Ferramentas: 'tools/ferramentas.md'
   - Site Avaliado: 'siteAvaliado/siteAvaliado.md'
-  - Avaliação desenvolvimento web: 'avaliaWeb/avaliaWeb.md'
+  - Avaliação de desenvolvimento web: 'avaliaWeb/avaliaWeb.md'
+  - Avaliação de design: 'avaliaDesing/index.md'
+  - Avaliação de geração de conteúdo: 'avaliaGer/index.md'
+  - Avaliação de gestão de projeto: 'avaliaGes/index.md'
+  - Avaliação de ferramentas: 'avaliaFer/index.md'
 
 theme:
   name: material
