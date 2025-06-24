@@ -1,4 +1,4 @@
-# Desenvolvimento Web
+# Desenvolvimento
 
 "Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
 
@@ -6,15 +6,15 @@
 - [ ] **Adicionar `alt`** para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso.
 - [ ] **Adicionar `alt=""`** para imagens decorativas que não têm significado.
 - [ ] **Incluir a descrição no `alt`** para imagens que contêm texto.
-- [ ] **Fornecer descrição detalhada** para imagens complexas (gráficos, diagramas, etc.).
-- [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
+- [ ] **Adicionar descrição detalhada** para imagens complexas como gráficos e infográficos. (ABNT NBR 17225:2025)
+- [ ] **Evitar imagens de texto**, exceto em casos essenciais (logotipos). (ABNT NBR 17225:2025)
 
 ## Vídeos
 - [ ] **Adicionar legendas** para áudio em vídeos existentes.
-- [ ] **Evitar conteúdo com *flashes* (gatilhos para convulsões)** ou manter abaixo dos limites.
-- [ ] **Incluir audiodescrição** para vídeos com conteúdo visual relevante.
-- [ ] **Incluir janela de Libras** para vídeos com informação essencial.
-- [ ] **Fornecer transcrição** também para vídeos e áudios ao vivo.
+- [ ] **Evitar conteúdo com *flashes*** (gatilhos para convulsões) ou manter abaixo dos limites.
+- [ ] **Adicionar audiodescrição sincronizada**. (Guia de Acessibilidade / ABNT NBR 17225:2025)
+- [ ] **Oferecer transcrição de vídeo**. (ABNT NBR 17225:2025)
+- [ ] **Oferecer janela de Libras** para vídeos com áudio. (Guia de Acessibilidade)
 
 ## Controles
 - [ ] **Adicionar `href`** para links.
@@ -22,26 +22,26 @@
 - [ ] **Adicionar estados de foco** em campos de entrada, botões e elementos interativos.
 - [ ] **Adicionar `type="button"`** nos botões.
 - [ ] **Adicionar skip-link** (link para pular) para o conteúdo principal.
-- [ ] **Identifique e comunique** links que abrem em uma nova guia ou janela.
-- [ ] **Evitar mudanças de contexto por foco ou entrada**, ou informar ao usuário.
-- [ ] **Permitir desfazer ações feitas por clique ou toque**.
-- [ ] **Evitar acionamento com down-event apenas** (usar up-event ou alternativa).
+- [ ] **Identificar e comunicar** links que abrem em nova guia ou janela.
+- [ ] **Evitar ativação acidental** de controles (ex: clique só no *mouseup*). (ABNT NBR 17225:2025)
 
 ## Formulário
 - [ ] **Adicionar `label`** para os campos de entrada associados ao elemento correspondente.
-- [ ] **Adicionar `<fieldset>` e `<legend>`** para seções no formulário.
+- [ ] **Adicionar `<fieldset>` e `<legend>`** para seção no formulário.
 - [ ] **Adicionar `autocomplete`** para campos de entrada.
 - [ ] **Exibir `errors`** (erros) de entrada acima do formulário, após envio.
 - [ ] **Adicionar `aria-describedby`** para os campos de entrada.
 - [ ] **Exibir mensagens de erro e sucesso** não só visualmente.
-- [ ] **Evitar solicitar reentrada de informações já fornecidas.**
-- [ ] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
+- [ ] **Usar mensagens de erro descritivas e sugestões de correção**. (ABNT NBR 17225:2025)
+- [ ] **Indicar campos obrigatórios e tipo de dado esperado**. (ABNT NBR 17225:2025)
+- [ ] **Evitar testes de memória ou desafio cognitivo para autenticação**. (Guia de Acessibilidade)
 
 ## Mídia
 - [ ] **Impedir `autoplay`** para vídeos e áudios.
 - [ ] **Adicionar `type`** para botões e entradas.
 - [ ] **Adicionar pausa** para todas as mídias.
 - [ ] **Adicionar transcrição** para áudios.
+- [ ] **Permitir controle de volume independente**. (ABNT NBR 17225:2025)
 
 ## Semântica
 - [ ] Uso de elementos **nativos HTML**.
@@ -49,22 +49,23 @@
 - [ ] Tem **descrições** que podem ser **facilmente compreendidas**.
 - [ ] Tem a **semântica correta**.
 - [ ] É **objetivo** nos **rótulos**.
+- [ ] **Adicionar regiões semânticas** como `main`, `nav`, `footer`, etc. (ABNT NBR 17225:2025)
 
 ## Texto
 - [ ] **Evitar** o uso de **textos dentro de imagens**.
 - [ ] **Redimensiona os textos na página**, aumentando o zoom em até 200%.
-- [ ] **Alturas** das fontes **não são fixas**.
-- [ ] **Garantir espaçamento entre letras, palavras e parágrafos**.
+- [ ] **Alturas** das fontes **não é fixa**.
+- [ ] **Garantir espaçamento adequado** entre linhas, parágrafos, letras e palavras. (ABNT NBR 17225:2025)
+- [ ] **Evitar texto totalmente justificado**. (ABNT NBR 17225:2025)
 
 ## Teclado
 - [ ] **Funcionalidades** da página web estão **disponíveis por teclado**.
 - [ ] Quando se tem o **mouseover é permitido o uso de teclado**.
-- [ ] **Foco visível** – remova elementos focalizáveis ​​invisíveis.
-- [ ] Adicionar o **`.hover, .focus {}`** para tornar o foco visível.
+- [ ] **Foco visível**: remova elementos focalizáveis invisíveis.
+- [ ] Adicione o **`.hover`, `.focus {}`** para tornar o foco visível.
 - [ ] Permite/visa o uso de **atalhos de teclado** como o `TAB`.
 - [ ] **Primeiro** item interativo da página é um link para o **conteúdo principal**.
-- [ ] **Evitar atalhos com teclas únicas** ou permitir desativar/remapear.
-- [ ] **Fornecer instruções** para uso de componentes customizados.
+- [ ] **Evitar armadilhas de foco** e manter ordem lógica. (ABNT NBR 17225:2025)
 
 ## Título
 - [ ] A **hierarquia** de conteúdo da página é definida por sua **lógica**, não pelo tamanho do texto.
@@ -76,8 +77,7 @@
 - [ ] **Use o `table`** para elementos em formato de tabela.
 - [ ] Insira cabeçalhos para explicar os dados, **use `th` com `scope` correto**.
 - [ ] **Use o `caption`** para fornecer um título para a tabela.
-- [ ] **Associação semântica entre cabeçalhos e células**.
-- [ ] **Evitar uso de tabelas para layout**.
+- [ ] **Evite usar tabela para layout**. (ABNT NBR 17225:2025)
 
 ## Modais
 - [ ] Deve ser **fácil fechar**.
@@ -86,21 +86,20 @@
 - [ ] **Evita** modais em **tela cheia**.
 - [ ] **Não abrir um modal a partir de outro modal**.
 
-## Dispositivo Móvel e Tocável
+## Dispositivo Móvel e tocável
 - [ ] O site pode ser **rotacionado** para qualquer orientação.
 - [ ] **Impedir** rolagem horizontal.
 - [ ] **Garantir** que botões e links possam ser ativados facilmente.
 - [ ] **Garantir** espaço suficiente entre elementos interativos.
-- [ ] **Área clicável mínima de 24px CSS**, preferencialmente 44px (WCAG 2.2).
+- [ ] **Evitar gestos de arrastar obrigatórios**, oferecer alternativa. (ABNT NBR 17225:2025)
 
-## Ferramentas e Extras
+## Ferramentas e extras
 - [ ] Permitir **pausar, parar ou ocultar conteúdo em movimento**.
 - [ ] Usar **breadcrumbs** informando a localização atual nas páginas.
-- [ ] Colocar página ou **área de dúvidas e dicas de acessibilidade**.
-- [ ] Áreas clicáveis com no mínimo **44px de altura e largura**.
-- [ ] No caso de **captcha**, garantir alternativa acessível.
+- [ ] Colocar página ou **área de esclarecimento de dúvidas e dicas de acessibilidade**.
+- [ ] Áreas clicáveis com no mínimo **44px** de altura e largura.
+- [ ] No caso de **captcha**, garantir que seja simples de entender e tenha alternativas para pessoas com deficiência.
 - [ ] Incluir um **campo de busca**.
-
 
 ## Referência Bibliográfica
 
@@ -154,4 +153,4 @@
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
 | 2.0 | Adição de WCAG 2.2 e conformidade ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
-| 3.0 | Correção em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 23/06/2025 |
+| 3.0 | Correção em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
