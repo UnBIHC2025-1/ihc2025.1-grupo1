@@ -1,3 +1,320 @@
 .wy-side-nav-search .wy-dropdown>a img.logo, .wy-side-nav-search>a img.logo {
     width: 50% !important;
 }
+
+/* Estilos gerais para melhor aparência */
+:root {
+    --primary-color: #1976d2;
+    --secondary-color: #42a5f5;
+    --accent-color: #ff6b35;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --error-color: #f44336;
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Modo escuro */
+[data-md-color-scheme="slate"] {
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+    --border-color: #3d3d3d;
+    --shadow-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Melhorias nos checklists */
+.task-list-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: rgba(var(--md-primary-fg-color--rgb), 0.02);
+    border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.task-list-item:hover {
+    background-color: rgba(var(--md-primary-fg-color--rgb), 0.05);
+    transform: translateX(4px);
+}
+
+.task-list-item input[type="checkbox"] {
+    margin-right: 0.75rem;
+    transform: scale(1.2);
+}
+
+.task-list-item input[type="checkbox"]:checked + * {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* Melhorias nas âncoras */
+a[id^="TEC"], a[id^="RP"] {
+    color: var(--md-accent-fg-color);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    background-color: rgba(var(--md-accent-fg-color--rgb), 0.1);
+    transition: all 0.3s ease;
+}
+
+a[id^="TEC"]:hover, a[id^="RP"]:hover {
+    background-color: rgba(var(--md-accent-fg-color--rgb), 0.2);
+    transform: scale(1.05);
+}
+
+/* Melhorias nas referências */
+.references {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--md-primary-fg-color);
+}
+
+/* Melhorias nos títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--md-primary-fg-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    border-bottom: 3px solid var(--md-primary-fg-color);
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    border-bottom: 2px solid var(--md-accent-fg-color);
+    padding-bottom: 0.3rem;
+}
+
+/* Melhorias nas tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--md-primary-fg-color);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(var(--md-primary-fg-color--rgb), 0.02);
+}
+
+tr:hover {
+    background-color: rgba(var(--md-primary-fg-color--rgb), 0.05);
+}
+
+/* Melhorias nos blocos de código */
+pre, code {
+    border-radius: 6px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+pre {
+    box-shadow: 0 2px 8px var(--shadow-color);
+    margin: 1rem 0;
+}
+
+/* Melhorias nos links */
+a {
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--md-accent-fg-color);
+    text-decoration: underline;
+}
+
+/* Melhorias nos botões */
+.md-button {
+    border-radius: 25px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.md-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+/* Melhorias nas admonitions */
+.md-typeset .admonition {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    margin: 1rem 0;
+}
+
+/* Melhorias na navegação */
+.md-tabs {
+    background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+}
+
+.md-tabs__item {
+    height: 3rem;
+}
+
+.md-tabs__link {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.md-tabs__link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Melhorias no header */
+.md-header {
+    background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+/* Melhorias no sidebar */
+.md-sidebar {
+    background-color: var(--background-color);
+}
+
+/* Melhorias no conteúdo principal */
+.md-content {
+    padding: 2rem;
+}
+
+/* Melhorias na busca */
+.md-search__form {
+    border-radius: 25px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+/* Melhorias nos ícones */
+.md-icon {
+    transition: all 0.3s ease;
+}
+
+.md-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Melhorias no footer */
+.md-footer {
+    background: linear-gradient(135deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+    color: white;
+}
+
+/* Melhorias responsivas */
+@media (max-width: 768px) {
+    .md-content {
+        padding: 1rem;
+    }
+    
+    .task-list-item {
+        margin: 0.3rem 0;
+        padding: 0.3rem;
+    }
+    
+    table {
+        font-size: 0.9rem;
+    }
+    
+    th, td {
+        padding: 0.5rem;
+    }
+}
+
+/* Animações sutis */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.md-content__inner {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Melhorias na acessibilidade */
+:focus {
+    outline: 3px solid var(--md-accent-fg-color);
+    outline-offset: 2px;
+}
+
+/* Melhorias no contraste para modo escuro */
+[data-md-color-scheme="slate"] .task-list-item {
+    background-color: rgba(255, 255, 255, 0.02);
+    border-left-color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="slate"] .task-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Estilos específicos para o logo */
+.md-header__title {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Melhorias na tipografia */
+.md-typeset {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.md-typeset h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.md-typeset h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.md-typeset h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Melhorias no highlight de código */
+.highlight {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Melhorias no TOC */
+.md-nav__item {
+    padding: 0.2rem 0;
+}
+
+.md-nav__link {
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.md-nav__link:hover {
+    background-color: rgba(var(--md-primary-fg-color--rgb), 0.1);
+    transform: translateX(4px);
+}

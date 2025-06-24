@@ -1,0 +1,1074 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guia completo de acessibilidade digital baseado em WCAG 2.2, ABNT NBR 17225:2025 e Guia Brasil-Reino Unido">
+      
+      
+      
+        <link rel="canonical" href="https://unbihc2025-1.github.io/ihc2025.1-grupo1/devWeb/non_text_content/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../design/design/">
+      
+      
+      <link rel="icon" href="../../imagens/logo-verificaaa.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Desenvolvimento Web - WebAAA - Guia de Acessibilidade Digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#desenvolvimento-web" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="WebAAA - Guia de Acessibilidade Digital" class="md-header__button md-logo" aria-label="WebAAA - Guia de Acessibilidade Digital" data-md-component="logo">
+      
+  <img src="../../imagens/logo-verificaaa.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WebAAA - Guia de Acessibilidade Digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Desenvolvimento Web
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Trocar para modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Trocar para modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo escuro" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Trocar para modo automático"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Trocar para modo automático" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UnBIHC2025-1/ihc2025.1-grupo1" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ihc2025.1-grupo1
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guias de Acessibilidade
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tools/ferramentas/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ferramentas
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="WebAAA - Guia de Acessibilidade Digital" class="md-nav__button md-logo" aria-label="WebAAA - Guia de Acessibilidade Digital" data-md-component="logo">
+      
+  <img src="../../imagens/logo-verificaaa.png" alt="logo">
+
+    </a>
+    WebAAA - Guia de Acessibilidade Digital
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UnBIHC2025-1/ihc2025.1-grupo1" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ihc2025.1-grupo1
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Início
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guias de Acessibilidade
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Guias de Acessibilidade
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Desenvolvimento Web
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Desenvolvimento Web
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#imagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Imagens
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vídeos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vídeos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formulário" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formulário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mídia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mídia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#semântica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Semântica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#texto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Texto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teclado" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teclado
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#título" class="md-nav__link">
+    <span class="md-ellipsis">
+      Título
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tabela
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dispositivo-móvel-e-tocável" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dispositivo Móvel e Tocável
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ferramentas-e-extras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ferramentas e Extras
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referência-bibliográfica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referência Bibliográfica
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#histórico-de-versões" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../geracaoConteudo/conteudo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geração de Conteúdo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gestaoProjeto/gestaoProjeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestão de Projetos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ferramentas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UnBIHC2025-1/ihc2025.1-grupo1/edit/master/docs/devWeb/non_text_content.md" title="Editar esta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/UnBIHC2025-1/ihc2025.1-grupo1/raw/master/docs/devWeb/non_text_content.md" title="Ver fonte desta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="desenvolvimento-web">Desenvolvimento Web<a class="headerlink" href="#desenvolvimento-web" title="Permanent link">&para;</a></h1>
+<p>"Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar a acessibilidade conforme as diretrizes da <strong>WCAG 2.2</strong>, <strong>Guia Brasil-Reino Unido</strong>, e <strong>ABNT NBR 17225:2025</strong>.</p>
+<h2 id="imagens">Imagens<a class="headerlink" href="#imagens" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>alt</code></strong> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a><ul>
+<li><strong>WCAG 2.2</strong>: A inclusão do atributo <code>alt</code> nas imagens é essencial para garantir que o conteúdo visual seja descrito para usuários com deficiência visual. O texto alternativo deve ser claro e conciso:contentReference[oaicite:0]{index=0}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>alt=""</code></strong> para imagens decorativas que não têm significado. <a id="TEC1" href="#RP1">[1]</a><ul>
+<li><strong>WCAG 2.2</strong>: Imagens decorativas, como ícones ou gráficos sem conteúdo informativo, devem ter o atributo <code>alt=""</code> para garantir que tecnologias assistivas ignorem tais elementos sem prejudicar a experiência do usuário:contentReference[oaicite:1]{index=1}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Incluir a descrição no <code>alt</code></strong> para imagens que contêm texto. <a id="TEC1" href="#RP1">[1]</a><ul>
+<li><strong>WCAG 2.2</strong>: Se uma imagem contém texto que é relevante para a compreensão do conteúdo, o <code>alt</code> deve descrever esse texto para garantir que ele seja acessível:contentReference[oaicite:2]{index=2}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar descrições detalhadas em imagens de gráficos e tabelas</strong>. <a id="TEC14" href="#RP14">[14]</a><ul>
+<li><strong>WCAG 2.2</strong>: Gráficos e tabelas que contêm informações essenciais devem ter descrições textuais detalhadas que expliquem o conteúdo visual para usuários de leitores de tela.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Fornecer alternativas para conteúdo em movimento</strong>. <a id="TEC15" href="#RP15">[15]</a><ul>
+<li><strong>Guia Brasil-Reino Unido</strong>: Conteúdo que envolve movimento, como animações ou vídeos, deve ter uma alternativa acessível, como uma descrição ou pausa controlada, para garantir que todos os usuários possam interagir com o conteúdo sem dificuldades.</li>
+</ul>
+</li>
+</ul>
+<h2 id="vídeos">Vídeos<a class="headerlink" href="#vídeos" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar legendas</strong> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a><ul>
+<li><strong>WCAG 2.2</strong>: Legendas são essenciais para garantir que o conteúdo em vídeo seja acessível a pessoas com deficiência auditiva. Elas devem ser claras e sincronizadas com o áudio:contentReference[oaicite:5]{index=5}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar transcrição para vídeos</strong>. <a id="TEC16" href="#RP16">[16]</a><ul>
+<li><strong>WCAG 2.2</strong>: Transcrições de vídeos também são fundamentais, especialmente para conteúdos que não podem ser compreendidos completamente por legendas sozinhas. Elas garantem a acessibilidade para todos os usuários.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Evitar conteúdo com flashes</strong> (gatilhos para convulsões) ou mantê-lo abaixo dos limites. <a id="TEC3" href="#RP3">[3]</a><ul>
+<li><strong>WCAG 2.2</strong>: O conteúdo não deve causar flashes ou piscadas rápidas que possam desencadear convulsões em usuários com epilepsia. Caso seja necessário, a frequência dos flashes deve ser limitada a um máximo de três por segundo.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar controles de reprodução de mídia</strong> (play, pausa, volume, etc.). <a id="TEC17" href="#RP17">[17]</a><ul>
+<li><strong>WCAG 2.2</strong>: Permitir que o usuário controle a reprodução de mídia é essencial para pessoas com deficiências auditivas e de cognição, garantindo uma experiência mais acessível e personalizada.</li>
+</ul>
+</li>
+</ul>
+<h2 id="controles">Controles<a class="headerlink" href="#controles" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>href</code></strong> para links. <a id="TEC4" href="#RP4">[4]</a><ul>
+<li><strong>WCAG 2.2</strong>: Todos os links devem ser acessíveis e identificáveis. O uso do atributo <code>href</code> é necessário para garantir que os links sejam funcionalmente identificáveis:contentReference[oaicite:9]{index=9}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar underline</strong> nos links. <a id="TEC5" href="#RP5">[5]</a><ul>
+<li><strong>Guia Brasil-Reino Unido</strong>: Links devem ser visualmente destacados, como com um sublinhado, para facilitar a identificação de elementos clicáveis:contentReference[oaicite:10]{index=10}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar estados de foco</strong> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a><ul>
+<li><strong>WCAG 2.2</strong>: Os estados de foco visíveis são essenciais para permitir que os usuários naveguem facilmente pelos elementos interativos da página com teclado ou outras tecnologias assistivas:contentReference[oaicite:11]{index=11}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>type="button"</code></strong> nos botões. <a id="TEC4" href="#RP4">[4]</a><ul>
+<li><strong>WCAG 2.2</strong>: Definir o tipo de botões ajuda a melhorar a acessibilidade, especialmente quando esses botões têm funcionalidades específicas. Isso assegura que o papel do botão seja claramente identificado pelas tecnologias assistivas:contentReference[oaicite:12]{index=12}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar skip-link</strong> (link para pular) para o conteúdo principal. <a id="TEC7" href="#RP7">[7]</a><ul>
+<li><strong>WCAG 2.2</strong>: Links de pular conteúdo (skip-links) são essenciais para usuários de leitores de tela e para navegação rápida. Eles permitem que os usuários pulem as navegações e acessem diretamente o conteúdo principal da página:contentReference[oaicite:13]{index=13}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Identifique e comunique</strong> links que abrem em uma nova guia ou janela. <a id="TEC8" href="#RP8">[8]</a><ul>
+<li><strong>WCAG 2.2</strong>: É importante alertar os usuários sobre links que abrem novas janelas ou guias, para que eles possam se preparar para a mudança de contexto:contentReference[oaicite:14]{index=14}.</li>
+</ul>
+</li>
+</ul>
+<h2 id="formulário">Formulário<a class="headerlink" href="#formulário" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>label</code></strong> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a><ul>
+<li><strong>WCAG 2.2</strong>: Os rótulos (<code>label</code>) devem ser associados corretamente aos campos de entrada para que usuários de tecnologias assistivas possam entender e interagir com os formulários:contentReference[oaicite:15]{index=15}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>&lt;fieldset&gt;</code> e <code>&lt;legend&gt;</code></strong> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a><ul>
+<li><strong>WCAG 2.2</strong>: O uso de <code>&lt;fieldset&gt;</code> e <code>&lt;legend&gt;</code> ajuda a agrupar e descrever as seções de formulários, tornando-os mais acessíveis para leitores de tela:contentReference[oaicite:16]{index=16}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>autocomplete</code></strong> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a><ul>
+<li><strong>WCAG 2.2</strong>: O atributo <code>autocomplete</code> facilita a navegação para usuários, sugerindo entradas baseadas em dados anteriores e melhorando a experiência geral de preenchimento de formulários:contentReference[oaicite:17]{index=17}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Exibir <code>errors</code></strong> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a><ul>
+<li><strong>WCAG 2.2</strong>: Os erros de entrada devem ser claramente comunicados e exibidos de forma visível para os usuários, tanto visualmente quanto por outras formas de comunicação para garantir que os erros sejam corrigidos com facilidade:contentReference[oaicite:18]{index=18}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>aria-describedby</code></strong> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a><ul>
+<li><strong>WCAG 2.2</strong>: O atributo <code>aria-describedby</code> permite que a descrição do campo de entrada seja lida pelos leitores de tela, proporcionando um contexto mais claro para os usuários:contentReference[oaicite:19]{index=19}.</li>
+</ul>
+</li>
+</ul>
+<h2 id="mídia">Mídia<a class="headerlink" href="#mídia" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Impedir <code>autoplay</code></strong> para vídeos e áudios. <a id="TEC12" href="#RP12">[12]</a><ul>
+<li><strong>WCAG 2.2</strong>: O <strong>autoplay</strong> pode ser problemático para usuários que dependem de leitores de tela ou outros dispositivos assistivos. Impedir o autoplay garante que os usuários tenham controle sobre a mídia que está sendo reproduzida:contentReference[oaicite:20]{index=20}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar <code>type</code></strong> para botões e entradas. <a id="TEC4" href="#RP4">[4]</a><ul>
+<li><strong>WCAG 2.2</strong>: Definir corretamente os tipos de botões e entradas melhora a acessibilidade e permite que as tecnologias assistivas entendam melhor as interações possíveis:contentReference[oaicite:21]{index=21}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar pausa</strong> para todas as mídias. <a id="TEC13" href="#RP13">[13]</a><ul>
+<li><strong>WCAG 2.2</strong>: Permitir que os usuários pausem ou interrompam qualquer mídia que esteja em reprodução é um requisito básico de acessibilidade, garantindo controle total sobre o conteúdo multimodal:contentReference[oaicite:22]{index=22}.</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Adicionar transcrição</strong> para áudios. <a id="TEC1" href="#RP1">[1]</a><ul>
+<li><strong>WCAG 2.2</strong>: Fornecer transcrições para áudio é essencial para garantir que o conteúdo seja acessível para usuários com deficiência auditiva:contentReference[oaicite:23]{index=23}.</li>
+</ul>
+</li>
+</ul>
+<h2 id="semântica">Semântica<a class="headerlink" href="#semântica" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Uso de elementos nativos HTML</strong>. <a id="TEC18" href="#RP18">[18]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Fluxo contínuo e lógico</strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Tem descrições que podem ser facilmente compreendidas</strong>. <a id="TEC20" href="#RP20">[20]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Tem a semântica correta</strong>. <a id="TEC21" href="#RP21">[21]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>É objetivo nos rótulos</strong>. <a id="TEC22" href="#RP22">[22]</a></li>
+</ul>
+<h2 id="texto">Texto<a class="headerlink" href="#texto" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Evitar</strong> o uso de <strong>textos dentro de imagens</strong>. <a id="TEC23" href="#RP23">[23]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Redimensiona os textos na página</strong>, aumentando o zoom em até 200%. <a id="TEC24" href="#RP24">[24]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Alturas</strong> das fontes <strong>não são fixas</strong>. <a id="TEC25" href="#RP25">[25]</a></li>
+</ul>
+<h2 id="teclado">Teclado<a class="headerlink" href="#teclado" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Funcionalidades</strong> da página web estão <strong>disponíveis por teclado</strong>. <a id="TEC26" href="#RP26">[26]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Quando se tem o <strong>mouseover é permitido o uso de teclado</strong>. <a id="TEC27" href="#RP27">[27]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Foco visível</strong> remova elementos focalizáveis invisíveis. <a id="TEC28" href="#RP28">[28]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Adicione o <strong><code>.hover, .focus {}</code></strong> para tornar o foco visível. <a id="TEC29" href="#RP29">[29]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Permite/visa o uso de <strong>Atalhos de teclado</strong> como o <code>TAB</code>. <a id="TEC30" href="#RP30">[30]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Primeiro</strong> item interativo da página é um link para o <strong>conteúdo principal</strong>. <a id="TEC31" href="#RP31">[31]</a></li>
+</ul>
+<h2 id="título">Título<a class="headerlink" href="#título" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A <strong>hierarquia</strong> de conteúdo da página é definida por sua <strong>lógica</strong>, não pelo tamanho do texto. <a id="TEC17" href="#RP17">[17]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Use <strong>elementos de título <code>h1</code>, <code>h2</code>, <code>h3</code></strong> para apresentar o conteúdo. <a id="TEC17" href="#RP17">[17]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Não pular níveis lógicos</strong>. <a id="TEC32" href="#RP32">[32]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Toda página contém um título <code>h1</code></strong> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a><a id="TEC19" href="#RP19">[19]</a></li>
+</ul>
+<h2 id="tabela">Tabela<a class="headerlink" href="#tabela" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Use o <code>table</code></strong> para elementos em formato de tabela. <a id="TEC4" href="#RP4">[4]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Insira cabeçalhos para explicar os dados, <strong>use <code>th</code> com <code>scope</code> correto</strong>. <a id="TEC15" href="#RP15">[15]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Use o <code>caption</code></strong> elemento para fornecer um título para a tabela. <a id="TEC17" href="#RP17">[17]</a></li>
+</ul>
+<h2 id="modais">Modais<a class="headerlink" href="#modais" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Deve ser <strong>fácil fechar</strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Permitir o <strong>uso da tecla escape <code>ESC</code></strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> A interação é uma <strong>tarefa simples</strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Evitar</strong> modais em <strong>tela cheia</strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Não abrir um modal a partir de outro modal</strong>. <a id="TEC19" href="#RP19">[19]</a></li>
+</ul>
+<h2 id="dispositivo-móvel-e-tocável">Dispositivo Móvel e Tocável<a class="headerlink" href="#dispositivo-móvel-e-tocável" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> O site pode ser <strong>rotacionado</strong> para qualquer orientação. <a id="TEC15" href="#RP15">[15]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Impedir</strong> rolagem horizontal. <a id="TEC16" href="#RP15">[16]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Garantir</strong> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> <strong>Garantir</strong> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a></li>
+</ul>
+<h2 id="ferramentas-e-extras">Ferramentas e Extras<a class="headerlink" href="#ferramentas-e-extras" title="Permanent link">&para;</a></h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Permitir <strong>pausar, parar ou ocultar conteúdo em movimento</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Usar <strong>Breadcrumbs</strong> informando a localização atual nas páginas.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Colocar página ou <strong>área de esclarecimento de dúvidas e dicas de acessibilidade</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Áreas clicáveis com no mínimo <strong>44px (pixels) de altura e 44px de largura</strong>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> No caso de <strong>captcha</strong> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Incluir um <strong>campo de busca</strong>.</li>
+</ul>
+<h2 id="referência-bibliográfica">Referência Bibliográfica<a class="headerlink" href="#referência-bibliográfica" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html">https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP2" href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.2.2 Captions (Prerecorded) (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html">https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP3" href="#TEC3">3.</a> WCAG 2.2 Understanding Docs. SC 2.3.1 Three Flashes or Below Threshold (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html">https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP4" href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html">https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP5" href="#TEC5">5.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 45. Links com aparência distinta.</p>
+<p><a id="RP6" href="#TEC6">6.</a> WCAG 2.2 Understanding Docs. SC 2.4.7 Focus Visible (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html">https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP7" href="#TEC7">7.</a> WCAG 2.2 Understanding Docs. SC 2.4.1 Bypass Blocks (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html">https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP8" href="#TEC8">8.</a> WCAG 2.2 Understanding Docs. SC 3.2.5 Change on Request (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html">https://www.w3.org/WAI/WCAG22/Understanding/change-on-request.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP9" href="#TEC9">9.</a> WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html">https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP10" href="#TEC10">10.</a> WCAG 2.2 Understanding Docs. SC 1.3.5 Identify Input Purpose (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html">https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP11" href="#TEC11">11.</a> WCAG 2.2 Understanding Docs. SC 3.3.1 Error Identification (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html">https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP12" href="#TEC12">12.</a> WCAG 2.2 Understanding Docs. SC 1.2.5 Audio Description (Prerecorded) (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html">https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP13" href="#TEC13">13.</a> WCAG 2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html">https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP14" href="#TEC14">14.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Descrições detalhadas para imagens complexas.</p>
+<p><a id="RP15" href="#TEC15">15.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 25. Alternativas para conteúdo em movimento.</p>
+<p><a id="RP16" href="#TEC16">16.</a> WCAG 2.2 Understanding Docs. SC 1.2.8 Media Alternative (Prerecorded) (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html">https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP17" href="#TEC17">17.</a> WCAG 2.2 Understanding Docs. SC 2.2.1 Timing Adjustable (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html">https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP18" href="#TEC18">18.</a> WCAG 2.2 Understanding Docs. SC 4.1.1 Parsing (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing.html">https://www.w3.org/WAI/WCAG22/Understanding/parsing.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP19" href="#TEC19">19.</a> WCAG 2.2 Understanding Docs. SC 1.3.2 Meaningful Sequence (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html">https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP20" href="#TEC20">20.</a> WCAG 2.2 Understanding Docs. SC 3.1.3 Unusual Words (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html">https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP21" href="#TEC21">21.</a> WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Semântica correta dos elementos.</p>
+<p><a id="RP22" href="#TEC22">22.</a> WCAG 2.2 Understanding Docs. SC 2.4.6 Headings and Labels (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html">https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP23" href="#TEC23">23.</a> WCAG 2.2 Understanding Docs. SC 1.4.5 Images of Text (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html">https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP24" href="#TEC24">24.</a> WCAG 2.2 Understanding Docs. SC 1.4.4 Resize Text (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html">https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP25" href="#TEC25">25.</a> WCAG 2.2 Understanding Docs. SC 1.4.8 Visual Presentation (Level AAA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html">https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html</a>. Acesso em: 23 jun. 2025.</p>
+<p><a id="RP26" href="#TEC26">26.</a> WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A). Funcionalidades acessíveis por teclado.</p>
+<p><a id="RP27" href="#TEC27">27.</a> WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A). Equivalentes de teclado para mouseover.</p>
+<p><a id="RP28" href="#TEC28">28.</a> WCAG 2.2 Understanding Docs. SC 2.4.7 Focus Visible (Level AA). Foco visível em elementos focalizáveis.</p>
+<p><a id="RP29" href="#TEC29">29.</a> WCAG 2.2 Understanding Docs. SC 2.4.7 Focus Visible (Level AA). Estilos de foco visível.</p>
+<p><a id="RP30" href="#TEC30">30.</a> WCAG 2.2 Understanding Docs. SC 2.1.1 Keyboard (Level A). Atalhos de teclado e navegação por TAB.</p>
+<p><a id="RP31" href="#TEC31">31.</a> WCAG 2.2 Understanding Docs. SC 2.4.1 Bypass Blocks (Level A). Skip links para conteúdo principal.</p>
+<p><a id="RP32" href="#TEC32">32.</a> WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Hierarquia lógica de títulos.</p>
+</blockquote>
+<h2 id="histórico-de-versões">Histórico de Versões<a class="headerlink" href="#histórico-de-versões" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Data</th>
+<th>Revisor(es)</th>
+<th>Data de revisão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Adição de WCAG 2.2, conformidade ABNT NBR 17225:2025 e itens sobre o guia Brasil - Reino Unido</td>
+<td><a href="https://github.com/BrzGab">Gabriel Lopes</a></td>
+<td>17/06/2025</td>
+<td><a href="https://github.com/uires2023">Uires Carlos</a></td>
+<td>17/06/2025</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>Correção e Adicionando mais itens em conformidade WCAG 2.2 e ABNT NBR 17225:2025</td>
+<td><a href="https://github.com/taybalau">Taynara Vitorino</a></td>
+<td>23/06/2025</td>
+<td><a href="https://github.com/BrzGab">Gabriel Lopes</a></td>
+<td>23/06/2025</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 - Equipe WebAAA - Universidade de Brasília
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/UnBIHC2025-1/ihc2025.1-grupo1" target="_blank" rel="noopener" title="Repositório no GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.copy", "content.action.edit", "content.action.view", "toc.follow", "toc.integrate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

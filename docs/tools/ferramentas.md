@@ -1,360 +1,160 @@
 # Ferramentas de Acessibilidade
 
-Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, este guia apresenta ferramentas organizadas por categoria, com análises detalhadas, tutoriais e recomendações de uso baseadas em testes práticos e literatura acadêmica.
-
-## Guia Rápido: Qual Ferramenta Usar?
-
-### Para Começar (Iniciantes)
-- **WAVE** - Interface visual intuitiva, ideal para aprender
-- **ASES** - Ferramenta brasileira, relatórios em português
-- **Lighthouse** - Já integrado no Chrome, fácil de usar
-
-### Para Profissionais
-- **axe DevTools** - Análise profunda, integração com CI/CD
-- **Pa11y** - Automação e testes em larga escala
-- **NVDA + JAWS** - Testes com leitores de tela reais
-
-### Para Equipes
-- **Accessibility Insights** - Fluxo completo de testes
-- **Stark** - Integração com ferramentas de design
-- **jest-axe** - Testes automatizados no desenvolvimento
-
-## Ferramentas de Teste Automatizado
-
-### 1. ASES - Avaliador e Simulador de Acessibilidade em Sítios
-🏛️ **Ferramenta Oficial do Governo Brasileiro**
-
-**Quando usar:** Ideal para validar conformidade com padrões brasileiros (e-MAG)
-**Vantagens:** Relatórios em português, validação específica para sites governamentais
-**Limitações:** Interface menos moderna, foco em critérios básicos
-
-#### 📖 Tutorial Passo a Passo - ASES
-1. Acesse [asesweb.governoeletronico.gov.br](https://asesweb.governoeletronico.gov.br/)
-2. Digite a URL do site a ser avaliado
-3. Selecione o tipo de avaliação:
-   - **e-MAG**: Para sites governamentais
-   - **WCAG**: Para conformidade internacional
-4. Clique em "Avaliar"
-5. Analise o relatório:
-   - **Erros** (vermelho): Corrigir imediatamente
-   - **Avisos** (amarelo): Revisar e validar
-   - **Informações** (azul): Boas práticas
-6. Baixe o relatório PDF para documentação
-
-**💡 Dica:** Use o ASES como primeira validação para sites brasileiros
-
-### 2. WAVE - Web Accessibility Evaluation Tool
- **Melhor para Aprendizado Visual**
-
-**Quando usar:** Ideal para desenvolvedores iniciantes e análise visual rápida
-**Vantagens:** Interface intuitiva, mostra problemas diretamente na página
-**Limitações:** Não testa interações JavaScript complexas
-
-#### 📖 Tutorial Passo a Passo - WAVE
-1. Instale a [extensão WAVE](https://wave.webaim.org/extension/)
-2. Navegue até a página a testar
-3. Clique no ícone WAVE na barra de ferramentas
-4. Analise os ícones sobrepostos:
-   - 🔴 **Erros**: Problemas críticos de acessibilidade
-   - 🟡 **Alertas**: Possíveis problemas, requerem revisão
-   - 🟢 **Features**: Recursos de acessibilidade implementados
-   - ℹ️ **Estrutura**: Informações sobre a estrutura da página
-5. Clique em cada ícone para detalhes e sugestões de correção
-6. Use a aba "Details" para lista completa de problemas
-
-**💡 Dica:** Comece corrigindo erros de contraste e alt text ausente
-
-### 3. axe DevTools
- **Padrão da Indústria para Profissionais**
-
-**Quando usar:** Desenvolvimento profissional, integração com CI/CD
-**Vantagens:** Mais preciso, menos falsos positivos, integração com frameworks
-**Limitações:** Requer conhecimento técnico intermediário
-
-#### 📖 Tutorial Passo a Passo - axe DevTools
-1. Instale a [extensão axe DevTools](https://www.deque.com/axe/devtools/)
-2. Abra o DevTools do navegador (F12)
-3. Navegue até a aba "axe DevTools"
-4. Clique em "Run Full Analysis"
-5. Revise os resultados organizados por:
-   - **Impacto**: Critical > Serious > Moderate > Minor
-   - **Categoria**: WCAG 2.0/2.1/2.2, Seção 508, etc.
-6. Para cada problema:
-   - Clique para destacar o elemento
-   - Leia a descrição do problema
-   - Siga o link "More Info" para soluções
-7. Use "Export Results" para gerar relatórios
-
-**💡 Dica:** Configure o axe-core no seu pipeline de CI para testes automatizados
-
-### 4. Lighthouse
- **Integrado e Completo**
-
-**Quando usar:** Análise geral de performance + acessibilidade
-**Vantagens:** Já vem no Chrome, métricas de performance
-**Limitações:** Menos detalhado que ferramentas especializadas
-
-#### 📖 Tutorial Passo a Passo - Lighthouse
-1. Abra o Chrome DevTools (F12)
-2. Vá para a aba "Lighthouse"
-3. Configure:
-   - ✅ Marque "Accessibility"
-   - 📱 Escolha "Mobile" ou "Desktop"
-   - 🎯 Clique "Analyze page load"
-4. Aguarde a análise (30-60 segundos)
-5. Revise a pontuação de acessibilidade (0-100)
-6. Expanda cada categoria de problemas:
-   - Veja elementos afetados
-   - Links para documentação
-   - Sugestões de correção
-7. Use "View Trace" para debugging avançado
-
-**💡 Dica:** Busque pontuação >90 para boa acessibilidade
-
-### Extensões para Navegadores
-- [axe DevTools Extension](https://www.deque.com/axe/devtools/) - Chrome/Firefox
-- [WAVE Browser Extension](https://wave.webaim.org/extension/) - Chrome/Firefox
-- [Accessibility Insights](https://accessibilityinsights.io/) - Microsoft
-
-## Leitores de Tela - Testes com Usuários Reais
-
-### NVDA - NonVisual Desktop Access
- **Melhor Opção Gratuita para Windows**
-
-**Quando usar:** Testes em Windows, desenvolvimento web, validação de ARIA
-**Vantagens:** Gratuito, open source, atualizações frequentes, comunidade ativa
-**Limitações:** Curva de aprendizado inicial
-
-#### 📖 Tutorial Passo a Passo - NVDA
-1. Baixe o NVDA em [nvaccess.org](https://www.nvaccess.org/)
-2. Instale e inicie o NVDA
-3. **Comandos Essenciais:**
-   - `NVDA + Q`: Desligar o NVDA
-   - `NVDA + S`: Modo de fala (desligado/ligado)
-   - `NVDA + F7`: Lista de elementos (links, títulos, landmarks)
-   - `Tab`: Navegar por elementos focáveis
-   - `H`: Próximo cabeçalho
-   - `D`: Próximo landmark
-   - `K`: Próximo link
-4. **Para testar seu site:**
-   - Desligue o monitor ou feche os olhos
-   - Navegue apenas com teclado
-   - Verifique se consegue:
-     - ✅ Entender a estrutura da página
-     - ✅ Acessar todos os links e botões
-     - ✅ Preencher formulários
-     - ✅ Ler conteúdo de imagens (alt text)
-5. **Modo Browse vs Focus:**
-   - Browse: Leitura de conteúdo (setas navegam)
-   - Focus: Interação com formulários (Tab navega)
-
-**💡 Dica:** Configure vozes em português no menu NVDA > Preferências > Configurações de Voz
-
-### JAWS - Job Access With Speech
- **Padrão Corporativo no Brasil**
-
-**Quando usar:** Ambientes corporativos, testes profissionais, validação completa
-**Vantagens:** Mais recursos, melhor suporte para aplicações complexas
-**Limitações:** Licença paga (cara), maior complexidade
-
-#### 📖 Tutorial Básico - JAWS
-1. **Comandos Similares ao NVDA:**
-   - `Insert + F4`: Fechar JAWS
-   - `Insert + S`: Interromper fala
-   - `Insert + F6`: Lista de cabeçalhos
-   - `Insert + F7`: Lista de links
-2. **Recursos Exclusivos:**
-   - Modo Forms automático
-   - Melhor suporte para tabelas complexas
-   - Scripts personalizados para aplicações
-
-**💡 Dica:** Use a versão demo de 40 minutos para testes rápidos
-
-### VoiceOver (macOS/iOS)
- **Integrado em Dispositivos Apple**
-
-#### 📖 Ativação Rápida - VoiceOver
-**macOS:**
-1. `Cmd + F5`: Ligar/Desligar VoiceOver
-2. `Ctrl + Option` (VO): Tecla modificadora
-3. `VO + A`: Ler tudo
-4. `VO + →`: Próximo item
-
-**iOS:**
-1. Ajustes > Acessibilidade > VoiceOver
-2. Ou "Ei Siri, ativar VoiceOver"
-3. **Gestos:** Deslizar para navegar, toque duplo para ativar
-
-### TalkBack (Android)
- **Padrão Android**
-
-#### 📖 Ativação - TalkBack
-1. Configurações > Acessibilidade > TalkBack
-2. Atalho: Pressione ambos os botões de volume por 3 segundos
-3. **Gestos:** Similar ao VoiceOver do iOS
-
-## Ferramentas de Contraste e Cores
-
-- [Colour Contrast Analyser](https://www.tpgi.com/color-contrast-checker/) - Desktop (Windows/Mac)
-- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - Online
-- [Stark](https://www.getstark.co/) - Plugin para Figma/Sketch/Adobe XD
-- [Contrast](https://usecontrast.com/) - macOS
-
-## Ferramentas para WCAG 2.2
-
-### Teste de Foco e Navegação
-- [Keyboard Navigation Tester](https://khan.github.io/tota11y/) - Visualização de navegação por teclado
-- [Focus Indicator](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) - Teste de indicadores de foco
-
-### Validação de Formulários
-- [Form Accessibility Validator](https://www.html5accessibility.com/tests/form.html) - Teste de formulários acessíveis
-
-## Ferramentas Brasileiras e Governamentais
-
-- [ASES Web](https://asesweb.governoeletronico.gov.br/) - Avaliador oficial do Governo
-- [VLibras](https://www.gov.br/governodigital/pt-br/vlibras) - Tradutor de Português para LIBRAS
-- [Hand Talk](https://www.handtalk.me/) - Plugin de tradução para LIBRAS
-
-## Ferramentas de Desenvolvimento
-
-### Frameworks e Bibliotecas
-- [React Aria](https://react-spectrum.adobe.com/react-aria/) - Componentes acessíveis para React
-- [Angular CDK A11y](https://material.angular.io/cdk/a11y/overview) - Recursos de acessibilidade para Angular
-- [Vue A11y](https://vue-a11y.com/) - Recursos para Vue.js
-
-### Testes Automatizados
-- [Pa11y](https://pa11y.org/) - Testes de linha de comando
-- [jest-axe](https://github.com/nickcolley/jest-axe) - Testes de acessibilidade com Jest
-- [Cypress Axe](https://github.com/component-driven/cypress-axe) - Testes E2E com acessibilidade
-
-## Recursos Adicionais
-
-### Documentação e Aprendizado
-- [WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/) - Referência rápida oficial
-- [WebAIM Resources](https://webaim.org/resources/) - Recursos educacionais
-- [A11y Project](https://www.a11yproject.com/) - Comunidade e recursos
-- [Curso eMAG](http://emag.governoeletronico.gov.br/) - Curso oficial do Governo Brasileiro
-
-### Simuladores
-- [NoCoffee Vision Simulator](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl) - Simula deficiências visuais
-- [Funkify](https://www.funkify.org/) - Simulador de várias deficiências
-
-## 📊 Análise Comparativa de Ferramentas
-
-### Quadro Comparativo - Validadores Automáticos
-
-| Ferramenta | Precisão | Facilidade | Cobertura WCAG | Relatórios | Custo |
-|------------|----------|------------|----------------|------------|--------|
-| **ASES** | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 2.0 + e-MAG | Português | Grátis |
-| **WAVE** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 2.1 | Inglês | Grátis |
-| **axe** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | 2.2 | Multi | Freemium |
-| **Lighthouse** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 2.1 | Multi | Grátis |
-
-### Recomendações por Cenário
-
-####  Site Governamental Brasileiro
-1. **ASES** - Validação e-MAG obrigatória
-2. **VLibras** - Widget de tradução LIBRAS
-3. **NVDA** - Teste com leitor de tela
-4. **Contrast Checker** - Validar cores institucionais
-
-####  E-commerce
-1. **axe DevTools** - Cobertura completa WCAG 2.2
-2. **WAVE** - Validação visual rápida
-3. **Pa11y** - Testes automatizados de checkout
-4. **Mobile** - TalkBack/VoiceOver para app mobile
-
-####  Aplicação Web Progressiva (PWA)
-1. **Lighthouse** - Performance + Acessibilidade
-2. **Accessibility Insights** - Testes manuais guiados
-3. **NVDA + JAWS** - Compatibilidade com leitores
-4. **Simuladores** - Testar diferentes deficiências
-
-## Fluxo de Trabalho Recomendado
-
-### Fase 1: Desenvolvimento (Durante Codificação)
-```
-1. Configurar ESLint + plugin a11y
-2. Usar React Aria / Angular CDK
-3. Testar com teclado constantemente
-4. Validar contraste no design
-```
-
-### Fase 2: Revisão (Code Review)
-```
-1. axe DevTools - Análise automática
-2. WAVE - Revisão visual
-3. Navegação por teclado
-4. Verificar ARIA labels
-```
-
-### Fase 3: QA (Testes Completos)
-```
-1. ASES - Conformidade brasileira
-2. Lighthouse - Métricas gerais
-3. NVDA/JAWS - Teste real
-4. Dispositivos móveis - VoiceOver/TalkBack
-```
-
-### Fase 4: CI/CD (Automação)
-```
-1. jest-axe nos testes unitários
-2. Pa11y no pipeline
-3. Lighthouse CI para regressões
-4. Relatórios automáticos
-```
-
-## Métricas e KPIs de Acessibilidade
-
-### Indicadores Quantitativos
-- **Taxa de Conformidade WCAG**: >95% nível AA
-- **Pontuação Lighthouse**: >90
-- **Erros Críticos ASES**: 0
-- **Tempo de Navegação por Teclado**: <2x mouse
-
-### Indicadores Qualitativos
-- **Feedback de usuários com deficiência**
-- **Taxa de conclusão de tarefas**
-- **Satisfação do usuário (NPS)**
-- **Tempo de correção de bugs**
-
-## 💡 Dicas dos Especialistas
-
-### "O erro mais comum é testar acessibilidade apenas no final"
-> *Integre ferramentas desde o início do desenvolvimento. Use axe-core no seu editor e configure testes automatizados.* - Baseado em Deque Systems (2023)
-
-### "30% dos problemas só são encontrados por usuários reais"
-> *Ferramentas automatizadas encontram apenas 70% dos problemas. Sempre complemente com testes manuais e usuários reais.* - WebAIM Survey (2023)
-
-### "Mobile-first é acessibilidade-first"
-> *No Brasil, 67% acessam apenas por celular. Teste sempre no mobile com TalkBack.* - CETIC.br (2023)
-
-## 📚 Referências e Literatura
-
-1. **Marcelo Sales** (2023). "Acessibilidade Digital no Brasil: Desafios e Oportunidades". *Revista Brasileira de Tecnologia Assistiva*.
-
-2. **W3C/WAI** (2023). "Selecting Web Accessibility Evaluation Tools". Disponível em: [w3.org/WAI/test-evaluate/tools/](https://www.w3.org/WAI/test-evaluate/tools/)
-
-3. **Reinaldo Ferraz** (2020). "Acessibilidade na Web: Boas práticas para construir sites e aplicações acessíveis". Casa do Código.
-
-4. **Deque Systems** (2023). "The Automated Accessibility Coverage Report". Análise de eficácia de ferramentas automatizadas.
-
-## Checklist Final - Ferramentas Essenciais
-
-- [ ] **Validador automático** instalado (WAVE ou axe)
-- [ ] **Leitor de tela** configurado (NVDA ou JAWS)
-- [ ] **Analisador de contraste** disponível
-- [ ] **Testes mobile** configurados
-- [ ] **Pipeline CI/CD** com testes de acessibilidade
-- [ ] **Documentação** de processos e ferramentas
-- [ ] **Treinamento** da equipe realizado
-- [ ] **Métricas** de acessibilidade definidas
-
----
+Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, foram elencadas ferramentas de acessibilidade abaixo. Essas ferramentas permitem a análise, correção e teste de websites e aplicativos para garantir que atendam aos requisitos de acessibilidade digital.
+
+- [Framework de Testes de Acessibilidade](https://github.com/google/Accessibility-Test-Framework-for-Android)
+- [Wave - Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+- [DynoVisual Sitemap Generator](https://dynomapper.com/)
+- [JAWS - Leitor de telas para Windows](https://www.tecassistiva.com.br/catalogo/jaws/)
+- [ACHECKS - Caixa de ferramentas para acessibilidade](https://www.achecks.org/)
+- [AXE - Accessibility Engine for Automated Web UI Testing](https://github.com/dequelabs/axe-core)
+- [Lighthouse - Google - Auditar Acessibilidade](https://developer.chrome.com/docs/lighthouse)
+- [WebAim - Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [Color Oracle - Simulador de Deficiência Cromática](http://colororacle.org/)
+- [Tota11y - Accessibility Visualization Tool](https://khan.github.io/tota11y/)
+- [Microsoft Accessibility Insights](https://accessibilityinsights.io/)
+- [NVDA - Leitor de Tela Gratuito para Windows](https://www.nvaccess.org/)
+
+### Comentários sobre o uso das ferramentas
+
+#### 1. **Framework de Testes de Acessibilidade**
+   - **Uso**: O **Framework de Testes de Acessibilidade** permite testar a acessibilidade de aplicativos Android.
+   - **Vantagens**:
+     - Ideal para verificar a conformidade com as diretrizes WCAG em aplicativos móveis Android.
+   - **Passo a Passo**:
+     1. Faça o download do framework.
+     2. Integre-o ao ambiente Android.
+     3. Execute os testes de acessibilidade e aplique as correções.
+   - **Relevância**: Essencial para desenvolvedores de aplicativos móveis, garantindo conformidade com as diretrizes da **WCAG 2.2** e **NBR 17225:2025**:contentReference[oaicite:0]{index=0}.
+
+#### 2. **Wave - Web Accessibility Evaluation Tool**
+   - **Uso**: O **Wave** é uma ferramenta de análise online para avaliar a acessibilidade de sites e gerar relatórios de conformidade.
+   - **Vantagens**:
+     - Oferece uma interface amigável e análise em tempo real.
+   - **Passo a Passo**:
+     1. Acesse o **Wave**.
+     2. Insira a URL do site a ser testado.
+     3. Clique em "Analyze" para gerar o relatório.
+   - **Relevância**: Uma das melhores ferramentas para auditar a acessibilidade de sites de acordo com as diretrizes da **WCAG 2.2**:contentReference[oaicite:1]{index=1}.
+
+#### 3. **DynoVisual Sitemap Generator**
+   - **Uso**: O **DynoVisual** ajuda na criação de sitemaps visuais e acessíveis, facilitando o design de navegação.
+   - **Vantagens**:
+     - Ajuda a visualizar e organizar a estrutura de navegação de forma acessível.
+   - **Passo a Passo**:
+     1. Acesse o **DynoVisual**.
+     2. Crie um sitemap visual considerando a acessibilidade.
+     3. Exporte e aplique na estrutura do seu site.
+   - **Relevância**: Ideal para garantir que a navegação de seu site seja lógica e acessível, alinhada com as diretrizes da **WCAG 2.2** e **ABNT NBR 17225:2025**:contentReference[oaicite:2]{index=2} .
+
+#### 4. **JAWS - Leitor de Telas para Windows**
+   - **Uso**: O **JAWS** é um leitor de tela amplamente utilizado por pessoas com deficiência visual para ler o conteúdo da tela.
+   - **Vantagens**:
+     - Oferece feedback por áudio para ajudar usuários cegos a navegar em websites e aplicativos.
+   - **Passo a Passo**:
+     1. Baixe e instale o **JAWS**.
+     2. Utilize-o para navegar em sites e testar sua acessibilidade.
+     3. Aplique as correções de acessibilidade conforme necessário.
+   - **Relevância**: Essencial para testar a acessibilidade de sites e aplicativos para usuários cegos, em conformidade com as diretrizes da **WCAG 2.2**:contentReference[oaicite:3]{index=3}.
+
+#### 5. **ACHECKS - Caixa de Ferramentas para Acessibilidade**
+   - **Uso**: O **ACHECKS** realiza uma avaliação detalhada da acessibilidade de websites, de acordo com as diretrizes WCAG.
+   - **Vantagens**:
+     - Avalia os requisitos de conformidade com as diretrizes de acessibilidade da WCAG.
+   - **Passo a Passo**:
+     1. Acesse o **ACHECKS**.
+     2. Insira o URL do seu site.
+     3. Realize a análise e revise os resultados.
+   - **Relevância**: Ideal para garantir que o site esteja em conformidade com as normas da **WCAG 2.2**:contentReference[oaicite:4]{index=4}.
+
+#### 6. **AXE - Accessibility Engine for Automated Web UI Testing**
+   - **Uso**: O **AXE** é uma ferramenta de teste automatizado para identificar problemas de acessibilidade no código de websites e aplicativos web.
+   - **Vantagens**:
+     - Oferece uma solução automatizada para testar acessibilidade.
+   - **Passo a Passo**:
+     1. Instale a extensão **AXE** no **Chrome** ou **Firefox**.
+     2. Execute a análise de acessibilidade em seu site.
+     3. Aplique as correções sugeridas com base no relatório.
+   - **Relevância**: A ferramenta automatiza o processo de testes de acessibilidade, alinhando-se com as diretrizes da **WCAG 2.2**:contentReference[oaicite:5]{index=5}.
+
+#### 7. **Lighthouse - Google - Auditar Acessibilidade**
+   - **Uso**: O **Lighthouse** realiza auditorias de acessibilidade em sites, ajudando a garantir que as diretrizes da **WCAG** sejam seguidas.
+   - **Vantagens**:
+     - Fornece uma visão completa da acessibilidade de um site.
+     - Oferece recomendações de melhoria baseadas em critérios de **WCAG 2.2**.
+   - **Passo a Passo**:
+     1. Abra o **Lighthouse** no **Chrome DevTools**.
+     2. Execute uma auditoria de acessibilidade.
+     3. Revise o relatório gerado e aplique as correções necessárias.
+   - **Relevância**: Ideal para auditar rapidamente a acessibilidade de um site, garantindo conformidade com **WCAG 2.2**:contentReference[oaicite:6]{index=6}.
+
+#### 8. **WebAim - Contrast Checker**
+   - **Uso**: O **Contrast Checker** ajuda a testar se o contraste entre texto e fundo atende aos requisitos de **WCAG**.
+   - **Vantagens**:
+     - Facilita a verificação de legibilidade para usuários com baixa visão.
+   - **Passo a Passo**:
+     1. Acesse o **Contrast Checker** do **WebAim**.
+     2. Insira as cores do texto e do fundo.
+     3. Verifique se o contraste está adequado.
+   - **Relevância**: Essencial para garantir que seu conteúdo seja legível para pessoas com deficiência visual, conforme **WCAG 2.2**:contentReference[oaicite:7]{index=7}.
+
+#### 9. **Color Oracle - Simulador de Deficiência Cromática**
+   - **Uso**: O **Color Oracle** simula a visão de pessoas com diferentes tipos de deficiência cromática (daltonismo).
+   - **Vantagens**:
+     - Permite testar como as cores aparecem para pessoas com daltonismo.
+   - **Passo a Passo**:
+     1. Baixe e instale o **Color Oracle**.
+     2. Use a ferramenta para visualizar como seu site ou aplicativo será percebido por pessoas com daltonismo.
+     3. Ajuste as cores do design conforme necessário.
+   - **Relevância**: Ajuda a garantir que seu site ou aplicativo seja acessível a pessoas com deficiências cromáticas, conforme as recomendações da **WCAG 2.2**:contentReference[oaicite:8]{index=8}.
+
+#### 10. **Tota11y - Accessibility Visualization Tool**
+   - **Uso**: O **Tota11y** é uma ferramenta que visualiza e exibe problemas de acessibilidade enquanto você navega pelo seu site.
+   - **Vantagens**:
+     - Oferece visualizações claras de como os elementos da página afetam a acessibilidade.
+   - **Passo a Passo**:
+     1. Acesse o **Tota11y**.
+     2. Use o visualizador de acessibilidade para analisar seu site.
+     3. Aplique as correções com base nas informações fornecidas.
+   - **Relevância**: Ideal para testar e visualizar problemas de acessibilidade de uma forma interativa e didática:contentReference[oaicite:9]{index=9}.
+
+#### 11. **Microsoft Accessibility Insights**
+   - **Uso**: O **Accessibility Insights** da Microsoft é uma ferramenta para avaliar a acessibilidade de aplicativos e sites.
+   - **Vantagens**:
+     - Fornece uma análise detalhada de acessibilidade com foco em componentes de interface.
+   - **Passo a Passo**:
+     1. Baixe e instale o **Microsoft Accessibility Insights**.
+     2. Realize os testes de acessibilidade no seu site ou aplicativo.
+     3. Revise o relatório e implemente as correções recomendadas.
+   - **Relevância**: A ferramenta ajuda a garantir que as interfaces sejam acessíveis, conforme as diretrizes da **WCAG 2.2** e **ABNT NBR 17225:2025** :contentReference[oaicite:10]{index=10}.
+
+#### 12. **NVDA - Leitor de Tela Gratuito para Windows**
+   - **Uso**: O **NVDA** é um leitor de tela gratuito que pode ser usado para testar a acessibilidade de aplicativos e websites.
+   - **Vantagens**:
+     - Gratuito e de código aberto.
+     - Funciona com a maioria dos navegadores e aplicativos.
+   - **Passo a Passo**:
+     1. Baixe e instale o **NVDA**.
+     2. Utilize-o para testar seu site ou aplicativo, garantindo que seja acessível a pessoas cegas.
+     3. Aplique as correções necessárias com base no feedback do **NVDA**.
+   - **Relevância**: Essencial para garantir que o conteúdo seja legível para usuários cegos, conforme **WCAG 2.2**:contentReference[oaicite:11]{index=11}.
+
+### Conclusão
+
+Essas ferramentas são indispensáveis para a criação de soluções acessíveis, ajudando a identificar e corrigir problemas de acessibilidade durante o desenvolvimento de websites e aplicativos. A aplicação dessas ferramentas em conjunto com as diretrizes de **WCAG 2.2**, **NBR 17225:2025** e o **Guia Brasil-Reino Unido** assegura que o seu projeto atenda às necessidades de todos os usuários, independentemente de suas deficiências.
+
+## Referências Bibliográficas
+
+> <a id="RP1" href="#TEC1">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 23 Jun. 2025.
+
+> </a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
+
+> </a> BRASIL. Secretaria de Logística e Tecnologia da Informação. Portaria nº 3, de 7 de maio de 2007. Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG no âmbito do Sistema de Administração dos Recursos de Informação e Informática – SISP. Diário Oficial da União, Brasília, DF, 7 maio 2007. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf). Acesso em: 23 Jun. 2025.
+
+> </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
 
 ## Histórico de Versões
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
-| 1.0 | Adição de tutoriais, análises comparativas e recomendações baseadas em literatura acadêmica | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
-
+| 1.0 | Adição de WCAG 2.2, conformidade ABNT NBR 17225:2025 e itens sobre o guia Brasil - Reino Unido | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
