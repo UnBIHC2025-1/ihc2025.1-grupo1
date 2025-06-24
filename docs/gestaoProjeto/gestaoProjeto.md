@@ -74,6 +74,39 @@ Em seu planejamento, há...
 - [ ] **Tarefas com critérios de sucesso** que atendam pelo menos os níveis A e AA, segundo a documentação de acessibilidade (WCAG)? <a id="TEC41" href="#RP41">[41]</a>
     - [ ] Atender pelo menos ao nível AA é o mínimo necessário para garantir a acessibilidade digital universal (WCAG 2.2, Critério 3.2.1: Blocos de Conteúdo). <a id="TEC42" href="#RP42">[42]</a>
 
+## Checklists de Gestão de Projetos - Guia de Boas Práticas para Acessibilidade Digital
+
+### Introdução ao Projeto
+
+- [ ] **Consideração de Acessibilidade desde o início**: Garantir que a acessibilidade seja pensada já na fase de concepção e planejamento do projeto.
+- [ ] **Desenho Universal**: Aplicar o conceito de desenho universal, garantindo que todos possam usar os produtos, serviços e ambientes digitais sem a necessidade de adaptações.
+- [ ] **Inclusão nas equipes de projeto**: Incluir pessoas com deficiência nas equipes de desenvolvimento para garantir um olhar mais empático e inclusivo.
+- [ ] **Engajamento organizacional**: Criar uma cultura de acessibilidade dentro da organização com a participação de diferentes departamentos.
+
+### Orientações de Acessibilidade
+
+- [ ] **Consideração de deficiência permanente, temporária ou de envelhecimento**: Acessibilidade deve ser priorizada para todas as deficiências.
+- [ ] **Identificação de tipos de deficiência**: Considerar deficiência visual, auditiva, motora, neurodiversidade, entre outras.
+- [ ] **Acessibilidade em dispositivos móveis**: Garantir que o site ou app seja acessível também em dispositivos móveis.
+
+### Introdução ao WCAG
+
+- [ ] **Seguir Diretrizes WCAG**: Implementar as recomendações do WCAG 2.1 (ou 2.2 quando disponível) para garantir acessibilidade em design, conteúdo e desenvolvimento.
+- [ ] **Níveis de Conformidade**: Garantir conformidade nos níveis A, AA (mínimo recomendado), e AAA.
+- [ ] **Princípios do WCAG**: Atender aos 4 princípios de acessibilidade: **Perceptível**, **Operável**, **Compreensível**, e **Robusto**.
+
+### Boas Práticas de Acessibilidade
+
+- [ ] **Acessibilidade como direito humano**: Garantir que a acessibilidade digital seja tratada como um direito, conforme estabelecido pela Convenção Internacional sobre os Direitos das Pessoas com Deficiência.
+- [ ] **Incluir a acessibilidade em todas as etapas do projeto**: Desde o planejamento, desenvolvimento, até a execução e manutenção.
+- [ ] **Educação sobre Acessibilidade**: Promover treinamentos sobre acessibilidade digital para todos os membros da equipe, incluindo os envolvidos em design e conteúdo.
+
+### Gestão de Projetos
+
+- [ ] **Considerar a acessibilidade nas fases iniciais**: Integrar a acessibilidade desde o início do projeto e garantir seu acompanhamento ao longo de todas as fases.
+- [ ] **Definir objetivos claros**: Identificar e alinhar claramente os objetivos do projeto com relação à acessibilidade digital.
+- [ ] **Documentação e Aprovação**: Garantir que os pontos de acessibilidade sejam documentados e aprovados por todas as áreas envolvidas no projeto.
+
 ## Referências Bibliográficas
 
 > <a id="RP1" href="#TEC1">1.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 12. Elaboração de personas com deficiência visual.
@@ -167,6 +200,8 @@ Em seu planejamento, há...
 > </a> MORDOR INTELLIGENCE. Digital Accessibility Software Market Size & Share Analysis- Growth Trends & Forecasts (2024-2029). Disponível em: [https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market](https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market). Acesso em: 23 Jun. 2025.
 
 > </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
+
+---
 
 ## Histórico de Versões
 

@@ -125,6 +125,199 @@
 - [ ] No caso de **captcha** garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
 - [ ] Incluir um **campo de busca**.
 
+## Checklists de Desenvolvimento Web - ABNT NBR 17225:2025
+
+### Interação por Teclado
+
+- [ ] **Indicador de foco visível**: Todos os elementos focáveis devem ter um indicador de foco visível.
+- [ ] **Elemento em foco totalmente visível**: Todos os elementos focáveis devem estar completamente visíveis quando recebem foco.
+- [ ] **Elemento em foco parcialmente visível**: Todos os elementos focáveis devem estar pelo menos parcialmente visíveis quando recebem foco.
+- [ ] **Ordem de foco previsível**: A ordem de foco deve ser lógica e intuitiva, consistente com a apresentação da página.
+- [ ] **Uso de foco**: Todos os elementos focáveis devem ser utilizáveis para interação.
+- [ ] **Armadilha de foco**: Não pode haver componentes que bloqueiem ou interrompam a navegação por teclado.
+- [ ] **Conteúdo adicional**: Nenhum conteúdo adicional deve ser exibido apenas pelo foco do teclado ou posicionamento do cursor.
+- [ ] **Conteúdo adicional persistente**: Todo conteúdo adicional exibido por foco do teclado deve permanecer visível até que o usuário o dispense.
+- [ ] **Conteúdo adicional dispensável**: O conteúdo adicional deve poder ser dispensado sem necessidade de retirar o foco ou reposicionar o cursor.
+- [ ] **Atalhos de teclado**: Evite atalhos de teclado que utilizam apenas uma tecla; sempre use uma tecla modificadora (como Ctrl ou Alt).
+- [ ] **Atalhos de teclado sem tecla modificadora**: Se houver atalhos sem tecla modificadora, deve haver um mecanismo simples para desativá-los ou remapeá-los.
+- [ ] **Acessibilidade por teclado total**: Toda a funcionalidade do site deve ser acessível via teclado.
+- [ ] **Acessibilidade por teclado parcial**: Certifique-se de que funcionalidades não acessíveis por teclado tenham alternativas equivalentes.
+- [ ] **Mecanismos de entrada simultâneos**: Não deve haver restrições de uso de múltiplos mecanismos de entrada, a não ser que seja necessário por questões de segurança.
+- [ ] **Comportamento de componentes customizados**: Todos os componentes personalizados devem ter comportamentos previsíveis.
+- [ ] **Instruções para componentes customizados**: Se um componente exige interação complexa, deve haver instruções claras para sua operação.
+
+### Imagens
+
+- [ ] **Texto alternativo para imagens de conteúdo**: Todas as imagens informativas devem ter um texto alternativo que descreve seu conteúdo.
+- [ ] **Texto alternativo para imagens funcionais**: Imagens funcionais (como ícones ou botões) devem ter um texto alternativo que descreva sua função.
+- [ ] **Texto alternativo para imagens decorativas**: Imagens decorativas devem ter um texto alternativo vazio, ou ser implementadas de forma que possam ser ignoradas por tecnologias assistivas.
+- [ ] **Descrição para imagens complexas**: Imagens complexas devem ter uma descrição detalhada disponível na página ou em uma página indicada.
+- [ ] **Imagens de texto**: Evite o uso de imagens de texto. Se for essencial, deve haver texto alternativo correspondente.
+- [ ] **Texto alternativo para mapas de imagens**: Mapas de imagens devem ter texto alternativo para cada área interativa.
+
+### Cabeçalhos
+
+- [ ] **Semântica de cabeçalho**: Cabeçalhos devem ser usados de forma semântica, de acordo com sua importância (H1, H2, H3, etc.).
+- [ ] **Uso de cabeçalhos**: Todos os cabeçalhos devem ser utilizados para organizar seções de conteúdo de forma lógica.
+- [ ] **Cabeçalho principal**: Deve haver apenas um cabeçalho de nível 1 (H1), que identifica o título principal da página.
+- [ ] **Seções com cabeçalhos**: Todas as seções importantes do conteúdo devem ter um cabeçalho correspondente.
+- [ ] **Estrutura de cabeçalhos**: A hierarquia dos cabeçalhos deve ser lógica e semântica.
+
+### Regiões
+
+- [ ] **Semântica de região**: As regiões da página devem ter uma semântica clara, indicando a função de cada área (como cabeçalho, navegação, conteúdo principal, etc.).
+- [ ] **Uso de regiões**: As regiões devem ser usadas para organizar o conteúdo da página de acordo com o tipo de conteúdo.
+- [ ] **Conteúdo em regiões**: Todo o conteúdo deve estar contido em regiões bem definidas.
+- [ ] **Regiões únicas**: Não deve haver mais de uma região do tipo 'header', 'main' ou 'footer'.
+- [ ] **Regiões identificadas unicamente**: Cada região deve ter um identificador único acessível.
+
+### Listas
+
+- [ ] **Semântica de lista**: Listas devem ser usadas de forma semântica, para agrupar itens de forma ordenada ou não ordenada.
+- [ ] **Uso de listas**: As listas devem agrupar itens de mesma natureza (ex.: uma lista de características, de passos, etc.).
+
+### Tabelas
+
+- [ ] **Semântica de tabela**: Tabelas devem ser usadas para apresentar dados tabulares, e não para layout visual.
+- [ ] **Uso de tabelas**: As tabelas devem ser usadas corretamente para apresentar dados, sem uso de tabelas para layout visual.
+- [ ] **Cabeçalhos de tabela**: As células de dados em tabelas devem ser associadas com cabeçalhos de linha e coluna.
+- [ ] **Título de tabela**: Toda tabela deve ter um título que a descreva.
+- [ ] **Título de tabela associado**: O título ou legenda da tabela deve ser associado corretamente à tabela.
+- [ ] **Descrição para tabelas complexas**: Tabelas complexas devem ter uma descrição textual explicando sua estrutura.
+
+### Links e Navegação
+
+- [ ] **Semântica de link**: Todos os links devem ser semânticos e indicar claramente seu propósito ou destino.
+- [ ] **Uso de links**: Os links devem ser utilizados exclusivamente para navegação.
+- [ ] **Propósito do link sem contexto**: O texto do link deve indicar claramente sua função ou destino, mesmo fora de contexto.
+- [ ] **Propósito do link no contexto**: O texto do link deve, junto com seu contexto, informar sua função ou destino.
+- [ ] **Links com identificação consistente**: Links que possuem o mesmo texto ou função devem ter identificação consistente.
+- [ ] **Links que abrem em uma nova guia ou janela**: Links que abrem novas guias ou janelas devem informar isso ao usuário.
+- [ ] **Links para arquivos (não HTML)**: Links para arquivos (PDF, DOC, etc.) devem informar o formato e tamanho do arquivo.
+- [ ] **Links para sites externos**: Links para sites externos devem indicar isso claramente.
+- [ ] **Texto complementar do link**: Evite a repetição desnecessária de texto nos links.
+- [ ] **Links adjacentes**: Não deve haver links adjacentes que levem ao mesmo destino.
+- [ ] **Links para contornar blocos de conteúdo**: Deve haver links que permitam ao usuário contornar conteúdo repetido.
+- [ ] **Links para contornar blocos de conteúdo em conjunto de páginas**: Deve haver links para contornar conteúdo repetido entre páginas.
+- [ ] **Alternativas para localização**: Deve haver mais de uma forma de encontrar uma página dentro de um conjunto de páginas.
+- [ ] **Localização em conjunto de páginas**: O usuário deve saber sua localização dentro de um conjunto de páginas ou seções.
+- [ ] **Navegação consistente**: A navegação deve ser consistente em todas as páginas do site.
+- [ ] **Ajuda consistente**: Mecanismos de ajuda devem ser consistentes em todas as páginas do site.
+
+### Botões e Controles
+
+- [ ] **Semântica de botão**: Todos os botões devem ser semanticamente definidos.
+- [ ] **Uso de botões**: Botões devem ser usados para executar uma ação clara e específica.
+- [ ] **Propósito do botão**: O texto ou nome acessível do botão deve indicar claramente sua função.
+- [ ] **Identificação consistente na página**: Botões com a mesma função devem ser identificados de forma consistente.
+- [ ] **Identificação consistente em conjunto de páginas**: A identificação de botões deve ser consistente entre páginas.
+- [ ] **Área de acionamento (aprimorada)**: A área de acionamento dos botões deve ser suficientemente grande (mínimo de 44x44 pixels).
+- [ ] **Área de acionamento (mínima)**: A área de acionamento dos botões não pode ser menor que 24x24 pixels.
+- [ ] **Mudança de contexto previsível**: Mudanças de contexto no site devem ser controladas pelo usuário, ou o usuário deve ser avisado.
+- [ ] **Mudança de contexto previsível no foco**: Nenhuma mudança de contexto deve ocorrer apenas ao mudar o foco do teclado ou posicionamento do cursor.
+- [ ] **Mudança de contexto previsível na entrada**: O usuário deve ser avisado sobre qualquer mudança de contexto ao inserir ou selecionar dados.
+- [ ] **Acionamento por ponteiro único**: Funcionalidades não devem ser acionadas pelo pressionamento do ponteiro, mas pelo **soltar** do ponteiro.
+- [ ] **Operação por gestos de ponteiro**: Funcionalidades baseadas em gestos de múltiplos toques ou movimentos devem ser acessíveis com um único ponteiro.
+
+---
+
+## Checklists de Desenvolvimento Web - Guia de Boas Práticas para Acessibilidade Digital
+
+### Desenvolvimento
+
+- [ ] **Uso do WCAG nas práticas de desenvolvimento**: Implementar as diretrizes de acessibilidade durante o processo de desenvolvimento.
+- [ ] **Evitar ferramentas "milagrosas"**: Não depender apenas de plugins ou ferramentas automáticas para garantir a acessibilidade.
+- [ ] **Testes de acessibilidade**: Realizar testes manuais e automáticos para garantir que o conteúdo está acessível para todos os tipos de deficiências.
+- [ ] **Semântica HTML**: Usar uma semântica HTML correta para garantir que os leitores de tela e tecnologias assistivas reconheçam adequadamente os elementos.
+
+---
+
+## Checklists de Desenvolvimento Web - Acessibilidade Manual para Desenvolvedores
+
+### Links
+
+- [ ] **Remetem corretamente ao destino**: Os links devem redirecionar para o destino correto e ser claros quanto à sua ação.
+- [ ] **Descrição adequada**: A descrição dos links deve ser curta, objetiva e informativa.
+- [ ] **Atalhos de teclado**: Devem ser implementados e funcionar corretamente, com descrição adequada.
+- [ ] **Uso correto de âncoras**: As âncoras devem ser descritas adequadamente e funcionar como esperado.
+- [ ] **Localização do usuário**: A página deve fornecer links que indiquem a localização do usuário nas páginas internas.
+
+### Conteúdos
+
+- [ ] **Gráficos e Imagens**: As imagens devem ser adequadamente descritas com o uso do atributo `alt`.
+- [ ] **Texto claro e conciso**: Evitar verborragia e garantir que as palavras e frases sejam compreendidas.
+- [ ] **Conteúdos em Flash**: Quando usados, devem ser descritos corretamente, e sua tabulação deve ser clara para leitores de tela.
+- [ ] **Arquivos para leitura e download**: Arquivos disponibilizados devem ser compatíveis com leitores de tela e ter extensão visível.
+- [ ] **Tabelas**: Devem ser usadas apenas quando necessárias, e seu conteúdo deve ser acessível com cabeçalhos e descrições adequadas.
+
+### Formulários
+
+- [ ] **Formulários organizados e compreensíveis**: Os campos devem ser claros e a ordem de tabulação deve estar correta.
+- [ ] **Botões**: Devem ser bem descritos e realizar as ações de forma eficaz.
+- [ ] **Caixas combinadas e de seleção**: Não devem submeter automaticamente e devem ser navegáveis com o teclado.
+- [ ] **Capcha**: Caso utilizado, deve ter uma alternativa em áudio acessível para deficientes visuais.
+
+### Estrutura do Site
+
+- [ ] **Estrutura lógica e padronizada**: A página deve ter uma estrutura clara e uniforme, facilitando a navegação.
+- [ ] **Títulos com ordem lógica**: Os títulos (h1, h2, h3) devem estar em ordem hierárquica para facilitar a navegação.
+- [ ] **Menu acessível**: O menu deve ser apresentado de forma lista, com descrição para mostrar/ocultar submenus.
+- [ ] **Sumário para conteúdos longos**: Se o conteúdo for extenso, deve haver um sumário de fácil acesso.
+- [ ] **Mapa do site**: O site deve possuir um mapa acessível com links para todas as páginas.
+
+### Acessibilidade
+
+- [ ] **Recursos para baixa visão**: O site deve permitir aumentar a fonte e oferecer contraste adequado.
+- [ ] **Dicas de navegação**: Devem ser oferecidas dicas claras de navegação para deficientes visuais.
+- [ ] **Tabulação da página**: A tabulação deve seguir uma ordem lógica, com o conteúdo sendo lido antes do menu.
+
+---
+
+## Checklists de Desenvolvimento Web - WCAG 2.2
+
+### Perceptível
+
+- [ ] **Alternativas em Texto (1.1.1)**: Forneça alternativas textuais para todo conteúdo não textual, como imagens, gráficos e ícones, exceto em casos de uso específico.
+- [ ] **Mídias com Base em Tempo (1.2.1 a 1.2.9)**:
+  - Legendas e audiodescrição para conteúdo de áudio e vídeo (pré-gravado e ao vivo).
+  - Fornecer alternativas para conteúdo de mídia baseada em tempo, como audiodescrição estendida e tradução em Língua de Sinais.
+- [ ] **Contraste Mínimo (1.4.3)**: Assegure uma relação de contraste mínima de 4.5:1 entre texto e fundo.
+- [ ] **Contraste Melhorado (1.4.6)**: Assegure uma relação de contraste de 7:1 para texto e imagens de texto.
+- [ ] **Espaçamento de Texto (1.4.12)**: O espaçamento de texto deve ser redimensionado de acordo com requisitos específicos sem perda de funcionalidade ou conteúdo.
+- [ ] **Imagens de Texto (1.4.5)**: Evite usar imagens de texto, exceto quando seja essencial ou personalizável.
+
+### Operável
+
+- [ ] **Foco Visível (2.4.7)**: Garanta que o foco de teclado seja visível e fácil de localizar.
+- [ ] **Ordem do Foco (2.4.3)**: A ordem do foco de navegação deve ser lógica e permitir que o conteúdo seja acessado de forma consistente.
+- [ ] **Atalhos de Teclado (2.1.4)**: Se forem utilizados atalhos de teclado, ofereça mecanismos para desativá-los ou remapear os atalhos.
+- [ ] **Sem Bloqueio do Teclado (2.1.2)**: Garantir que o foco de teclado possa ser removido facilmente.
+- [ ] **Limite de Tempo (2.2.3)**: Garanta que os usuários tenham a opção de ajustar ou desativar os limites de tempo.
+- [ ] **Movimentos de Arrastar (2.5.7)**: Ofereça alternativas para interações que exigem gestos de arrastar.
+- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho do alvo para interação deve ser no mínimo 44x44 pixels.
+
+### Compreensível
+
+- [ ] **Identificação do Erro (3.3.1)**: Forneça feedback claro sobre erros de entrada e sugestões de correção.
+- [ ] **Rótulos e Instruções (3.3.2)**: Garanta que todos os campos de entrada tenham rótulos claros e instrua os usuários sobre como completar as informações corretamente.
+- [ ] **Previsibilidade (3.2.2)**: A navegação e os comportamentos do site devem ser previsíveis, sem mudanças inesperadas de contexto.
+- [ ] **Entrada Redundante (3.3.7)**: Evite pedir ao usuário que forneça as mesmas informações em múltiplos formulários ou etapas de um processo.
+- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Assegure que todos os métodos de autenticação sejam acessíveis e possam ser realizados sem a necessidade de interação complexa.
+
+### Robusto
+
+- [ ] **Compatibilidade com Tecnologias Assistivas (4.1.2)**: Certifique-se de que o conteúdo da web seja compatível com tecnologias assistivas, como leitores de tela.
+- [ ] **Mensagens de Status (4.1.3)**: As mensagens de status devem ser programaticamente acessíveis para tecnologias assistivas.
+
+### Novos Critérios de Sucesso
+
+- [ ] **Foco Não Obscurecido (2.4.11 e 2.4.12)**: Garantir que o foco de teclado não seja obscurecido por conteúdo adicional da página.
+- [ ] **Aparência do Foco (2.4.13)**: O foco do teclado deve ser claramente visível e ter contraste suficiente.
+- [ ] **Gestos de Acionamento (2.5.1)**: Permitir que interações baseadas em gestos sejam substituídas por interações com um ponteiro único.
+- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho dos alvos de interação deve ser, no mínimo, de 44x44 pixels.
+- [ ] **Entrada Redundante (3.3.7)**: Evitar que o usuário tenha que preencher a mesma informação em diferentes partes do site.
+- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Fornecer métodos de autenticação acessíveis para todos os usuários.
+
 ## Referência Bibliográfica
 
 > <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html). Acesso em: 23 jun. 2025.

@@ -1,4 +1,3 @@
-
 # Design
 
 "Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
@@ -39,6 +38,28 @@
 * [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="TEC4" href="#RP4">[4]</a>
 * [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
 * [ ] <b> Verificar `::selection` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+
+## Checklists de Design - ABNT NBR 17225:2025
+
+### Contraste de Cores
+
+- [ ] **Verificar o contraste** de todo texto tamanho normal.
+- [ ] **Verificar o contraste** de todo texto tamanho grande.
+- [ ] **Verificar o contraste** de todos os ícones.
+- [ ] **Verificar o contraste** das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.).
+- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos.
+- [ ] **Verificar `::selection` cores** personalizadas.
+
+## Checklists de Design - Guia de Boas Práticas para Acessibilidade Digital
+
+### Design
+
+- [ ] **Desenho Universal**: Garantir que o design do site ou aplicativo seja acessível para todas as pessoas sem a necessidade de adaptações.
+- [ ] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops.
+- [ ] **Cores e Contrastes**: Escolher combinações de cores que sejam acessíveis, considerando as necessidades de pessoas com deficiência visual, como daltonismo.
+- [ ] **Uso adequado de fontes e espaçamento**: Usar fontes de fácil leitura e garantir que o tamanho e o espaçamento das fontes sejam acessíveis.
+
+---
 
 ## Referências Bibliográficas
 
@@ -86,8 +107,6 @@
 > Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf)
 
 > ABNT. *NBR 17225:2025 – Acessibilidade em interfaces digitais baseadas em web*. Rio de Janeiro, 2025.
-
----
 
 ## Histórico de Versões
 

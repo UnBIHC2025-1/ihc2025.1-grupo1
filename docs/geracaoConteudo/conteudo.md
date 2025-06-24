@@ -117,6 +117,23 @@
 5. **Navegação Consistente e Acessível**
    - [ ] **Manter uma estrutura de navegação consistente**, com links e botões acessíveis e com texto descritivo, que possa ser facilmente compreendido por usuários com tecnologias assistivas. <a id="TEC78" href="#RP78">[78]</a>
 
+## Checklists de Conteúdo - Guia de Boas Práticas para Acessibilidade Digital
+
+### Conteúdo
+
+- [ ] **Usar a terminologia correta**: Sempre usar a terminologia atualizada e respeitosa, como "pessoas com deficiência (PcD)".
+- [ ] **Texto claro e objetivo**: Evitar ambiguidades e criar textos claros, simples e objetivos para facilitar a compreensão.
+- [ ] **Textos alternativos em imagens**: Garantir que todas as imagens que contenham informações importantes tenham texto alternativo apropriado.
+- [ ] **Evitar usar texto dentro de imagens**: Quando possível, evitar a prática de colocar texto em imagens para garantir que o conteúdo seja acessível aos leitores de tela.
+- [ ] **Incluir legendas e transcrição para áudio e vídeo**: Garantir que vídeos e conteúdos audiovisuais sejam acessíveis por meio de legendas e transcrição.
+
+## Bibliografia
+
+> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. *Guia de Boas Práticas para Acessibilidade Digital*. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023.
+> Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf)
+
+> ABNT. *NBR 17225:2025 – Acessibilidade em interfaces digitais baseadas em web*. Rio de Janeiro, 2025.
+
 ## Referências Bibliográficas
 
 > <a id="RP20" href="#TEC20">20.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 15. Terminologia adequada para pessoas com deficiência.
@@ -236,13 +253,6 @@
 > <a id="RP77" href="#TEC77">77.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 36. Texto alternativo para imagens.
 
 > <a id="RP78" href="#TEC78">78.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 37. Navegação consistente e acessível.
-
-## Bibliografia
-
-> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. *Guia de Boas Práticas para Acessibilidade Digital*. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023.
-> Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf)
-
-> ABNT. *NBR 17225:2025 – Acessibilidade em interfaces digitais baseadas em web*. Rio de Janeiro, 2025.
 
 ## Histórico de Versões
 
