@@ -1,112 +1,106 @@
 # Desenvolvimento Web
 
-"Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para
-testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
+"Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como implementar acessibilidade, verificá-la e usar as ferramentas disponíveis no mercado para testes e padronizações. Também é importante que a equipe saiba como as pessoas com deficiência usam os sítios web e aplicativos". Nesse caso, foram incluídas técnicas relacionadas ao desenvolvimento e também formas de verificar.
 
 ## Imagens
-- [x] <b> Adicionar ``` alt ``` </b> para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar ``` alt="" ``` </b> para imagens decorativas que não tem significado. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Incluir a descrição no ``` alt ```</b> para imagens que contém texto. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] **Adicionar `alt`** para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso.
+- [ ] **Adicionar `alt=""`** para imagens decorativas que não têm significado.
+- [ ] **Incluir a descrição no `alt`** para imagens que contêm texto.
+- [ ] **Fornecer descrição detalhada** para imagens complexas (gráficos, diagramas, etc.).
+- [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
 
 ## Vídeos
-- [ ] <b> Adicionar legendas</b> para áudio em vídeos existentes. <a id="TEC2" href="#RP2">[2]</a>
-- [x] <b> Evitar conteúdo com <i>flashes</i> (gatilhos para convulsões)</b> ou manter abaixo dos limites. <a id="TEC3" href="#RP3">[3]</a>
+- [ ] **Adicionar legendas** para áudio em vídeos existentes.
+- [ ] **Evitar conteúdo com *flashes* (gatilhos para convulsões)** ou manter abaixo dos limites.
+- [ ] **Incluir audiodescrição** para vídeos com conteúdo visual relevante.
+- [ ] **Incluir janela de Libras** para vídeos com informação essencial.
+- [ ] **Fornecer transcrição** também para vídeos e áudios ao vivo.
 
 ## Controles
-- [x] <b> Adicionar ``` href ```</b> para links. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar underline</b> nos links. <a id="TEC5" href="#RP5">[5]</a>
-- [x] <b> Adicionar estados de foco</b> em campos de entrada, botões, e elementos interativos. <a id="TEC6" href="#RP6">[6]</a>
-- [x] <b> Adicionar ```type="button"```</b> nos botões. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar skip-link </b> (link para pular) para o conteúdo principal. <a id="TEC7" href="#RP7">[7]</a>
-- [x] <b> Identifique e comunique </b> links que abrem em uma nova guia ou janela. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] **Adicionar `href`** para links.
+- [ ] **Adicionar underline** nos links.
+- [ ] **Adicionar estados de foco** em campos de entrada, botões e elementos interativos.
+- [ ] **Adicionar `type="button"`** nos botões.
+- [ ] **Adicionar skip-link** (link para pular) para o conteúdo principal.
+- [ ] **Identifique e comunique** links que abrem em uma nova guia ou janela.
+- [ ] **Evitar mudanças de contexto por foco ou entrada**, ou informar ao usuário.
+- [ ] **Permitir desfazer ações feitas por clique ou toque**.
+- [ ] **Evitar acionamento com down-event apenas** (usar up-event ou alternativa).
 
 ## Formulário
-- [x] <b> Adicionar ``` label ```</b> para os campos de entradas associadas ao elemento correspondente. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Adicionar ``` <fildset> ``` e ``` <legend> ```</b> para seção no formulário. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar ``` autocomplete ```</b> para campos de entrada. <a id="TEC10" href="#RP10">[10]</a>
-- [ ] <b> Exibir ``` errors ``` </b> (erros) de entrada acima do formulário, após envio. <a id="TEC11" href="#RP11">[11]</a>
-- [x] <b> Adicionar ``` aria-describedby ```</b> para os campos de entrada. <a id="TEC11" href="#RP11">[11]</a>
-- [ ] <b> Exibir mensagens de erro e sucesso</b> não só visualmente. <a id="TEC5" href="#RP5">[5]</a>
+- [ ] **Adicionar `label`** para os campos de entrada associados ao elemento correspondente.
+- [ ] **Adicionar `<fieldset>` e `<legend>`** para seções no formulário.
+- [ ] **Adicionar `autocomplete`** para campos de entrada.
+- [ ] **Exibir `errors`** (erros) de entrada acima do formulário, após envio.
+- [ ] **Adicionar `aria-describedby`** para os campos de entrada.
+- [ ] **Exibir mensagens de erro e sucesso** não só visualmente.
+- [ ] **Evitar solicitar reentrada de informações já fornecidas.**
+- [ ] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
 
 ## Mídia
-- [x] <b> Impedir ``` autoplay ```</b> para vídeos e audios. <a id="TEC12" href="#RP12">[12]</a>
-- [ ] <b> Adicionar ``` type ```</b> para botões e entradas. <a id="TEC4" href="#RP4">[4]</a>
-- [x] <b> Adicionar pausa </b> para todas as mídias. <a id="TEC13" href="#RP13">[13]</a>
-- [x] <b> Adicionar transcrição </b> para audios. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] **Impedir `autoplay`** para vídeos e áudios.
+- [ ] **Adicionar `type`** para botões e entradas.
+- [ ] **Adicionar pausa** para todas as mídias.
+- [ ] **Adicionar transcrição** para áudios.
 
 ## Semântica
-- [x] Uso de elementos <b>nativos HTML</b>. 
-- [x] Fluxo continuo e <b>Lógico</b>. 
-- [x] Tem <b>descrições</b> que podem ser <b>facilmente compreendidas</b>. 
-- [x] Tem a <b>semântica correta</b>. 
-- [x] É <b>objetivo</b> nos <b>rótulos</b>. 
+- [ ] Uso de elementos **nativos HTML**.
+- [ ] Fluxo contínuo e **lógico**.
+- [ ] Tem **descrições** que podem ser **facilmente compreendidas**.
+- [ ] Tem a **semântica correta**.
+- [ ] É **objetivo** nos **rótulos**.
 
 ## Texto
-- [ ] <b>Evitar</b> o uso de <b>textos dentro de imagens</b>. 
-- [x] <b>Redimensiona os textos na página</b>, aumentando o zoom em até 200%. 
-- [ ] <b>Alturas </b> das fontes <b> não é fixa </b>. 
+- [ ] **Evitar** o uso de **textos dentro de imagens**.
+- [ ] **Redimensiona os textos na página**, aumentando o zoom em até 200%.
+- [ ] **Alturas** das fontes **não são fixas**.
+- [ ] **Garantir espaçamento entre letras, palavras e parágrafos**.
 
 ## Teclado
-- [ ] <b> Funcionalidades </b> da página web estão <b> disponíveis por teclado </b>. 
-- [ ] Quando se tem o <b>mouseover é permitido o uso de teclado </b>. 
-- [ ] <b>Foco visível</b> remova elementos focalizáveis ​​invisíveis. 
-- [ ] Adicione o <b> ``` .hover, .focus { } ```</b>  para tornar o foco visível. 
-- [ ] Permite/visa o uso de <b> Atalhos de teclado </b> como o ```TAB```. 
-- [ ] <b> Primeiro </b> item interativo da página é um link para o <b> conteúdo principal </b>. 
+- [ ] **Funcionalidades** da página web estão **disponíveis por teclado**.
+- [ ] Quando se tem o **mouseover é permitido o uso de teclado**.
+- [ ] **Foco visível** – remova elementos focalizáveis ​​invisíveis.
+- [ ] Adicionar o **`.hover, .focus {}`** para tornar o foco visível.
+- [ ] Permite/visa o uso de **atalhos de teclado** como o `TAB`.
+- [ ] **Primeiro** item interativo da página é um link para o **conteúdo principal**.
+- [ ] **Evitar atalhos com teclas únicas** ou permitir desativar/remapear.
+- [ ] **Fornecer instruções** para uso de componentes customizados.
 
 ## Título
-- [ ] A <b>hierarquia</b> de conteúdo da página é definida por sua <b>lógica</b> não pelo tamanaho do texto. <a id="TEC17" href="#RP17">[17]</a>
-- [ ] Use <b>elementos de título  ``` h1 h2 h3 ```</b> para apresentar o conteúdo.<a id="TEC17" href="#RP17">[17]</a>
-- [ ] <b>Não pular níveis lógicos</b>.
-- [ ] <b>Toda página contem um título  ``` h1 ```</b> descrevendo a página. <a id="TEC17" href="#RP17">[17]</a></b><a id="TEC19" href="#RP19">[19]</a>
+- [ ] A **hierarquia** de conteúdo da página é definida por sua **lógica**, não pelo tamanho do texto.
+- [ ] Use **elementos de título `h1 h2 h3`** para apresentar o conteúdo.
+- [ ] **Não pular níveis lógicos**.
+- [ ] **Toda página contém um título `h1`** descrevendo a página.
 
 ## Tabela
-- [ ] <b> Use o ``` table ``` </b> para elementos em formato de tabela.  <a id="TEC4" href="#RP4">[4]</a>
-- [ ] Insira cabeçalhos para explicar os dados, <b>use ``` th ``` com  ``` scope ``` correto</b>.<a id="TEC15" href="#RP15">[15]</a>
-- [ ] <b> Use o ``` captione ``` </b> lemento para fornecer um título para a tabela.<a id="TEC17" href="#RP17">[17]</a>
+- [ ] **Use o `table`** para elementos em formato de tabela.
+- [ ] Insira cabeçalhos para explicar os dados, **use `th` com `scope` correto**.
+- [ ] **Use o `caption`** para fornecer um título para a tabela.
+- [ ] **Associação semântica entre cabeçalhos e células**.
+- [ ] **Evitar uso de tabelas para layout**.
 
 ## Modais
-- [ ] Deve ser <b> fácil fechar </b>.<a id="TEC19" href="#RP19">[19]</a>
-- [ ] Permiti o <b> uso da tecla escape ``` ESC ```</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] A interação é  uma <b> tarefa simples</b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Evita </b> modais em <b> tela cheia </b>.</b><a id="TEC19" href="#RP19">[19]</a>
-- [ ] <b> Não abrir um modal a partir de outro modal </b>.</b><a id="TEC19" href="#RP19">[19]</a>
+- [ ] Deve ser **fácil fechar**.
+- [ ] Permitir o **uso da tecla escape `ESC`**.
+- [ ] A interação é uma **tarefa simples**.
+- [ ] **Evita** modais em **tela cheia**.
+- [ ] **Não abrir um modal a partir de outro modal**.
 
-## Dispositivo Móvel e tocável
-- [ ] O site pode ser <b> rotacionado </b> para qualquer orientação.  <a id="TEC15" href="#RP15">[15]</a>
-- [ ] <b> Impedir </b> rolgem horizontal. <a id="TEC16" href="#RP15">[16]</a>
-- [ ] <b> Garantir </b> que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
-- [ ] <b> Garantir </b> espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
+## Dispositivo Móvel e Tocável
+- [ ] O site pode ser **rotacionado** para qualquer orientação.
+- [ ] **Impedir** rolagem horizontal.
+- [ ] **Garantir** que botões e links possam ser ativados facilmente.
+- [ ] **Garantir** espaço suficiente entre elementos interativos.
+- [ ] **Área clicável mínima de 24px CSS**, preferencialmente 44px (WCAG 2.2).
 
-## Ferramentas e extras
-- [ ] Permiti <b> pausar, parar ou ocultar conteúdo em movimento </b>.
-- [ ] Usar <b> Breadcrumbs </b> informando a localização atual nas páginas.
-- [ ] Colocar página ou <b> área de esclarecimento de dúvidas e dicas de acessibilidade </b>.
-- [ ] Áreas clicáveis com no mínimo <b> 44px (pixels) de altura e 44px de largura </b>.
-- [ ] No caso de <b>captcha</b> garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
-- [ ] Incluir um <b> campo de busca </b>.
+## Ferramentas e Extras
+- [ ] Permitir **pausar, parar ou ocultar conteúdo em movimento**.
+- [ ] Usar **breadcrumbs** informando a localização atual nas páginas.
+- [ ] Colocar página ou **área de dúvidas e dicas de acessibilidade**.
+- [ ] Áreas clicáveis com no mínimo **44px de altura e largura**.
+- [ ] No caso de **captcha**, garantir alternativa acessível.
+- [ ] Incluir um **campo de busca**.
 
-## WCAG 2.2 - Novos Critérios
-### Nível A
-- [ ] <b>2.4.11 Focus Not Obscured (Minimum)</b> - Garantir que o foco não seja completamente oculto por outro conteúdo.
-- [ ] <b>3.2.6 Consistent Help</b> - Manter mecanismos de ajuda na mesma posição em todas as páginas.
-
-### Nível AA
-- [ ] <b>2.4.12 Focus Not Obscured (Enhanced)</b> - Nenhuma parte do componente focado pode ser oculta.
-- [ ] <b>2.5.7 Dragging Movements</b> - Fornecer alternativas ao arrastar (botões ou campos de entrada).
-- [ ] <b>2.5.8 Target Size (Minimum)</b> - Áreas clicáveis de pelo menos <b>24x24 pixels CSS</b> (novo padrão).
-- [ ] <b>3.3.7 Redundant Entry</b> - Não solicitar informações já fornecidas no mesmo processo.
-- [ ] <b>3.3.8 Accessible Authentication</b> - Não exigir testes cognitivos (puzzles, cálculos) para autenticação.
-
-## Checklist ABNT NBR 17225:2025
-### Conformidade Brasileira
-- [ ] <b>Conformidade Regular</b> - atender requisitos (A+AA).
-- [ ] <b>Conformidade Plena</b> - atender requisitos + recomendações (A+AA+AAA).
-- [ ] <b>Otimização para dispositivos móveis</b> (principal meio de acesso no Brasil).
-- [ ] <b>Semântica HTML</b> determinada programaticamente.
-- [ ] <b>Nome acessível</b> para todos os componentes interativos.
-- [ ] <b>Estados e propriedades</b> definidos programaticamente.
-- [ ] <b>Ordem de leitura</b> lógica no código fonte.
 
 ## Referência Bibliográfica
 
@@ -160,3 +154,4 @@ testes e padronizações. Também é importante que a equipe saiba como as pesso
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Versão inicial | Equipe WebAAA | 17/06/2025 | - | - |
 | 2.0 | Adição de WCAG 2.2 e conformidade ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
+| 3.0 | Correção em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 23/06/2025 |
