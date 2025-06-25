@@ -1,3 +1,5 @@
+
+
 ## Checklist Final - Ferramentas Essenciais
 
 - [ ] **Validador automático** instalado (WAVE ou axe)

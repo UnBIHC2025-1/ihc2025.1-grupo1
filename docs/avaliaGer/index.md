@@ -1,6 +1,3 @@
-# Geração de conteúdo
-
-"Para produzir conteúdo digital acessível, a primeira etapa é compreender que tudo o que comunicamos impacta as pessoas; por isso, é fundamental começar pela forma como abordamos nosso público e criar a cultura e o hábito de acessibilidade digital em nossas equipes". Nesse sentido, nesta seção se apresentam boas práticas em formato de checklist para garantir acessibilidade na geração de conteúdo.
 
 ## Termos
 - [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
@@ -149,24 +146,6 @@
 - [ ] <b>Imagens de texto</b> - Evitar ou garantir que sejam essenciais com texto alternativo equivalente
 - [ ] <b>Texto alternativo para mapas de imagens</b> - Cada área interativa possui descrição adequada
 
-#### Exemplos Práticos de Texto Alternativo:
-```html
-<!-- Imagem informativa -->
-<img src="grafico-vendas.png" alt="Vendas aumentaram 25% de janeiro a março de 2024, passando de R$ 100 mil para R$ 125 mil">
-
-<!-- Imagem funcional -->
-<a href="/pesquisar"><img src="lupa.png" alt="Buscar produtos"></a>
-
-<!-- Imagem decorativa -->
-<img src="decoracao-floral.png" alt="" role="presentation">
-
-<!-- Imagem complexa -->
-<img src="organograma-empresa.png" alt="Organograma da empresa - descrição detalhada abaixo">
-<details>
-  <summary>Descrição detalhada do organograma</summary>
-  <p>O organograma mostra a estrutura hierárquica com CEO no topo, seguido por 3 diretores...</p>
-</details>
-```
 
 ### Áudio e Vídeo (Seção 5.14 da ABNT)
 - [ ] <b>Alternativa em texto para áudio</b> - Transcrição completa de todo conteúdo sonoro <a id="TEC2" href="#RP2">[2]</a>
@@ -179,25 +158,6 @@
 - [ ] <b>Áudio sem ruído</b> - Sons de fundo controláveis ou volume não interferente - Recomendação AAA
 - [ ] <b>Legendas para áudio e vídeo ao vivo</b> - Disponíveis para transmissões em tempo real
 - [ ] <b>Transcrição para áudio ao vivo</b> - Disponível para conteúdo transmitido - Recomendação AAA
-
-#### Template de Transcrição Acessível:
-```
-[TRANSCRIÇÃO DO VÍDEO]
-Título: Como criar conteúdo acessível
-Duração: 5 minutos e 30 segundos
-Idioma: Português brasileiro
-
-[00:00] [MÚSICA INSTRUMENTAL SUAVE]
-[00:05] Apresentador: Olá, eu sou João Silva, especialista em acessibilidade digital.
-[00:10] [SOM DE TECLADO DIGITANDO]
-[00:12] Apresentador: Hoje vamos aprender sobre...
-[00:15] [PAUSA - PESSOA BEBENDO ÁGUA]
-
-[AUDIODESCRIÇÃO]
-[00:00] Homem jovem, cabelos escuros, camisa azul, em estúdio com fundo branco
-[00:30] Tela do computador mostra site da empresa
-[01:15] Gráfico em barras aparece destacando crescimento de 40%
-```
 
 ### Conteúdo Textual (Seção 5.12 da ABNT)
 - [ ] <b>Espaçamento entre linhas</b> - Mínimo 1,5x o tamanho da fonte <a id="TEC3" href="#RP3">[3]</a>
@@ -214,19 +174,6 @@ Idioma: Português brasileiro
 - [ ] <b>Nível de linguagem</b> - Clara e simples ou versão alternativa simplificada - Recomendação AAA
 - [ ] <b>Pronúncia identificada</b> - Para palavras ambíguas sem contexto - Recomendação AAA
 
-#### Boas Práticas de Formatação:
-```css
-/* Espaçamento conforme ABNT NBR 17225 */
-.conteudo-texto {
-  line-height: 1.5;           /* 1.5x tamanho da fonte */
-  margin-bottom: 2em;         /* 2x entre parágrafos */
-  letter-spacing: 0.12em;     /* Entre letras quando necessário */
-  word-spacing: 0.16em;       /* Entre palavras quando necessário */
-  max-width: 80ch;            /* Máximo 80 caracteres */
-  text-align: left;           /* Alinhamento à esquerda */
-}
-```
-
 ### Cabeçalhos (Seção 5.3 da ABNT)
 - [ ] <b>Semântica de cabeçalho</b> - Todos os títulos usam elementos h1-h6 apropriados <a id="TEC4" href="#RP4">[4]</a>
 - [ ] <b>Uso correto de cabeçalhos</b> - Para identificar seções de conteúdo, não estilização
@@ -238,30 +185,6 @@ Idioma: Português brasileiro
 - [ ] <b>Semântica de lista</b> - Uso correto de ol, ul, dl conforme tipo de relacionamento <a id="TEC5" href="#RP5">[5]</a>
 - [ ] <b>Uso apropriado de listas</b> - Para agrupar itens de mesma natureza, não layout
 
-#### Exemplos de Listas Acessíveis:
-```html
-<!-- Lista ordenada (sequência importa) -->
-<ol>
-  <li>Planejamento da estratégia</li>
-  <li>Execução do projeto</li>
-  <li>Avaliação dos resultados</li>
-</ol>
-
-<!-- Lista não ordenada (sequência não importa) -->
-<ul>
-  <li>Design responsivo</li>
-  <li>Conteúdo acessível</li>
-  <li>Navegação por teclado</li>
-</ul>
-
-<!-- Lista de definições -->
-<dl>
-  <dt>WCAG</dt>
-  <dd>Web Content Accessibility Guidelines - Diretrizes de Acessibilidade para Conteúdo Web</dd>
-  <dt>ABNT</dt>
-  <dd>Associação Brasileira de Normas Técnicas</dd>
-</dl>
-```
 
 ### Links e Navegação (Seção 5.7 da ABNT)
 - [ ] <b>Semântica de link</b> - Todos os links usam elemento `<a>` com href <a id="TEC6" href="#RP6">[6]</a>
@@ -275,28 +198,6 @@ Idioma: Português brasileiro
 - [ ] <b>Texto complementar</b> - Evitar repetição desnecessária - Recomendação AAA
 - [ ] <b>Links adjacentes</b> - Não duplicar destinos próximos - Recomendação AAA
 
-#### Exemplos de Links Acessíveis:
-```html
-<!-- Link claro sobre destino -->
-<a href="/contato">Entre em contato conosco</a>
-
-<!-- Link para arquivo com informações -->
-<a href="/relatorio.pdf">
-  Relatório Anual 2024 (PDF, 2.5MB)
-  <span class="sr-only">abre em nova aba</span>
-</a>
-
-<!-- Link externo com indicação -->
-<a href="https://exemplo.com" target="_blank" rel="noopener">
-  Site da Empresa Parceira
-  <span aria-label="link externo">[↗]</span>
-</a>
-
-<!-- Link com contexto adequado -->
-<h2>Produtos</h2>
-<p>Confira nossa linha completa de produtos para escritório.</p>
-<a href="/produtos">Ver produtos</a> <!-- contexto claro pelo cabeçalho -->
-```
 
 ## Técnicas Avançadas de Conteúdo Acessível
 
@@ -399,27 +300,7 @@ Investimento: 10-15% do orçamento. Retorno: maior alcance e conformidade.
 - [ ] **Testes de usabilidade**: Incluindo pessoas com deficiência
 - [ ] **Métricas de satisfação**: NPS segmentado por tipo de usuário
 
-## Bibliografia
 
-> <a id="RP1" href="#TEC1">1.</a> ABNT. NBR 17225:2025 - Seção 5.2 Imagens. Associação Brasileira de Normas Técnicas, 2025.
-
-> <a id="RP2" href="#TEC2">2.</a> ABNT. NBR 17225:2025 - Seção 5.14 Áudio e vídeo. Associação Brasileira de Normas Técnicas, 2025.
-
-> <a id="RP3" href="#TEC3">3.</a> ABNT. NBR 17225:2025 - Seção 5.12 Conteúdo Textual. Associação Brasileira de Normas Técnicas, 2025.
-
-> <a id="RP4" href="#TEC4">4.</a> ABNT. NBR 17225:2025 - Seção 5.3 Cabeçalhos. Associação Brasileira de Normas Técnicas, 2025.
-
-> <a id="RP5" href="#TEC5">5.</a> ABNT. NBR 17225:2025 - Seção 5.5 Listas. Associação Brasileira de Normas Técnicas, 2025.
-
-> <a id="RP6" href="#TEC6">6.</a> ABNT. NBR 17225:2025 - Seção 5.7 Links e Navegação. Associação Brasileira de Normas Técnicas, 2025.
-
-> ABNT. NBR 17225:2025 - Acessibilidade em conteúdo para a web. Associação Brasileira de Normas Técnicas, 2025.
-
-> Academia de Acessibilidade. Checklist Norma ABNT NBR 17225. Disponível em: [https://www.academiadeacessibilidade.com.br/ferramentas/checklist-abnt/](https://www.academiadeacessibilidade.com.br/ferramentas/checklist-abnt/). Acesso em: 17 Jun. 2025.
-
-> W3C. Web Content Accessibility Guidelines (WCAG) 2.2. World Wide Web Consortium, 2023. Disponível em: [https://www.w3.org/TR/WCAG22/](https://www.w3.org/TR/WCAG22/). Acesso em: 17 Jun. 2025.
-
-> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
 
 ## Histórico de Versões
 
