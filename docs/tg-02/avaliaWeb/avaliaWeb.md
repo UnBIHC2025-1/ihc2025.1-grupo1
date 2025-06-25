@@ -10,7 +10,7 @@
 - [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
 
 
-# padrão de imagem do site avaliado
+### padrão de imagem do site avaliado
 ![Imagem retirada do site](../../imagens/imgAlt.png)
 
 ![ALT da imagem retirada do site](../../imagens/alt.png)
@@ -22,7 +22,7 @@
 - [ ] **Incluir janela de Libras** para vídeos com informação essencial.
 - [ ] **Fornecer transcrição** também para vídeos e áudios ao vivo.
 
-## Padrão de vídeo 
+### Padrão de vídeo 
 
 ![Vídeo retirado do site](../imagens/video.png)
 
@@ -36,7 +36,7 @@
 - [ ] **Evitar mudanças de contexto por foco ou entrada**, ou informar ao usuário.
 - [ ] **Permitir desfazer ações feitas por clique ou toque**.
 
-# Padrões de campos de entrada, links e botões
+### Padrões de campos de entrada, links e botões
 ![Link com underline retirado do site](../imagens/link.png)
 ![a href do link](../imagens/href.png)
 ![Estados de foco para navegação por teclado](../imagens/foco.png)
@@ -54,7 +54,7 @@
 - [X] **Evitar solicitar reentrada de informações já fornecidas.**
 - [X] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
 
-# Padrão de formulário:
+### Padrão de formulário:
 ![Formulário](../imagens/form.png)
 ![labels do formulário](../imagens/label.png)
 ![Erro de formulário](../imagens/erro.png)
@@ -75,7 +75,7 @@
 - [X] Tem a **semântica correta**.
 - [ ] É **objetivo** nos **rótulos**.
 
-# Elementos HTML nativos
+### Elementos HTML nativos
 
 ![Elementos HTML nativos](../imagens/nativo.png)
 
@@ -86,7 +86,7 @@
 - [X] **Alturas** das fontes **não são fixas**.
 - [X] **Garantir espaçamento entre letras, palavras e parágrafos**.
 
-# textos dentro de imagem
+### textos dentro de imagem
 
 ![Textos dentro de imagens](../imagens/textoImagem.png)
 
@@ -109,7 +109,7 @@
 - [ ] **Toda página contém um título `h1`** descrevendo a página.
 
 
-# homepage e elementos de título
+### homepage e elementos de título
 
 ![Homepage, mostrando uma visão geral ](../imagens/home.png)
 ![Elementos de título](../imagens/h3.png)
@@ -123,7 +123,7 @@
 - [ ] **Associação semântica entre cabeçalhos e células**.
 - [ ] **Evitar uso de tabelas para layout**.
 
-# Exemplos de tabela
+### Exemplos de tabela
 ![tabela](../imagens/tabela.png)
 ![inspecionar tabela](../imagens/insTab.png)
 
@@ -136,7 +136,7 @@
 - [X] **Evita** modais em **tela cheia**.
 - [X] **Não abrir um modal a partir de outro modal**.
 
-# Exemplo de modal
+### Exemplo de modal
 
 ![Modal](../imagens/mod.jpg)
 
@@ -148,7 +148,7 @@
 - [X] **Garantir** espaço suficiente entre elementos interativos.
 - [X] **Área clicável mínima de 24px CSS**, preferencialmente 44px (WCAG 2.2).
 
-# Exemplos de responsividade
+### Exemplos de responsividade
 
 ![rotação](../imagens/rot.jpg)
 ![Área mínima](../imagens/area.jpg)
@@ -162,6 +162,7 @@
 - [X] No caso de **captcha**, garantir alternativa acessível.
 - [X] Incluir um **campo de busca**.
 
+### Breadcrumbs e campo de pesquisa
 
 ![Breadcrumbs](../imagens/bread.jpg)
 
