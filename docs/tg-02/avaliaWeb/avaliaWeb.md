@@ -11,7 +11,8 @@
 
 
 ## padrão de imagem do site avaliado
-[Imagem retirada do site](../../imagens/imgAlt.png)
+![Imagem retirada do site](../../imagens/imgAlt.png)
+*Legenda da imagem: ALT da imagem retirada do site*
 
 ![ALT da imagem retirada do site](../../imagens/alt.png)
 
