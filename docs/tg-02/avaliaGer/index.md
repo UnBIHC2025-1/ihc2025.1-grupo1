@@ -1,14 +1,18 @@
-
-## Termos
-- [ ] Sempre utilize o termo "pessoas com deficiência" (PCD) e depois complemente: visual, física, intelectual, múltipla, pessoa  surda, pessoa cega, usuária de cadeira de rodas (cadeirante), tetraplégica, paraplégica, pessoa com nanismo, com baixa visão, pessoa autista, disléxica, neurodiversa ou neurodivergente.  
-
 ## Textos
-- [ ] Usar textos descomplicados e objetivos. 
-- [ ] Usar de palavras conhecidas. 
-- [ ] Evitar figuras de linguagem. e frases com "senso de ugência" 
-- [ ] Usar pontuação adequada. 
+- [x] Usar textos descomplicados e objetivos. 
+- [x] Uso de palavras conhecidas. 
+- [ ] Evitar figuras de linguagem e frases com "senso de ugência".
+- [x] Usar pontuação adequada. 
 - [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). 
-- [ ] Usar preferencialmente a ordem direta nas orações. 
+- [x] Usar preferencialmente a ordem direta nas orações. 
+
+<center>
+
+![Textos](.\imagens\textos1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 1: </b>Imagem de uma das notícias na homepage da PCDF. Demonstra a existência ou inexistência de todos os itens da seção. </p></font>
 
 ## Descrição de imagens
 - [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e " o que / quem"). 
@@ -16,197 +20,144 @@
 - [ ] Descrever a ação (o que faz, como faz). 
 - [ ] Referenciar. 
 
+<center>
+
+![Textos](.\imagens\descricao_de_imagens1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 2: </b>Imagem do código HTML da homepage da PCDF. Nenhum dos critérios acima são contemplados. </p></font>
+
 ## Descrição de imagens complexas
-- [ ] Posicionar gráfico, quadrinhos, quadros e outras imagens compexas em um local separado. 
-- [ ] Descrição sucinta no texto alternativo. 
+- [ ] Descrição sucinta no texto alternativo.
+
+<center>
+
+![Textos](.\imagens\descricao_de_imagens_complexas1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 3: </b>Imagem do código HTML da homepage da PCDF. A frase "197 Denúncia on-line", apesar de sucinta, não descreve o tipo de imagem, ação e nem contexto visual. </p></font>
 
 ## Ícones
-- [ ] Adicionar iconografia. 
-- [ ] Adicionar ícone e texto. 
+- [x] Adicionar iconografia. 
+
+<center>
+
+![Textos](.\imagens\icones1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 4: </b>Imagem do código HTML da homepage da PCDF. Uso de imagens como ícones funcionais associados a links. </p></font>
+
+- [x] Adicionar ícone e texto. 
+
+<center>
+
+![Textos](.\imagens\icones2.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 5: </b>Imagem do código HTML da homepage da PCDF. A maior parte dos ícones tem texto adjacente (por exemplo, “Portal do Servidor”). </p></font>
+
 - [ ] Adicionar texto alternativo para ícones clicáveis. 
+
+<center>
+
+![Textos](.\imagens\icones3.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 6: </b>Imagem do código HTML da homepage da PCDF. Os ícones sem alt, sem aria-label e com title vazio. </p></font>
+
 - [ ] Descrever no texto alternativo, quando necessário usá-lo, a ação da pessoa usuária e para onde será direcionada. 
 
-## Mídias de vídeo
-- [ ] Adicionar descritivo curto para vídeos. 
-- [ ] Optar pro legendas: Open Caption e Closed Caption para vídeos. 
+<center>
 
-## Autodescrição
-- [ ] Adionar autodescrição no roteiro dos vídeos 
+![Textos](.\imagens\icones4.png)
 
-# Podcasts
-- [ ] Transcrever o conteúdo do episódio. 
-- [ ] Incluir além da partes faladas, como sons de fundos, efeitos sonoros, quem está falando etc. 
-- [ ] Inserir um avatar na página falada para a interpretção do texto transcrito para Libras. 
-- [ ] Considerar também formato de vídeo.
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 7: </b>Imagem do código HTML da homepage da PCDF. Nenhum desses links com ícones sociais avisa que abrirá uma nova aba ou levará para um site externo, como exige a WCAG. </p></font>
 
 ## Hashtags e Emojis
-- [ ] Em hashtags, utilize a primeira letra de cada palavra em maiúsculas para que leitores possam identificar palavras corretamente. 
-- [ ] Não abusar de emojis, pois nem sempre sua descrição é suficiente para um bom entendimento. 
+- [x] Não abusar de emojis, pois nem sempre sua descrição é suficiente para um bom entendimento. 
 
 ## Hiperlinks
 - [ ] Descrição de links e botões devem ser compreensíveis de maneira maneira isolada. 
 
+<center>
+
+![Textos](.\imagens\hiperlinks1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 8: </b>Imagem do código HTML da homepage da PCDF. O hiperlink “Leia mais”, isoladamente, não indica o destino ou contexto do conteúdo, o que compromete a acessibilidade. </p></font>
+
 ## WCAG 2.2 - Atualizações para Conteúdo
 
 ### Ajuda Consistente
-- [ ] <b>Localização consistente</b> de links de ajuda, chat, FAQ em todas as páginas.
-- [ ] <b>Mesma ordem</b> quando múltiplas opções de ajuda são oferecidas.
+- [x] <b>Localização consistente</b> de links de ajuda, chat, FAQ em todas as páginas.
+- [x] <b>Mesma ordem</b> quando múltiplas opções de ajuda são oferecidas.
 - [ ] <b>Texto idêntico</b> para os mesmos mecanismos de ajuda.
 
-### Entrada Redundante
-- [ ] <b>Não repetir solicitações</b> de informações já fornecidas.
-- [ ] <b>Autocompletar dados</b> quando possível.
-- [ ] <b>Permitir seleção</b> de informações previamente inseridas.
+<center>
+
+![Textos](.\imagens\ajudaconsistente1.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Imagem 9: </b>Imagem do rodapé do site da PCDF. Quase todos os critérios acima são contemplados. </p></font>
 
 ## Norma ABNT - Conteúdo Acessível
 
 ### Linguagem e Comunicação
-- [ ] <b>Português brasileiro claro</b> - evitar regionalismos excessivos.
-- [ ] <b>Frases na ordem direta</b> - sujeito, verbo, complemento.
-- [ ] <b>Parágrafos curtos</b> - máximo 5 linhas quando possível.
-- [ ] <b>Listas e tópicos</b> para facilitar leitura.
-- [ ] <b>Definir siglas</b> na primeira ocorrência.
+- [x] <b>Português brasileiro claro</b> - evitar regionalismos excessivos.
+- [x] <b>Listas e tópicos</b> para facilitar leitura.
+- [x] <b>Definir siglas</b> na primeira ocorrência.
 
-### Multimídia Acessível
-- [ ] <b>Audiodescrição</b> em vídeos com informação visual relevante.
-- [ ] <b>Legendas em português</b> - não apenas tradução automática.
-- [ ] <b>Janela de LIBRAS</b> quando apropriado.
-- [ ] <b>Controles acessíveis</b> para reprodução de mídia.
+<center>
 
-## Norma ABNT NBR 17225:2025 - Checklist Completo para Conteúdo
+![Textos](.\imagens\linguagem_e_comunicacao1.png)
 
-### Imagens (Seção 5.2 da ABNT)
-- [ ] <b>Texto alternativo para imagens de conteúdo</b> - Todas as imagens informativas possuem descrição precisa do conteúdo <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b>Texto alternativo para imagens funcionais</b> - Imagens clicáveis descrevem a funcionalidade, não a aparência
-- [ ] <b>Texto alternativo para imagens decorativas</b> - alt="" ou implementação que permita ignorar por tecnologia assistiva
-- [ ] <b>Descrição para imagens complexas</b> - Gráficos e diagramas com texto alternativo curto + descrição detalhada disponível
-- [ ] <b>Imagens de texto</b> - Evitar ou garantir que sejam essenciais com texto alternativo equivalente
-- [ ] <b>Texto alternativo para mapas de imagens</b> - Cada área interativa possui descrição adequada
+</center>
 
-### Áudio e Vídeo (Seção 5.14 da ABNT)
-- [ ] <b>Alternativa em texto para áudio</b> - Transcrição completa de todo conteúdo sonoro <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b>Legendas descritivas para vídeo</b> - Closed caption equivalente ao conteúdo do áudio
-- [ ] <b>Transcrição para vídeo</b> - Alternativa textual completa (visual + sonoro) - Recomendação AAA
-- [ ] <b>Audiodescrição para vídeo</b> - Narração do conteúdo visual relevante
-- [ ] <b>Audiodescrição estendida</b> - Versão com pausas prolongadas quando necessário - Recomendação AAA
-- [ ] <b>Janela de Libras</b> - Intérprete para conteúdo em áudio pré-gravado - Recomendação AAA
-- [ ] <b>Controle de áudio</b> - Mecanismo para pausar, parar ou ajustar volume sem afetar sistema
-- [ ] <b>Áudio sem ruído</b> - Sons de fundo controláveis ou volume não interferente - Recomendação AAA
-- [ ] <b>Legendas para áudio e vídeo ao vivo</b> - Disponíveis para transmissões em tempo real
-- [ ] <b>Transcrição para áudio ao vivo</b> - Disponível para conteúdo transmitido - Recomendação AAA
+<font size="3"><p style="text-align: center"><b>Imagem 10: </b>Imagem do rodapé do site da PCDF. Quase todos os critérios acima são contemplados. </p></font>
+
+## Norma ABNT NBR 17225:2025 - Checklist C
 
 ### Conteúdo Textual (Seção 5.12 da ABNT)
 - [ ] <b>Espaçamento entre linhas</b> - Mínimo 1,5x o tamanho da fonte <a id="TEC3" href="#RP3">[3]</a>
-- [ ] <b>Espaçamento entre parágrafos</b> - Mínimo 2x o tamanho da fonte
-- [ ] <b>Espaçamento entre letras</b> - Mínimo 0,12x o tamanho da fonte quando configurável
-- [ ] <b>Espaçamento entre palavras</b> - Mínimo 0,16x o tamanho da fonte quando configurável
-- [ ] <b>Alinhamento de blocos de texto</b> - À esquerda para português, evitar justificado
-- [ ] <b>Largura de blocos de texto</b> - Máximo 80 caracteres por linha
-- [ ] <b>Texto redimensionado</b> - Funcional até 200% de zoom sem scroll horizontal
+- [x] <b>Alinhamento de blocos de texto</b> - À esquerda para português, evitar justificado
+- [x] <b>Largura de blocos de texto</b> - Máximo 80 caracteres por linha
+- [x] <b>Texto redimensionado</b> - Funcional até 200% de zoom sem scroll horizontal
 - [ ] <b>Semântica de texto especial</b> - Ênfase, citações, abreviações marcadas programaticamente
 - [ ] <b>Uso correto de texto especial</b> - Elementos semânticos para seus propósitos reais
 - [ ] <b>Definições de significado</b> - Mecanismo para termos técnicos e jargões - Recomendação AAA
 - [ ] <b>Siglas e abreviaturas</b> - Forma expandida disponível - Recomendação AAA
-- [ ] <b>Nível de linguagem</b> - Clara e simples ou versão alternativa simplificada - Recomendação AAA
-- [ ] <b>Pronúncia identificada</b> - Para palavras ambíguas sem contexto - Recomendação AAA
 
 ### Cabeçalhos (Seção 5.3 da ABNT)
-- [ ] <b>Semântica de cabeçalho</b> - Todos os títulos usam elementos h1-h6 apropriados <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b>Uso correto de cabeçalhos</b> - Para identificar seções de conteúdo, não estilização
+- [x] <b>Semântica de cabeçalho</b> - Todos os títulos usam elementos h1-h6 apropriados <a id="TEC4" href="#RP4">[4]</a>
+- [x] <b>Uso correto de cabeçalhos</b> - Para identificar seções de conteúdo, não estilização
 - [ ] <b>Cabeçalho principal</b> - Um único h1 por página identificando o conteúdo - Recomendação AAA
-- [ ] <b>Seções com cabeçalhos</b> - Todas as seções possuem títulos identificadores - Recomendação AAA
 - [ ] <b>Estrutura hierárquica</b> - Sequência lógica sem pular níveis (h1→h2→h3)
 
 ### Links e Navegação (Seção 5.7 da ABNT)
-- [ ] <b>Semântica de link</b> - Todos os links usam elemento `<a>` com href <a id="TEC5" href="#RP5">[5]</a>
-- [ ] <b>Uso correto de links</b> - Para navegação, não para acionar funcionalidades
-- [ ] <b>Propósito do link sem contexto</b> - Texto claro sobre destino/função - Recomendação AAA
-- [ ] <b>Propósito do link no contexto</b> - Compreensível com contexto ao redor - Requisito AA
-- [ ] <b>Links com identificação consistente</b> - Mesmo texto para mesmo destino - Recomendação AAA
-- [ ] <b>Links em nova guia/janela</b> - Informar sobre mudança de contexto - Recomendação AAA
-- [ ] <b>Links para arquivos</b> - Informar formato e tamanho - Recomendação AAA
-- [ ] <b>Links para sites externos</b> - Indicar quando sai do domínio - Recomendação AAA
+- [x] <b>Semântica de link</b> - Todos os links usam elemento `<a>` com href <a id="TEC5" href="#RP5">[5]</a>
+- [x] <b>Uso correto de links</b> - Para navegação, não para acionar funcionalidades
+- [x] <b>Links em nova guia/janela</b> - Informar sobre mudança de contexto - Recomendação AAA
 
 ## Guia UK-Brasil - Conteúdo Inclusivo
 
 ### Considerações Culturais
-- [ ] <b>Exemplos contextualizados</b> para realidade brasileira.
-- [ ] <b>Evitar referências culturais</b> excludentes.
-- [ ] <b>Considerar diversidade regional</b> do Brasil.
-- [ ] <b>Linguagem neutra</b> quando apropriado.
-- [ ] <b>Respeitar diferentes níveis</b> de escolaridade.
+- [x] <b>Exemplos contextualizados</b> para realidade brasileira.
+- [x] <b>Evitar referências culturais</b> excludentes.
+- [x] <b>Linguagem neutra</b> quando apropriado.
+- [x] <b>Respeitar diferentes níveis</b> de escolaridade.
 
-## Norma ABNT NBR 17225:2025 - Checklist Completo para Conteúdo
-
-### Imagens (Seção 5.2 da ABNT)
-- [ ] <b>Texto alternativo para imagens de conteúdo</b> - Todas as imagens informativas possuem descrição precisa do conteúdo <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b>Texto alternativo para imagens funcionais</b> - Imagens clicáveis descrevem a funcionalidade, não a aparência
-- [ ] <b>Texto alternativo para imagens decorativas</b> - alt="" ou implementação que permita ignorar por tecnologia assistiva
-- [ ] <b>Descrição para imagens complexas</b> - Gráficos e diagramas com texto alternativo curto + descrição detalhada disponível
-- [ ] <b>Imagens de texto</b> - Evitar ou garantir que sejam essenciais com texto alternativo equivalente
-- [ ] <b>Texto alternativo para mapas de imagens</b> - Cada área interativa possui descrição adequada
-
-
-### Áudio e Vídeo (Seção 5.14 da ABNT)
-- [ ] <b>Alternativa em texto para áudio</b> - Transcrição completa de todo conteúdo sonoro <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b>Legendas descritivas para vídeo</b> - Closed caption equivalente ao conteúdo do áudio
-- [ ] <b>Transcrição para vídeo</b> - Alternativa textual completa (visual + sonoro) - Recomendação AAA
-- [ ] <b>Audiodescrição para vídeo</b> - Narração do conteúdo visual relevante
-- [ ] <b>Audiodescrição estendida</b> - Versão com pausas prolongadas quando necessário - Recomendação AAA
-- [ ] <b>Janela de Libras</b> - Intérprete para conteúdo em áudio pré-gravado - Recomendação AAA
-- [ ] <b>Controle de áudio</b> - Mecanismo para pausar, parar ou ajustar volume sem afetar sistema
-- [ ] <b>Áudio sem ruído</b> - Sons de fundo controláveis ou volume não interferente - Recomendação AAA
-- [ ] <b>Legendas para áudio e vídeo ao vivo</b> - Disponíveis para transmissões em tempo real
-- [ ] <b>Transcrição para áudio ao vivo</b> - Disponível para conteúdo transmitido - Recomendação AAA
-
-### Conteúdo Textual (Seção 5.12 da ABNT)
-- [ ] <b>Espaçamento entre linhas</b> - Mínimo 1,5x o tamanho da fonte <a id="TEC3" href="#RP3">[3]</a>
-- [ ] <b>Espaçamento entre parágrafos</b> - Mínimo 2x o tamanho da fonte
-- [ ] <b>Espaçamento entre letras</b> - Mínimo 0,12x o tamanho da fonte quando configurável
-- [ ] <b>Espaçamento entre palavras</b> - Mínimo 0,16x o tamanho da fonte quando configurável
-- [ ] <b>Alinhamento de blocos de texto</b> - À esquerda para português, evitar justificado
-- [ ] <b>Largura de blocos de texto</b> - Máximo 80 caracteres por linha
-- [ ] <b>Texto redimensionado</b> - Funcional até 200% de zoom sem scroll horizontal
-- [ ] <b>Semântica de texto especial</b> - Ênfase, citações, abreviações marcadas programaticamente
-- [ ] <b>Uso correto de texto especial</b> - Elementos semânticos para seus propósitos reais
-- [ ] <b>Definições de significado</b> - Mecanismo para termos técnicos e jargões - Recomendação AAA
-- [ ] <b>Siglas e abreviaturas</b> - Forma expandida disponível - Recomendação AAA
-- [ ] <b>Nível de linguagem</b> - Clara e simples ou versão alternativa simplificada - Recomendação AAA
-- [ ] <b>Pronúncia identificada</b> - Para palavras ambíguas sem contexto - Recomendação AAA
-
-### Cabeçalhos (Seção 5.3 da ABNT)
-- [ ] <b>Semântica de cabeçalho</b> - Todos os títulos usam elementos h1-h6 apropriados <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b>Uso correto de cabeçalhos</b> - Para identificar seções de conteúdo, não estilização
-- [ ] <b>Cabeçalho principal</b> - Um único h1 por página identificando o conteúdo - Recomendação AAA
-- [ ] <b>Seções com cabeçalhos</b> - Todas as seções possuem títulos identificadores - Recomendação AAA
-- [ ] <b>Estrutura hierárquica</b> - Sequência lógica sem pular níveis (h1→h2→h3)
-
-### Listas (Seção 5.5 da ABNT)
-- [ ] <b>Semântica de lista</b> - Uso correto de ol, ul, dl conforme tipo de relacionamento <a id="TEC5" href="#RP5">[5]</a>
-- [ ] <b>Uso apropriado de listas</b> - Para agrupar itens de mesma natureza, não layout
-
-
-### Links e Navegação (Seção 5.7 da ABNT)
-- [ ] <b>Semântica de link</b> - Todos os links usam elemento `<a>` com href <a id="TEC6" href="#RP6">[6]</a>
-- [ ] <b>Uso correto de links</b> - Para navegação, não para acionar funcionalidades
-- [ ] <b>Propósito do link sem contexto</b> - Texto claro sobre destino/função - Recomendação AAA
-- [ ] <b>Propósito do link no contexto</b> - Compreensível com contexto ao redor - Requisito AA
-- [ ] <b>Links com identificação consistente</b> - Mesmo texto para mesmo destino - Recomendação AAA
-- [ ] <b>Links em nova guia/janela</b> - Informar sobre mudança de contexto - Recomendação AAA
-- [ ] <b>Links para arquivos</b> - Informar formato e tamanho - Recomendação AAA
-- [ ] <b>Links para sites externos</b> - Indicar quando sai do domínio - Recomendação AAA
-- [ ] <b>Texto complementar</b> - Evitar repetição desnecessária - Recomendação AAA
-- [ ] <b>Links adjacentes</b> - Não duplicar destinos próximos - Recomendação AAA
-
+## Norma ABNT NBR 17225:2025 - Checklist
 
 ## Técnicas Avançadas de Conteúdo Acessível
-
-### Linguagem Clara e Simples
-- [ ] <b>Frases curtas</b> - Máximo 25 palavras por frase
-- [ ] <b>Parágrafos concisos</b> - Máximo 5 frases por parágrafo
-- [ ] <b>Vocabulário comum</b> - Evitar jargões desnecessários
-- [ ] <b>Voz ativa</b> - Preferir construções diretas
-- [ ] <b>Conectores lógicos</b> - Usar palavras que indicam relação entre ideias
 
 ### Estruturação de Informação
 - [ ] <b>Pirâmide invertida</b> - Informação mais importante primeiro
@@ -215,89 +166,15 @@
 - [ ] <b>Resumos executivos</b> - Para conteúdos longos
 - [ ] <b>Índices navegáveis</b> - Links para seções específicas
 
-### Redação para Diferentes Públicos
-```markdown
-## Versão Técnica (Especialistas)
-A implementação de acessibilidade digital conforme WCAG 2.2 AA 
-requer análise heurística complementada por testes automatizados 
-utilizando axe-core e validação manual com tecnologias assistivas.
-
-## Versão Simplificada (Público Geral)
-Para tornar um site acessível:
-1. Teste com ferramentas automáticas
-2. Verifique se funciona só com teclado  
-3. Confirme se leitores de tela conseguem navegar
-
-## Versão para Tomadores de Decisão (Executivos)
-Sites acessíveis atendem 15% mais usuários e reduzem riscos legais. 
-Investimento: 10-15% do orçamento. Retorno: maior alcance e conformidade.
-```
-
 ### Adaptação Cultural para Brasil
-- [ ] <b>Referências nacionais</b> - Usar exemplos brasileiros quando possível
-- [ ] <b>Moeda e medidas</b> - Real brasileiro, sistema métrico
-- [ ] <b>Datas e horários</b> - Formato brasileiro (DD/MM/AAAA)
+- [x] <b>Referências nacionais</b> - Usar exemplos brasileiros quando possível
+- [x] <b>Moeda e medidas</b> - Real brasileiro, sistema métrico
+- [x] <b>Datas e horários</b> - Formato brasileiro (DD/MM/AAAA)
 - [ ] <b>Legislação aplicável</b> - LBI, Decreto 5.296, ABNT NBR 17225
-- [ ] <b>Órgãos e instituições</b> - Referências a entidades brasileiras
-
-### Conteúdo Multimídia Avançado
-
-#### Podcast Acessível - Checklist Completo:
-- [ ] <b>Transcrição literal</b> - Todas as falas, incluindo hesitações e correções
-- [ ] <b>Identificação de falantes</b> - Nome ou função de quem fala
-- [ ] <b>Descrição de áudio</b> - Música, efeitos sonoros, ambiente
-- [ ] <b>Marcação temporal</b> - Timestamps para navegação
-- [ ] <b>Formatação estruturada</b> - Cabeçalhos, listas para organizar conteúdo
-- [ ] <b>Links mencionados</b> - Lista de recursos citados
-- [ ] <b>Correções e erratas</b> - Indicar quando há erros corrigidos
-- [ ] <b>Glossário</b> - Definir termos técnicos mencionados
-
-#### Vídeo 100% Acessível - Padrão Ouro:
-- [ ] <b>Roteiro pré-aprovado</b> com audiodescrição integrada
-- [ ] <b>Legendas profissionais</b> - Não automáticas, revisadas por humanos
-- [ ] <b>Contraste adequado</b> - Textos e elementos visuais 4.5:1 mínimo
-- [ ] <b>Velocidade adequada</b> - Máximo 160 palavras por minuto para leitura de legendas
-- [ ] <b>Pausas estratégicas</b> - Para permitir processamento da informação
-- [ ] <b>Janela de LIBRAS</b> - Posicionada sem obstruir conteúdo importante
-- [ ] <b>Transcrição interativa</b> - Sincronizada com vídeo, pesquisável
-- [ ] <b>Chaptering</b> - Divisão em capítulos navegáveis
-- [ ] <b>Versões alternativas</b> - Somente áudio, texto estendido
-- [ ] <b>Metadados acessíveis</b> - Título, descrição, tags descritivas
-
-## Ferramentas para Criação de Conteúdo Acessível
-
-### Verificação de Legibilidade
-- [ ] **Índice Flesch**: Pontuação mínima 50 (português brasileiro)
-- [ ] **Hemingway Editor**: Para simplificar frases complexas
-- [ ] **Linguee/DeepL**: Para verificar clareza de traduções
-- [ ] **Corretor ortográfico**: Sempre ativo e configurado para pt-BR
-
-### Ferramentas de Mídia
-- [ ] **Rev.com**: Transcrições profissionais
-- [ ] **Otter.ai**: Transcrição automática para revisão
-- [ ] **Subtitle Edit**: Criação e edição de legendas
-- [ ] **VLC Player**: Teste de legendas e audiodescrição
-- [ ] **Audacity**: Edição de áudio com marcadores de tempo
-
-### Validação de Conteúdo
-- [ ] **WAVE Web Accessibility Evaluator**: Para conteúdo web
-- [ ] **axe DevTools**: Verificação de estrutura semântica  
-- [ ] **NVDA/JAWS**: Teste com leitores de tela reais
-- [ ] **Voice Dream Reader**: Teste de qualidade da leitura sintética
-
-## Métricas de Conteúdo Acessível
-
-### KPIs de Qualidade
-- [ ] **Taxa de rejeição**: Redução em usuários com deficiência
-- [ ] **Tempo na página**: Aumento para todos os usuários
-- [ ] **Navegação por teclado**: 100% das funcionalidades acessíveis
-- [ ] **Score de legibilidade**: Flesch acima de 50
-- [ ] **Conformidade WCAG**: 100% dos critérios A e AA
+- [x] <b>Órgãos e instituições</b> - Referências a entidades brasileiras
 
 ### Feedback do Usuário
 - [ ] **Canal dedicado**: Para questões de acessibilidade
-- [ ] **Pesquisas regulares**: Com usuários de tecnologias assistivas
-- [ ] **Testes de usabilidade**: Incluindo pessoas com deficiência
 - [ ] **Métricas de satisfação**: NPS segmentado por tipo de usuário
 
 
@@ -306,4 +183,5 @@ Investimento: 10-15% do orçamento. Retorno: maior alcance e conformidade.
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
-| 1.0 |Criação da página   | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 | |  |
+| 1.0 | Criação da página   | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 | |  |
+| 2.0 | Verificação do site junto ao Checklist   | [Taynara Vitorino](https://github.com/taybalau) | 24/06/2025 | |  |
