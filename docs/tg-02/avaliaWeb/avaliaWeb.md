@@ -12,7 +12,6 @@
 
 ## padrão de imagem do site avaliado
 ![Imagem retirada do site](../../imagens/imgAlt.png)
-*Legenda da imagem: ALT da imagem retirada do site*
 
 ![ALT da imagem retirada do site](../../imagens/alt.png)
 
@@ -33,40 +32,51 @@
 - [X] **Adicionar underline** nos links.
 - [X] **Adicionar estados de foco** em campos de entrada, botões e elementos interativos.
 - [ ] **Adicionar `type="button"`** nos botões.
-- [ ] **Adicionar skip-link** (link para pular) para o conteúdo principal.
 - [ ] **Identifique e comunique** links que abrem em uma nova guia ou janela.
 - [ ] **Evitar mudanças de contexto por foco ou entrada**, ou informar ao usuário.
 - [ ] **Permitir desfazer ações feitas por clique ou toque**.
-- [ ] **Evitar acionamento com down-event apenas** (usar up-event ou alternativa).
 
 # Padrões de campos de entrada, links e botões
-![Vídeo retirado do site](../imagens/link.png)
-![Vídeo retirado do site](../imagens/href.png)
-![Vídeo retirado do site](../imagens/foco.png)
+![Link com underline retirado do site](../imagens/link.png)
+![a href do link](../imagens/href.png)
+![Estados de foco para navegação por teclado](../imagens/foco.png)
+![type do botão](../imagens/type.png)
+
 
 
 ## Formulário
-- [ ] **Adicionar `label`** para os campos de entrada associados ao elemento correspondente.
+- [X] **Adicionar `label`** para os campos de entrada associados ao elemento correspondente.
 - [ ] **Adicionar `<fieldset>` e `<legend>`** para seções no formulário.
 - [ ] **Adicionar `autocomplete`** para campos de entrada.
-- [ ] **Exibir `errors`** (erros) de entrada acima do formulário, após envio.
+- [X] **Exibir `errors`** (erros) de entrada acima do formulário, após envio.
 - [ ] **Adicionar `aria-describedby`** para os campos de entrada.
 - [ ] **Exibir mensagens de erro e sucesso** não só visualmente.
-- [ ] **Evitar solicitar reentrada de informações já fornecidas.**
-- [ ] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
+- [X] **Evitar solicitar reentrada de informações já fornecidas.**
+- [X] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
+
+# Padrão de formulário:
+![Formulário](../imagens/form.png)
+![labels do formulário](../imagens/label.png)
+![Erro de formulário](../imagens/erro.png)
+
+
+
 
 ## Mídia
-- [ ] **Impedir `autoplay`** para vídeos e áudios.
+- [X] **Impedir `autoplay`** para vídeos e áudios.
 - [ ] **Adicionar `type`** para botões e entradas.
-- [ ] **Adicionar pausa** para todas as mídias.
+- [X] **Adicionar pausa** para todas as mídias.
 - [ ] **Adicionar transcrição** para áudios.
 
 ## Semântica
-- [ ] Uso de elementos **nativos HTML**.
-- [ ] Fluxo contínuo e **lógico**.
-- [ ] Tem **descrições** que podem ser **facilmente compreendidas**.
-- [ ] Tem a **semântica correta**.
+- [X] Uso de elementos **nativos HTML**.
+- [X] Fluxo contínuo e **lógico**.
+- [X] Tem **descrições** que podem ser **facilmente compreendidas**.
+- [X] Tem a **semântica correta**.
 - [ ] É **objetivo** nos **rótulos**.
+
+![Elementos HTML nativos](../imagens/nativo.png)
+
 
 ## Texto
 - [ ] **Evitar** o uso de **textos dentro de imagens**.
