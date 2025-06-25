@@ -13,7 +13,7 @@
 ## padrão de imagem do site avaliado
 ![Imagem retirada do site](../../imagens/imgAlt.png)
 
-![ALT da imagem retirada do site](../imagens/alt.png)
+![ALT da imagem retirada do site](../../imagens/alt.png)
 
 ## Vídeos
 - [ ] **Adicionar legendas** para áudio em vídeos existentes.
@@ -21,6 +21,11 @@
 - [ ] **Incluir audiodescrição** para vídeos com conteúdo visual relevante.
 - [ ] **Incluir janela de Libras** para vídeos com informação essencial.
 - [ ] **Fornecer transcrição** também para vídeos e áudios ao vivo.
+
+## Padrão de vídeo 
+
+![Vídeo retirado do site](../imagens/video.png)
+
 
 ## Controles
 - [ ] **Adicionar `href`** para links.
