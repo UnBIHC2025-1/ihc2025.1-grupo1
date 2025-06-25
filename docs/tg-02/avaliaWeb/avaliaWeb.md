@@ -10,7 +10,7 @@
 - [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
 
 
-## padrão de imagem do site avaliado
+# padrão de imagem do site avaliado
 ![Imagem retirada do site](../../imagens/imgAlt.png)
 
 ![ALT da imagem retirada do site](../../imagens/alt.png)
@@ -75,63 +75,102 @@
 - [X] Tem a **semântica correta**.
 - [ ] É **objetivo** nos **rótulos**.
 
+# Elementos HTML nativos
+
 ![Elementos HTML nativos](../imagens/nativo.png)
 
 
 ## Texto
 - [ ] **Evitar** o uso de **textos dentro de imagens**.
-- [ ] **Redimensiona os textos na página**, aumentando o zoom em até 200%.
-- [ ] **Alturas** das fontes **não são fixas**.
-- [ ] **Garantir espaçamento entre letras, palavras e parágrafos**.
+- [X] **Redimensiona os textos na página**, aumentando o zoom em até 200%.
+- [X] **Alturas** das fontes **não são fixas**.
+- [X] **Garantir espaçamento entre letras, palavras e parágrafos**.
+
+# textos dentro de imagem
+
+![Textos dentro de imagens](../imagens/textoImagem.png)
+
 
 ## Teclado
-- [ ] **Funcionalidades** da página web estão **disponíveis por teclado**.
-- [ ] Quando se tem o **mouseover é permitido o uso de teclado**.
+- [X] **Funcionalidades** da página web estão **disponíveis por teclado**.
+- [X] Quando se tem o **mouseover é permitido o uso de teclado**.
 - [ ] **Foco visível** – remova elementos focalizáveis ​​invisíveis.
-- [ ] Adicionar o **`.hover, .focus {}`** para tornar o foco visível.
-- [ ] Permite/visa o uso de **atalhos de teclado** como o `TAB`.
+- [X] Adicionar o **`.hover, .focus {}`** para tornar o foco visível.
+- [X] Permite/visa o uso de **atalhos de teclado** como o `TAB`.
 - [ ] **Primeiro** item interativo da página é um link para o **conteúdo principal**.
 - [ ] **Evitar atalhos com teclas únicas** ou permitir desativar/remapear.
 - [ ] **Fornecer instruções** para uso de componentes customizados.
 
+
 ## Título
-- [ ] A **hierarquia** de conteúdo da página é definida por sua **lógica**, não pelo tamanho do texto.
-- [ ] Use **elementos de título `h1 h2 h3`** para apresentar o conteúdo.
+- [X] A **hierarquia** de conteúdo da página é definida por sua **lógica**, não pelo tamanho do texto.
+- [X] Use **elementos de título `h1 h2 h3`** para apresentar o conteúdo.
 - [ ] **Não pular níveis lógicos**.
 - [ ] **Toda página contém um título `h1`** descrevendo a página.
 
+
+# homepage e elementos de título
+
+![Homepage, mostrando uma visão geral ](../imagens/home.png)
+![Elementos de título](../imagens/h3.png)
+
+
+
 ## Tabela
-- [ ] **Use o `table`** para elementos em formato de tabela.
+- [X] **Use o `table`** para elementos em formato de tabela.
 - [ ] Insira cabeçalhos para explicar os dados, **use `th` com `scope` correto**.
 - [ ] **Use o `caption`** para fornecer um título para a tabela.
 - [ ] **Associação semântica entre cabeçalhos e células**.
 - [ ] **Evitar uso de tabelas para layout**.
 
+# Exemplos de tabela
+![tabela](../imagens/tabela.png)
+![inspecionar tabela](../imagens/insTab.png)
+
+
+
 ## Modais
-- [ ] Deve ser **fácil fechar**.
-- [ ] Permitir o **uso da tecla escape `ESC`**.
+- [X] Deve ser **fácil fechar**.
+- [X] Permitir o **uso da tecla escape `ESC`**.
 - [ ] A interação é uma **tarefa simples**.
-- [ ] **Evita** modais em **tela cheia**.
-- [ ] **Não abrir um modal a partir de outro modal**.
+- [X] **Evita** modais em **tela cheia**.
+- [X] **Não abrir um modal a partir de outro modal**.
+
+# Exemplo de modal
+
+![Modal](../imagens/mod.jpg)
+
 
 ## Dispositivo Móvel e Tocável
-- [ ] O site pode ser **rotacionado** para qualquer orientação.
-- [ ] **Impedir** rolagem horizontal.
-- [ ] **Garantir** que botões e links possam ser ativados facilmente.
-- [ ] **Garantir** espaço suficiente entre elementos interativos.
-- [ ] **Área clicável mínima de 24px CSS**, preferencialmente 44px (WCAG 2.2).
+- [X] O site pode ser **rotacionado** para qualquer orientação.
+- [X] **Impedir** rolagem horizontal.
+- [X] **Garantir** que botões e links possam ser ativados facilmente.
+- [X] **Garantir** espaço suficiente entre elementos interativos.
+- [X] **Área clicável mínima de 24px CSS**, preferencialmente 44px (WCAG 2.2).
+
+# Exemplos de responsividade
+
+![rotação](../imagens/rot.jpg)
+![Área mínima](../imagens/area.jpg)
+
+
 
 ## Ferramentas e Extras
-- [ ] Permitir **pausar, parar ou ocultar conteúdo em movimento**.
-- [ ] Usar **breadcrumbs** informando a localização atual nas páginas.
+- [X] Usar **breadcrumbs** informando a localização atual nas páginas.
 - [ ] Colocar página ou **área de dúvidas e dicas de acessibilidade**.
 - [ ] Áreas clicáveis com no mínimo **44px de altura e largura**.
-- [ ] No caso de **captcha**, garantir alternativa acessível.
-- [ ] Incluir um **campo de busca**.
+- [X] No caso de **captcha**, garantir alternativa acessível.
+- [X] Incluir um **campo de busca**.
+
+
+![Breadcrumbs](../imagens/bread.jpg)
+
+![Campo de busca](../imagens/busca.jpg)
 
 
 ## Histórico de Versões
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
-| 1.0 | adição de checklist e inicio da avaliação de imagens | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 |  |  |
+| 1.0 | adição de checklist e inicio da avaliação de imagens | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 |[Gabriel Lopes](https://github.com/BrzGab)  | 24/06/2025 |
+| 2.0 | Aplicação de checklist no site, avaliação de desenvolvimento web concluída | [Pedro Luiz](https://github.com/pedroluizfo) | 24/06/2025 |[Gabriel Lopes](https://github.com/BrzGab)  | 24/06/2025 |
