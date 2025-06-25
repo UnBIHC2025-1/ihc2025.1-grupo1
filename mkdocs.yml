@@ -2,7 +2,8 @@ repo_url: https://github.com/UnBIHC2025-1/ihc2025.1-grupo1
 repo_name: ihc2025.1-grupo1
 
 site_url: https://unbihc2025-1.github.io/ihc2025.1-grupo1/
-site_name: WebAAA
+site_name: WebAAA - Guia de Acessibilidade Digital
+site_description: "Guia completo de acessibilidade digital baseado em WCAG 2.2, ABNT NBR 17225:2025 e Guia Brasil-Reino Unido"
 
 use_directory_urls: True
 
@@ -13,24 +14,95 @@ nav:
   - Geração de Conteúdo: 'geracaoConteudo/conteudo.md'
   - Gestão de Projetos: 'gestaoProjeto/gestaoProjeto.md'
   - Ferramentas: 'tools/ferramentas.md'
-  - Site Avaliado: 'siteAvaliado/siteAvaliado.md'
-  - Avaliação de desenvolvimento web: 'avaliaWeb/avaliaWeb.md'
-  - Avaliação de design: 'avaliaDesign/index.md'
-  - Avaliação de geração de conteúdo: 'avaliaGer/index.md'
-  - Avaliação de gestão de projeto: 'avaliaGes/index.md'
-  - Avaliação de ferramentas: 'avaliaFer/index.md'
+  - TG-02:
+    - Site Avaliado: 'tg-02/siteAvaliado/siteAvaliado.md'
+    - Avaliação Web: 'tg-02/avaliaWeb/avaliaWeb.md'
+    - Avaliação Design: 'tg-02/avaliaDesign/index.md'
+    - Avaliação Ferramentas: 'tg-02/avaliaFer/index.md'
+    - Avaliação Geração: 'tg-02/avaliaGer/index.md'  
+    - Avaliação Gestão: 'tg-02/avaliaGes/index.md'
+  - TG-03: 'tg-03/saasable-ui-main/'
 
 theme:
   name: material
   language: pt
   logo: imagens/logo-verificaaa.png
   favicon: imagens/logo-verificaaa.png
+  
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Trocar para modo escuro
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Trocar para modo claro
+  
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+    - toc.integrate
+
+plugins:
+  - search:
+      lang: pt
 
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
-      custom_checkbox: false
+      custom_checkbox: true
       clickable_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true  
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UnBIHC2025-1/ihc2025.1-grupo1
+      name: Repositório no GitHub
+  
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2025 - Equipe WebAAA - Universidade de Brasília
