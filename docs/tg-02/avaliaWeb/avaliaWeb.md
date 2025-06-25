@@ -11,13 +11,13 @@
 
 
 ## padrão de imagem do site avaliado
-![Imagem retirada do site](../../imagens/imgAlt.png)
+[Imagem retirada do site](../../imagens/imgAlt.png)
 
 ![ALT da imagem retirada do site](../../imagens/alt.png)
 
 ## Vídeos
-- [ ] **Adicionar legendas** para áudio em vídeos existentes.
-- [ ] **Evitar conteúdo com *flashes* (gatilhos para convulsões)** ou manter abaixo dos limites.
+- [X] **Adicionar legendas** para áudio em vídeos existentes.
+- [X] **Evitar conteúdo com *flashes* (gatilhos para convulsões)** ou manter abaixo dos limites.
 - [ ] **Incluir audiodescrição** para vídeos com conteúdo visual relevante.
 - [ ] **Incluir janela de Libras** para vídeos com informação essencial.
 - [ ] **Fornecer transcrição** também para vídeos e áudios ao vivo.
@@ -28,15 +28,21 @@
 
 
 ## Controles
-- [ ] **Adicionar `href`** para links.
-- [ ] **Adicionar underline** nos links.
-- [ ] **Adicionar estados de foco** em campos de entrada, botões e elementos interativos.
+- [X] **Adicionar `href`** para links.
+- [X] **Adicionar underline** nos links.
+- [X] **Adicionar estados de foco** em campos de entrada, botões e elementos interativos.
 - [ ] **Adicionar `type="button"`** nos botões.
 - [ ] **Adicionar skip-link** (link para pular) para o conteúdo principal.
 - [ ] **Identifique e comunique** links que abrem em uma nova guia ou janela.
 - [ ] **Evitar mudanças de contexto por foco ou entrada**, ou informar ao usuário.
 - [ ] **Permitir desfazer ações feitas por clique ou toque**.
 - [ ] **Evitar acionamento com down-event apenas** (usar up-event ou alternativa).
+
+# Padrões de campos de entrada, links e botões
+![Vídeo retirado do site](../imagens/link.png)
+![Vídeo retirado do site](../imagens/href.png)
+![Vídeo retirado do site](../imagens/foco.png)
+
 
 ## Formulário
 - [ ] **Adicionar `label`** para os campos de entrada associados ao elemento correspondente.
