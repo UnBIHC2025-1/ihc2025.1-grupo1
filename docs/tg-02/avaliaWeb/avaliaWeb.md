@@ -10,10 +10,15 @@
 - [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
 
 
-### padrão de imagem do site avaliado
-![Imagem retirada do site](../../imagens/imgAlt.png)
+### Padrão de imagem do site avaliado
 
-![ALT da imagem retirada do site](../../imagens/alt.png)
+![Exemplo de imagem do site da PCDF](../../imagens/imgAlt.png)
+
+*Figura 1: Imagem retirada do site da PCDF demonstrando o padrão de implementação de imagens.*
+
+![Texto alternativo da imagem do site](../../imagens/alt.png)
+
+*Figura 2: Demonstração do texto alternativo (alt) implementado nas imagens do site da PCDF.*
 
 ## Vídeos
 - [X] **Adicionar legendas** para áudio em vídeos existentes.
@@ -24,7 +29,9 @@
 
 ### Padrão de vídeo 
 
-![Vídeo retirado do site](../imagens/video.png)
+![Exemplo de vídeo implementado no site](imagens/video.png)
+
+*Figura 3: Vídeo presente no site da PCDF mostrando a implementação de conteúdo audiovisual.*
 
 
 ## Controles
@@ -37,10 +44,22 @@
 - [ ] **Permitir desfazer ações feitas por clique ou toque**.
 
 ### Padrões de campos de entrada, links e botões
-![Link com underline retirado do site](../imagens/link.png)
-![a href do link](../imagens/href.png)
-![Estados de foco para navegação por teclado](../imagens/foco.png)
-![type do botão](../imagens/type.png)
+
+![Link com underline identificado](imagens/link.png)
+
+*Figura 4: Links com underline implementados corretamente no site da PCDF, facilitando a identificação visual.*
+
+![Atributo href dos links](imagens/href.png)
+
+*Figura 5: Demonstração do atributo href corretamente implementado nos links do site.*
+
+![Estados de foco para navegação](imagens/foco.png)
+
+*Figura 6: Estados de foco visíveis para navegação por teclado, permitindo acessibilidade para usuários com deficiência motora.*
+
+![Atributo type dos botões](imagens/type.png)
+
+*Figura 7: Implementação do atributo type nos botões do site para melhor semântica HTML.*
 
 
 
@@ -54,10 +73,19 @@
 - [X] **Evitar solicitar reentrada de informações já fornecidas.**
 - [X] **Autenticação sem desafios cognitivos** (sem puzzles, cálculos, etc.).
 
-### Padrão de formulário:
-![Formulário](../imagens/form.png)
-![labels do formulário](../imagens/label.png)
-![Erro de formulário](../imagens/erro.png)
+### Padrão de formulário
+
+![Estrutura do formulário](imagens/form.png)
+
+*Figura 8: Estrutura de formulário implementada no site da PCDF demonstrando organização dos campos de entrada.*
+
+![Labels associados aos campos](imagens/label.png)
+
+*Figura 9: Labels corretamente associados aos campos de entrada para melhor acessibilidade com leitores de tela.*
+
+![Tratamento de erros de formulário](imagens/erro.png)
+
+*Figura 10: Sistema de tratamento e exibição de erros em formulários do site.*
 
 
 
@@ -77,7 +105,9 @@
 
 ### Elementos HTML nativos
 
-![Elementos HTML nativos](../imagens/nativo.png)
+![Elementos semânticos nativos](imagens/nativo.png)
+
+*Figura 11: Demonstração do uso correto de elementos HTML nativos no site da PCDF, garantindo melhor semântica e acessibilidade.*
 
 
 ## Texto
@@ -86,9 +116,11 @@
 - [X] **Alturas** das fontes **não são fixas**.
 - [X] **Garantir espaçamento entre letras, palavras e parágrafos**.
 
-### textos dentro de imagem
+### Textos dentro de imagem
 
-![Textos dentro de imagens](../imagens/textoImagem.png)
+![Exemplo de texto em imagem](imagens/textoImagem.png)
+
+*Figura 12: Identificação de textos implementados dentro de imagens no site, que podem gerar problemas de acessibilidade.*
 
 
 ## Teclado
@@ -109,10 +141,15 @@
 - [ ] **Toda página contém um título `h1`** descrevendo a página.
 
 
-### homepage e elementos de título
+### Homepage e elementos de título
 
-![Homepage, mostrando uma visão geral ](../imagens/home.png)
-![Elementos de título](../imagens/h3.png)
+![Visão geral da homepage](imagens/home.png)
+
+*Figura 13: Homepage do site da PCDF mostrando uma visão geral da estrutura e organização do conteúdo.*
+
+![Hierarquia de títulos](imagens/h3.png)
+
+*Figura 14: Demonstração da hierarquia de elementos de título (h1, h2, h3) implementada no site.*
 
 
 
@@ -124,8 +161,14 @@
 - [ ] **Evitar uso de tabelas para layout**.
 
 ### Exemplos de tabela
-![tabela](../imagens/tabela.png)
-![inspecionar tabela](../imagens/insTab.png)
+
+![Estrutura de tabela](imagens/tabela.png)
+
+*Figura 15: Implementação de tabelas no site da PCDF demonstrando estrutura e organização de dados tabulares.*
+
+![Inspeção de elementos da tabela](imagens/insTab.png)
+
+*Figura 16: Inspeção dos elementos HTML da tabela para verificação da semântica e acessibilidade.*
 
 
 
@@ -138,7 +181,9 @@
 
 ### Exemplo de modal
 
-![Modal](../imagens/mod.jpg)
+![Implementação de modal](imagens/mod.jpg)
+
+*Figura 17: Exemplo de modal implementado no site demonstrando funcionalidade e padrões de interação.*
 
 
 ## Dispositivo Móvel e Tocável
@@ -150,8 +195,13 @@
 
 ### Exemplos de responsividade
 
-![rotação](../imagens/rot.jpg)
-![Área mínima](../imagens/area.jpg)
+![Rotação e orientação](imagens/rot.png)
+
+*Figura 18: Demonstração da capacidade de rotação e adaptação do site em diferentes orientações de dispositivos móveis.*
+
+![Área mínima de clique](imagens/area.png)
+
+*Figura 19: Verificação das áreas mínimas de clique para elementos interativos, garantindo usabilidade em dispositivos móveis.*
 
 
 
@@ -164,9 +214,13 @@
 
 ### Breadcrumbs e campo de pesquisa
 
-![Breadcrumbs](../imagens/bread.jpg)
+![Navegação breadcrumb](imagens/bread.png)
 
-![Campo de busca](../imagens/busca.jpg)
+*Figura 20: Implementação de breadcrumbs no site para facilitar a navegação e orientação do usuário.*
+
+![Campo de busca](imagens/busca.png)
+
+*Figura 21: Campo de busca implementado no site da PCDF para facilitar a localização de conteúdo pelos usuários.*
 
 
 ## Histórico de Versões

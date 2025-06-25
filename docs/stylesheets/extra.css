@@ -1,231 +1,104 @@
-/* Logo personalizado */
 .wy-side-nav-search .wy-dropdown>a img.logo, .wy-side-nav-search>a img.logo {
     width: 50% !important;
 }
 
-
-
-/* Melhorias simples e com bom contraste nos checklists */
-.task-list-item {
-    margin: 0.8rem 0;
-    padding: 0.8rem;
-    border-radius: 4px;
-    background-color: #f8f9fa;
-    border-left: 4px solid #3f51b5;
+/* Padronização de imagens para TG-02 - ReadTheDocs Theme */
+.rst-content img,
+.md-content img,
+article img,
+.wy-nav-content img {
+    max-width: 80% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 20px auto !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #e0e0e0 !important;
 }
 
-[data-md-color-scheme="slate"] .task-list-item {
-    background-color: #2a2a2a;
-    border-left-color: #7986cb;
+/* Imagens menores para capturas de código */
+.rst-content img[src*="codigo"], 
+.rst-content img[src*="html"],
+.rst-content img[src*="insTab"],
+.rst-content img[src*="href"],
+.rst-content img[src*="type"],
+.rst-content img[src*="label"],
+.rst-content img[src*="link"],
+.rst-content img[src*="foco"],
+.rst-content img[src*="erro"],
+.rst-content img[src*="alt"],
+.rst-content img[src*="h3"] {
+    max-width: 60% !important;
 }
 
-.task-list-item:hover {
-    background-color: #e3f2fd;
+/* Imagens grandes para capturas de tela completas */
+.rst-content img[src*="home"],
+.rst-content img[src*="interface"],
+.rst-content img[src*="contraste_de_cores.png"],
+.rst-content img[src*="legendas"],
+.rst-content img[src*="teclado"],
+.rst-content img[src*="video"],
+.rst-content img[src*="tamanho_fonte"],
+.rst-content img[src*="voz_e_gestos"] {
+    max-width: 90% !important;
 }
 
-[data-md-color-scheme="slate"] .task-list-item:hover {
-    background-color: #333333;
+/* Imagens médias para elementos específicos */
+.rst-content img[src*="icones"],
+.rst-content img[src*="textos"],
+.rst-content img[src*="form"],
+.rst-content img[src*="tabela"],
+.rst-content img[src*="bread"],
+.rst-content img[src*="busca"],
+.rst-content img[src*="nativo"],
+.rst-content img[src*="modal"],
+.rst-content img[src*="rot"],
+.rst-content img[src*="area"],
+.rst-content img[src*="descricao"],
+.rst-content img[src*="hiperlinks"],
+.rst-content img[src*="ajudaconsistente"],
+.rst-content img[src*="linguagem"],
+.rst-content img[src*="gesto"] {
+    max-width: 70% !important;
 }
 
-.task-list-item input[type="checkbox"] {
-    margin-right: 0.8rem;
-    transform: scale(1.1);
+/* Imagens pequenas para ícones e elementos menores */
+.rst-content img[src*="Imagem1"],
+.rst-content img[src*="contraste_de_cores_prova"] {
+    max-width: 50% !important;
 }
 
-.task-list-item input[type="checkbox"]:checked + * {
-    text-decoration: line-through;
-    opacity: 0.6;
-}
-
-/* Melhorar contraste das âncoras */
-a[id^="TEC"], a[id^="RP"] {
-    color: #1976d2;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 0.2rem 0.4rem;
-    border-radius: 3px;
-    background-color: #e3f2fd;
-}
-
-[data-md-color-scheme="slate"] a[id^="TEC"], 
-[data-md-color-scheme="slate"] a[id^="RP"] {
-    color: #64b5f6;
-    background-color: #1a237e;
-}
-
-a[id^="TEC"]:hover, a[id^="RP"]:hover {
-    background-color: #bbdefb;
-    text-decoration: underline;
-}
-
-[data-md-color-scheme="slate"] a[id^="TEC"]:hover, 
-[data-md-color-scheme="slate"] a[id^="RP"]:hover {
-    background-color: #303f9f;
-}
-
-/* Melhorar contraste dos títulos */
-h1, h2, h3, h4, h5, h6 {
-    color: #1a237e;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3, 
-[data-md-color-scheme="slate"] h4, 
-[data-md-color-scheme="slate"] h5, 
-[data-md-color-scheme="slate"] h6 {
-    color: #c5cae9;
-}
-
-h1 {
-    border-bottom: 3px solid #3f51b5;
-    padding-bottom: 0.5rem;
-}
-
-h2 {
-    border-bottom: 2px solid #7986cb;
-    padding-bottom: 0.3rem;
-}
-
-/* Melhorar contraste das tabelas */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin: 1rem 0;
-    border: 1px solid #e0e0e0;
-}
-
-[data-md-color-scheme="slate"] table {
-    border-color: #424242;
-}
-
-th, td {
-    padding: 0.8rem;
-    text-align: left;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-[data-md-color-scheme="slate"] th, 
-[data-md-color-scheme="slate"] td {
-    border-bottom-color: #424242;
-}
-
-th {
-    background-color: #3f51b5;
-    color: white;
-    font-weight: 600;
-}
-
-[data-md-color-scheme="slate"] th {
-    background-color: #1a237e;
-}
-
-tr:nth-child(even) {
-    background-color: #f5f5f5;
-}
-
-[data-md-color-scheme="slate"] tr:nth-child(even) {
-    background-color: #2a2a2a;
-}
-
-tr:hover {
-    background-color: #e8eaf6;
-}
-
-[data-md-color-scheme="slate"] tr:hover {
-    background-color: #333333;
-}
-
-/* Melhorar contraste dos links */
-a {
-    color: #1976d2;
-}
-
-[data-md-color-scheme="slate"] a {
-    color: #64b5f6;
-}
-
-a:hover {
-    color: #0d47a1;
-    text-decoration: underline;
-}
-
-[data-md-color-scheme="slate"] a:hover {
-    color: #90caf9;
-}
-
-/* Melhorar legibilidade do código */
-pre, code {
-    border-radius: 4px;
-    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
-}
-
-code {
-    background-color: #f5f5f5;
-    padding: 0.2rem 0.4rem;
-    color: #d32f2f;
-}
-
-[data-md-color-scheme="slate"] code {
-    background-color: #2a2a2a;
-    color: #ff7043;
-}
-
-/* Responsividade */
+/* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
-    .task-list-item {
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-    }
-    
-    table {
-        font-size: 0.9rem;
-    }
-    
-    th, td {
-        padding: 0.5rem;
+    .rst-content img,
+    .md-content img,
+    article img,
+    .wy-nav-content img {
+        max-width: 95% !important;
+        margin: 15px auto !important;
     }
 }
 
-/* Foco acessível */
-:focus {
-    outline: 3px solid #ff6f00 !important;
-    outline-offset: 2px;
+/* Estilo para legendas das figuras */
+.rst-content em,
+.md-content em {
+    display: block !important;
+    text-align: center !important;
+    font-style: italic !important;
+    color: #666 !important;
+    margin: 10px auto 30px auto !important;
+    font-size: 0.9em !important;
+    max-width: 80% !important;
+    line-height: 1.4 !important;
 }
 
-/* Melhorar contraste do menu lateral */
-.md-nav__item {
-    margin: 0.2rem 0;
+/* Melhorar espaçamento entre imagem e legenda */
+.rst-content img + em,
+.md-content img + em {
+    margin-top: -10px !important;
 }
 
-.md-nav__link {
-    border-radius: 4px;
-    padding: 0.4rem 0.8rem;
+/* Estilo especial para imagens do design */
+.rst-content img[src*="Imagem"] {
+    max-width: 75% !important;
 }
-
-.md-nav__link:hover {
-    background-color: #e8eaf6;
-}
-
-[data-md-color-scheme="slate"] .md-nav__link:hover {
-    background-color: #333333;
-}
-
-.md-nav__link--active {
-    background-color: #3f51b5;
-    color: white !important;
-}
-
-[data-md-color-scheme="slate"] .md-nav__link--active {
-    background-color: #7986cb;
-    color: white !important;
-}
-
-/* Melhorias nos títulos */
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-

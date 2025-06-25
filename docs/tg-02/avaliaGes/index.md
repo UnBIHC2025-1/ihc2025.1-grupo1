@@ -9,17 +9,20 @@
 **Justificativa:** O contraste entre o texto e o fundo em algumas áreas do site não atende aos critérios recomendados para garantir legibilidade a pessoas com deficiência visual.
 
 ![Análise de contraste de cores do site](imagens/contraste_de_cores.png)
-*Figura 1: Análise de contraste de cores do site mostrando áreas que não atendem aos critérios de acessibilidade*
+
+*Figura 1: Análise de contraste de cores do site mostrando áreas que não atendem aos critérios de acessibilidade.*
 
 ![Prova de contraste de cores](imagens/contraste_de_cores_prova.png)
-*Figura 2: Evidência de contraste inadequado identificado durante a avaliação*
+
+*Figura 2: Evidência de contraste inadequado identificado durante a avaliação.*
 
 - [x] **Incluir texto alternativo claro e preciso para imagens e ícones** (WCAG 2.2, Critério 1.1.1: Conteúdo não textual). <a id="TEC3" href="#RP3">[3]</a>
 
 **Justificativa:** As imagens no site possuem texto alternativo (alt text), o que facilita a compreensão para usuários de leitores de tela.
 
 ![Exemplo de texto alternativo em imagens](imagens/alt.png)
-*Figura 3: Demonstração de texto alternativo implementado corretamente nas imagens do site*
+
+*Figura 3: Demonstração de texto alternativo implementado corretamente nas imagens do site.*
 
 ---
 
@@ -30,17 +33,20 @@
 **Justificativa:** A navegação por teclado em algumas seções do site não é totalmente eficiente, o que pode representar uma barreira para usuários com deficiência motora.
 
 ![Navegação por teclado](imagens/teclado.png)
-*Figura 4: Interface de navegação por teclado mostrando os elementos focalizáveis*
+
+*Figura 4: Interface de navegação por teclado mostrando os elementos focalizáveis.*
 
 - [ ] **Oferecer alternativas de entrada como voz ou gestos** (WCAG 2.2, Critério 2.5.1: Modalidades de Entrada). <a id="TEC6" href="#RP6">[6]</a>
 
 **Justificativa:** O site não oferece funcionalidades de entrada por voz ou gestos, limitando o acesso para usuários com deficiências motoras severas.
 
 ![Entrada por voz e gestos](imagens/voz_e_gestos.png)
-*Figura 5: Ausência de opções de entrada alternativas como voz e gestos no site*
+
+*Figura 5: Ausência de opções de entrada alternativas como voz e gestos no site.*
 
 ![Gestos em Libras](imagens/gesto_libras.png)
-*Figura 6: Interface mostrando a necessidade de implementação de gestos em Libras*
+
+*Figura 6: Interface mostrando a necessidade de implementação de gestos em Libras.*
 
 ---
 
@@ -51,7 +57,8 @@
 **Justificativa:** O site possui legendas implementadas nos vídeos disponíveis, facilitando o acesso ao conteúdo audiovisual para pessoas com deficiência auditiva.
 
 ![Legendas em vídeos](imagens/legendas.png)
-*Figura 7: Exemplo de legendas implementadas nos vídeos do site*
+
+*Figura 7: Exemplo de legendas implementadas nos vídeos do site.*
 
 - [ ] **Oferecer audiodescrição para vídeos importantes** (WCAG 2.2, Critério 1.2.6: Audiodescrição ou Alternativas de Mídia). <a id="TEC9" href="#RP9">[9]</a>
 
@@ -74,7 +81,8 @@
 **Justificativa:** O site apresenta uma interface relativamente simples, evitando sobrecarga cognitiva para usuários neurodiversos.
 
 ![Interface simples e intuitiva](imagens/interface_simples.png)
-*Figura 8: Interface do site demonstrando simplicidade e intuitividade no design*
+
+*Figura 8: Interface do site demonstrando simplicidade e intuitividade no design.*
 
 - [x] **Oferecer uma navegação fácil e consistente** (WCAG 2.2, Critério 3.2.3: Navegação Consistente). <a id="TEC14" href="#RP14">[14]</a>
 
@@ -97,7 +105,8 @@
 **Justificativa:** O site permite o redimensionamento adequado do texto, atendendo às necessidades de pessoas idosas ou com limitações visuais relacionadas ao envelhecimento.
 
 ![Tamanho de fonte adequado](imagens/tamanho_fonte.png)
-*Figura 9: Demonstração do redimensionamento de texto no site*
+
+*Figura 9: Demonstração do redimensionamento de texto no site.*
 
 ---
 
@@ -108,7 +117,10 @@
 **Justificativa:** O site apresenta instruções claras e simples, facilitando o uso por pessoas com diferentes níveis de alfabetização digital.
 
 ![Instruções simples e claras](imagens/inst_simples_e_claras.png)
-*Figura 10: Exemplo de instruções simples e claras implementadas no site*
+
+*Figura 10: Exemplo de instruções simples e claras implementadas no site.*
+
+---
 
 ## Referências Bibliográficas
 
@@ -196,13 +208,13 @@
 
 > <a id="RP42" href="#TEC42">42.</a> WCAG 2.2 Understanding Docs. SC 3.2.1 On Focus (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html](https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html). Acesso em: 23 jun. 2025.
 
-> </a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
+> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
 
-> </a> BRASIL. Secretaria de Logística e Tecnologia da Informação. Portaria nº 3, de 7 de maio de 2007. Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG no âmbito do Sistema de Administração dos Recursos de Informação e Informática – SISP. Diário Oficial da União, Brasília, DF, 7 maio 2007. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf). Acesso em: 23 Jun. 2025.
+> BRASIL. Secretaria de Logística e Tecnologia da Informação. Portaria nº 3, de 7 de maio de 2007. Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG no âmbito do Sistema de Administração dos Recursos de Informação e Informática – SISP. Diário Oficial da União, Brasília, DF, 7 maio 2007. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf). Acesso em: 23 Jun. 2025.
 
-> </a> MORDOR INTELLIGENCE. Digital Accessibility Software Market Size & Share Analysis- Growth Trends & Forecasts (2024-2029). Disponível em: [https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market](https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market). Acesso em: 23 Jun. 2025.
+> MORDOR INTELLIGENCE. Digital Accessibility Software Market Size & Share Analysis- Growth Trends & Forecasts (2024-2029). Disponível em: [https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market](https://www.mordorintelligence.com/industry-reports/digital-accessibility-software-market). Acesso em: 23 Jun. 2025.
 
-> </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
+> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
 
 ---
 
