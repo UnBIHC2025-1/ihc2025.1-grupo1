@@ -28,7 +28,7 @@ A seleção do site da Polícia Civil Do Distrito Federal baseou-se nos seguinte
 
 ## Metodologia de avaliação
 
-A metodologia de avaliação do site será a avaliação por meio de checklists embasadas na ABNT NBR 17225:2025 e na WCAG 2.2. Os tópicos levantados pela norma são relacionados a desenvolvimento web, design, geração de conteúdo e gestão de projetos, análisando imagens, vídeos, controles, formulários, modais, mídias, semântica, textos, dispositivos móveis e outros atributos pertinentes a acessibilidade.
+A metodologia de avaliação do site será a avaliação por meio dos checklists previamente apresentados embasados na ABNT NBR 17225:2025 e na WCAG 2.2 e adaptados ao contexto do site, sendo removidos itens que não se aplicam. Os tópicos levantados pela norma são relacionados a desenvolvimento web, design, geração de conteúdo e gestão de projetos, análisando imagens, vídeos, controles, formulários, modais, mídias, semântica, textos, dispositivos móveis e outros atributos pertinentes a acessibilidade.
 
 Além disso baseado nos novos critérios da WCAG, busca-se adequar o site a um nível de conformidade(A,AA ou AAA).
 
