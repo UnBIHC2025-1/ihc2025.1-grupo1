@@ -78,34 +78,34 @@ Em seu planejamento, há...
 
 ### Introdução ao Projeto
 
-- [ ] **Consideração de Acessibilidade desde o início**: Garantir que a acessibilidade seja pensada já na fase de concepção e planejamento do projeto.
-- [ ] **Desenho Universal**: Aplicar o conceito de desenho universal, garantindo que todos possam usar os produtos, serviços e ambientes digitais sem a necessidade de adaptações.
-- [ ] **Inclusão nas equipes de projeto**: Incluir pessoas com deficiência nas equipes de desenvolvimento para garantir um olhar mais empático e inclusivo.
-- [ ] **Engajamento organizacional**: Criar uma cultura de acessibilidade dentro da organização com a participação de diferentes departamentos.
+- [ ] **Consideração de Acessibilidade desde o início**: Garantir que a acessibilidade seja pensada já na fase de concepção e planejamento do projeto. <a id="TEC43" href="#RP43">[43]</a>
+- [ ] **Desenho Universal**: Aplicar o conceito de desenho universal, garantindo que todos possam usar os produtos, serviços e ambientes digitais sem a necessidade de adaptações. <a id="TEC44" href="#RP44">[44]</a>
+- [ ] **Inclusão nas equipes de projeto**: Incluir pessoas com deficiência nas equipes de desenvolvimento para garantir um olhar mais empático e inclusivo. <a id="TEC45" href="#RP45">[45]</a>
+- [ ] **Engajamento organizacional**: Criar uma cultura de acessibilidade dentro da organização com a participação de diferentes departamentos. <a id="TEC46" href="#RP46">[46]</a>
 
 ### Orientações de Acessibilidade
 
-- [ ] **Consideração de deficiência permanente, temporária ou de envelhecimento**: Acessibilidade deve ser priorizada para todas as deficiências.
-- [ ] **Identificação de tipos de deficiência**: Considerar deficiência visual, auditiva, motora, neurodiversidade, entre outras.
-- [ ] **Acessibilidade em dispositivos móveis**: Garantir que o site ou app seja acessível também em dispositivos móveis.
+- [ ] **Consideração de deficiência permanente, temporária ou de envelhecimento**: Acessibilidade deve ser priorizada para todas as deficiências. <a id="TEC47" href="#RP47">[47]</a>
+- [ ] **Identificação de tipos de deficiência**: Considerar deficiência visual, auditiva, motora, neurodiversidade, entre outras. <a id="TEC48" href="#RP48">[48]</a>
+- [ ] **Acessibilidade em dispositivos móveis**: Garantir que o site ou app seja acessível também em dispositivos móveis. <a id="TEC49" href="#RP49">[49]</a>
 
 ### Introdução ao WCAG
 
-- [ ] **Seguir Diretrizes WCAG**: Implementar as recomendações do WCAG 2.1 (ou 2.2 quando disponível) para garantir acessibilidade em design, conteúdo e desenvolvimento.
-- [ ] **Níveis de Conformidade**: Garantir conformidade nos níveis A, AA (mínimo recomendado), e AAA.
-- [ ] **Princípios do WCAG**: Atender aos 4 princípios de acessibilidade: **Perceptível**, **Operável**, **Compreensível**, e **Robusto**.
+- [ ] **Seguir Diretrizes WCAG**: Implementar as recomendações do WCAG 2.1 (ou 2.2 quando disponível) para garantir acessibilidade em design, conteúdo e desenvolvimento. <a id="TEC50" href="#RP50">[50]</a>
+- [ ] **Níveis de Conformidade**: Garantir conformidade nos níveis A, AA (mínimo recomendado), e AAA. <a id="TEC51" href="#RP51">[51]</a>
+- [ ] **Princípios do WCAG**: Atender aos 4 princípios de acessibilidade: **Perceptível**, **Operável**, **Compreensível**, e **Robusto**. <a id="TEC52" href="#RP52">[52]</a>
 
 ### Boas Práticas de Acessibilidade
 
-- [ ] **Acessibilidade como direito humano**: Garantir que a acessibilidade digital seja tratada como um direito, conforme estabelecido pela Convenção Internacional sobre os Direitos das Pessoas com Deficiência.
-- [ ] **Incluir a acessibilidade em todas as etapas do projeto**: Desde o planejamento, desenvolvimento, até a execução e manutenção.
-- [ ] **Educação sobre Acessibilidade**: Promover treinamentos sobre acessibilidade digital para todos os membros da equipe, incluindo os envolvidos em design e conteúdo.
+- [ ] **Acessibilidade como direito humano**: Garantir que a acessibilidade digital seja tratada como um direito, conforme estabelecido pela Convenção Internacional sobre os Direitos das Pessoas com Deficiência. <a id="TEC53" href="#RP53">[53]</a>
+- [ ] **Incluir a acessibilidade em todas as etapas do projeto**: Desde o planejamento, desenvolvimento, até a execução e manutenção. <a id="TEC54" href="#RP54">[54]</a>
+- [ ] **Educação sobre Acessibilidade**: Promover treinamentos sobre acessibilidade digital para todos os membros da equipe, incluindo os envolvidos em design e conteúdo. <a id="TEC55" href="#RP55">[55]</a>
 
 ### Gestão de Projetos
 
-- [ ] **Considerar a acessibilidade nas fases iniciais**: Integrar a acessibilidade desde o início do projeto e garantir seu acompanhamento ao longo de todas as fases.
-- [ ] **Definir objetivos claros**: Identificar e alinhar claramente os objetivos do projeto com relação à acessibilidade digital.
-- [ ] **Documentação e Aprovação**: Garantir que os pontos de acessibilidade sejam documentados e aprovados por todas as áreas envolvidas no projeto.
+- [ ] **Considerar a acessibilidade nas fases iniciais**: Integrar a acessibilidade desde o início do projeto e garantir seu acompanhamento ao longo de todas as fases. <a id="TEC56" href="#RP56">[56]</a>
+- [ ] **Definir objetivos claros**: Identificar e alinhar claramente os objetivos do projeto com relação à acessibilidade digital. <a id="TEC57" href="#RP57">[57]</a>
+- [ ] **Documentação e Aprovação**: Garantir que os pontos de acessibilidade sejam documentados e aprovados por todas as áreas envolvidas no projeto. <a id="TEC58" href="#RP58">[58]</a>
 
 ## Referências Bibliográficas
 
@@ -192,6 +192,38 @@ Em seu planejamento, há...
 > <a id="RP41" href="#TEC41">41.</a> WCAG 2.2. Conformidade: Níveis A, AA e AAA. Disponível em: [https://www.w3.org/WAI/WCAG22/#conformance](https://www.w3.org/WAI/WCAG22/#conformance). Acesso em: 23 jun. 2025.
 
 > <a id="RP42" href="#TEC42">42.</a> WCAG 2.2 Understanding Docs. SC 3.2.1 On Focus (Level A). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html](https://www.w3.org/WAI/WCAG22/Understanding/on-focus.html). Acesso em: 23 jun. 2025.
+
+> <a id="RP43" href="#TEC43">43.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 12. Acessibilidade desde o início do projeto.
+
+> <a id="RP44" href="#TEC44">44.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 20. Princípios do desenho universal.
+
+> <a id="RP45" href="#TEC45">45.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 58. Inclusão nas equipes de projeto.
+
+> <a id="RP46" href="#TEC46">46.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 59. Engajamento organizacional.
+
+> <a id="RP47" href="#TEC47">47.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 8. Tipos de deficiência.
+
+> <a id="RP48" href="#TEC48">48.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 10. Identificação de deficiências.
+
+> <a id="RP49" href="#TEC49">49.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 38. Acessibilidade móvel.
+
+> <a id="RP50" href="#TEC50">50.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 40. Diretrizes WCAG.
+
+> <a id="RP51" href="#TEC51">51.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 41. Níveis de conformidade WCAG.
+
+> <a id="RP52" href="#TEC52">52.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 42. Princípios WCAG.
+
+> <a id="RP53" href="#TEC53">53.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 6. Acessibilidade como direito humano.
+
+> <a id="RP54" href="#TEC54">54.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 65. Acessibilidade em todas as etapas.
+
+> <a id="RP55" href="#TEC55">55.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 67. Educação sobre acessibilidade.
+
+> <a id="RP56" href="#TEC56">56.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 68. Gestão de projetos acessíveis.
+
+> <a id="RP57" href="#TEC57">57.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 69. Definição de objetivos.
+
+> <a id="RP58" href="#TEC58">58.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 70. Documentação e aprovação.
 
 > </a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
 

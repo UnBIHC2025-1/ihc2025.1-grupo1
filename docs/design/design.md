@@ -43,21 +43,21 @@
 
 ### Contraste de Cores
 
-- [ ] **Verificar o contraste** de todo texto tamanho normal.
-- [ ] **Verificar o contraste** de todo texto tamanho grande.
-- [ ] **Verificar o contraste** de todos os ícones.
-- [ ] **Verificar o contraste** das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.).
-- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos.
-- [ ] **Verificar `::selection` cores** personalizadas.
+- [ ] **Verificar o contraste** de todo texto tamanho normal. <a id="TEC20" href="#RP33">[33]</a>
+- [ ] **Verificar o contraste** de todo texto tamanho grande. <a id="TEC21" href="#RP34">[34]</a>
+- [ ] **Verificar o contraste** de todos os ícones. <a id="TEC22" href="#RP35">[35]</a>
+- [ ] **Verificar o contraste** das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="TEC23" href="#RP36">[36]</a>
+- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos. <a id="TEC24" href="#RP37">[37]</a>
+- [ ] **Verificar `::selection` cores** personalizadas. <a id="TEC25" href="#RP38">[38]</a>
 
 ## Checklists de Design - Guia de Boas Práticas para Acessibilidade Digital
 
 ### Design
 
-- [ ] **Desenho Universal**: Garantir que o design do site ou aplicativo seja acessível para todas as pessoas sem a necessidade de adaptações.
-- [ ] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops.
-- [ ] **Cores e Contrastes**: Escolher combinações de cores que sejam acessíveis, considerando as necessidades de pessoas com deficiência visual, como daltonismo.
-- [ ] **Uso adequado de fontes e espaçamento**: Usar fontes de fácil leitura e garantir que o tamanho e o espaçamento das fontes sejam acessíveis.
+- [ ] **Desenho Universal**: Garantir que o design do site ou aplicativo seja acessível para todas as pessoas sem a necessidade de adaptações. <a id="TEC26" href="#RP39">[39]</a>
+- [ ] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops. <a id="TEC27" href="#RP40">[40]</a>
+- [ ] **Cores e Contrastes**: Escolher combinações de cores que sejam acessíveis, considerando as necessidades de pessoas com deficiência visual, como daltonismo. <a id="TEC28" href="#RP41">[41]</a>
+- [ ] **Uso adequado de fontes e espaçamento**: Usar fontes de fácil leitura e garantir que o tamanho e o espaçamento das fontes sejam acessíveis. <a id="TEC29" href="#RP42">[42]</a>
 
 ---
 
@@ -100,6 +100,26 @@
 > <a id="RP18" href="#TEC18">18.</a> WCAG 2.2 Understanding Docs. SC 4.1.2 Name, Role, Value (Level A). Uso adequado de display:none e visibility:hidden.
 
 > <a id="RP19" href="#TEC19">19.</a> ABNT NBR 17225:2025, item 5.8.3 – Nome acessível para botões e controles interativos.
+
+> <a id="RP33" href="#TEC20">33.</a> ABNT NBR 17225:2025, item 5.5.1 – Contraste mínimo para texto normal.
+
+> <a id="RP34" href="#TEC21">34.</a> ABNT NBR 17225:2025, item 5.5.2 – Contraste mínimo para texto grande.
+
+> <a id="RP35" href="#TEC22">35.</a> ABNT NBR 17225:2025, item 5.5.3 – Contraste para elementos gráficos.
+
+> <a id="RP36" href="#TEC23">36.</a> ABNT NBR 17225:2025, item 5.5.4 – Contraste para bordas de elementos interativos.
+
+> <a id="RP37" href="#TEC24">37.</a> ABNT NBR 17225:2025, item 5.5.5 – Contraste para texto sobreposto.
+
+> <a id="RP38" href="#TEC25">38.</a> ABNT NBR 17225:2025, item 5.5.6 – Contraste para seleção de texto.
+
+> <a id="RP39" href="#TEC26">39.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 20. Princípios do desenho universal.
+
+> <a id="RP40" href="#TEC27">40.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 38. Design responsivo e adaptativo.
+
+> <a id="RP41" href="#TEC28">41.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 35. Combinações de cores acessíveis.
+
+> <a id="RP42" href="#TEC29">42.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 43. Tipografia e espaçamento acessível.
 
 ## Bibliografia
 

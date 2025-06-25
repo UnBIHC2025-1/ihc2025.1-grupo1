@@ -3,11 +3,11 @@
 
 
 ## Imagens
-- [ ] **Adicionar `alt`** para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso.
-- [ ] **Adicionar `alt=""`** para imagens decorativas que não têm significado.
-- [ ] **Incluir a descrição no `alt`** para imagens que contêm texto.
-- [ ] **Fornecer descrição detalhada** para imagens complexas (gráficos, diagramas, etc.).
-- [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones).
+- [ ] **Adicionar `alt`** para imagens, botões-imagem, gráficos e imagens de mapas com pontos de acesso. <a id="TEC1" href="#RP1">[1]</a>
+- [ ] **Adicionar `alt=""`** para imagens decorativas que não têm significado. <a id="TEC2" href="#RP2">[2]</a>
+- [ ] **Incluir a descrição no `alt`** para imagens que contêm texto. <a id="TEC3" href="#RP3">[3]</a>
+- [ ] **Fornecer descrição detalhada** para imagens complexas (gráficos, diagramas, etc.). <a id="TEC4" href="#RP4">[4]</a>
+- [ ] **Texto alternativo para imagens funcionais** (botões e links com ícones). <a id="TEC5" href="#RP5">[5]</a>
 
 
 ### Padrão de imagem do site avaliado
@@ -222,6 +222,18 @@
 
 *Figura 21: Campo de busca implementado no site da PCDF para facilitar a localização de conteúdo pelos usuários.*
 
+
+## Referências Bibliográficas
+
+> <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A).
+
+> <a id="RP2" href="#TEC2">2.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Imagens decorativas.
+
+> <a id="RP3" href="#TEC3">3.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Texto em imagens.
+
+> <a id="RP4" href="#TEC4">4.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Imagens complexas.
+
+> <a id="RP5" href="#TEC5">5.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Imagens funcionais.
 
 ## Histórico de Versões
 

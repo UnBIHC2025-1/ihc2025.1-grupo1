@@ -12,6 +12,12 @@ Esta versão foi atualizada para incluir:
 
 - **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
 
+- **Guia de Boas Práticas para Acessibilidade Digital**
+
+- **Checklist Manual de Acessibilidade - Desenvolvedores**
+
+- **Checklist Manual de Acessibilidade - Deficientes Visuais**
+
 ## WebAAA
 
 O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Este guia fornece checklists práticos e orientações detalhadas para implementar acessibilidade em:

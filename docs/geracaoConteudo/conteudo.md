@@ -121,11 +121,11 @@
 
 ### Conteúdo
 
-- [ ] **Usar a terminologia correta**: Sempre usar a terminologia atualizada e respeitosa, como "pessoas com deficiência (PcD)".
-- [ ] **Texto claro e objetivo**: Evitar ambiguidades e criar textos claros, simples e objetivos para facilitar a compreensão.
-- [ ] **Textos alternativos em imagens**: Garantir que todas as imagens que contenham informações importantes tenham texto alternativo apropriado.
-- [ ] **Evitar usar texto dentro de imagens**: Quando possível, evitar a prática de colocar texto em imagens para garantir que o conteúdo seja acessível aos leitores de tela.
-- [ ] **Incluir legendas e transcrição para áudio e vídeo**: Garantir que vídeos e conteúdos audiovisuais sejam acessíveis por meio de legendas e transcrição.
+- [ ] **Usar a terminologia correta**: Sempre usar a terminologia atualizada e respeitosa, como "pessoas com deficiência (PcD)". <a id="TEC79" href="#RP79">[79]</a>
+- [ ] **Texto claro e objetivo**: Evitar ambiguidades e criar textos claros, simples e objetivos para facilitar a compreensão. <a id="TEC80" href="#RP80">[80]</a>
+- [ ] **Textos alternativos em imagens**: Garantir que todas as imagens que contenham informações importantes tenham texto alternativo apropriado. <a id="TEC81" href="#RP81">[81]</a>
+- [ ] **Evitar usar texto dentro de imagens**: Quando possível, evitar a prática de colocar texto em imagens para garantir que o conteúdo seja acessível aos leitores de tela. <a id="TEC82" href="#RP82">[82]</a>
+- [ ] **Incluir legendas e transcrição para áudio e vídeo**: Garantir que vídeos e conteúdos audiovisuais sejam acessíveis por meio de legendas e transcrição. <a id="TEC83" href="#RP83">[83]</a>
 
 ## Bibliografia
 
@@ -253,6 +253,16 @@
 > <a id="RP77" href="#TEC77">77.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 36. Texto alternativo para imagens.
 
 > <a id="RP78" href="#TEC78">78.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 37. Navegação consistente e acessível.
+
+> <a id="RP79" href="#TEC79">79.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 15. Terminologia adequada e respeitosa.
+
+> <a id="RP80" href="#TEC80">80.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 18. Texto claro e objetivo.
+
+> <a id="RP81" href="#TEC81">81.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 22. Texto alternativo para imagens.
+
+> <a id="RP82" href="#TEC82">82.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 50. Evitar texto em imagens.
+
+> <a id="RP83" href="#TEC83">83.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 26. Legendas e transcrição para mídia.
 
 ## Histórico de Versões
 

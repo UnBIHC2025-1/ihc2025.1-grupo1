@@ -118,12 +118,12 @@
 
 ## Ferramentas e Extras
 
-- [ ] Permitir **pausar, parar ou ocultar conteúdo em movimento**.
-- [ ] Usar **Breadcrumbs** informando a localização atual nas páginas.
-- [ ] Colocar página ou **área de esclarecimento de dúvidas e dicas de acessibilidade**.
-- [ ] Áreas clicáveis com no mínimo **44px (pixels) de altura e 44px de largura**.
-- [ ] No caso de **captcha** garanta que seja simples de entender e tenha alternativas para pessoas com deficiência.
-- [ ] Incluir um **campo de busca**.
+- [ ] Permitir **pausar, parar ou ocultar conteúdo em movimento**. <a id="TEC33" href="#RP33">[33]</a>
+- [ ] Usar **Breadcrumbs** informando a localização atual nas páginas. <a id="TEC34" href="#RP34">[34]</a>
+- [ ] Colocar página ou **área de esclarecimento de dúvidas e dicas de acessibilidade**. <a id="TEC35" href="#RP35">[35]</a>
+- [ ] Áreas clicáveis com no mínimo **44px (pixels) de altura e 44px de largura**. <a id="TEC36" href="#RP36">[36]</a>
+- [ ] No caso de **captcha** garanta que seja simples de entender e tenha alternativas para pessoas com deficiência. <a id="TEC37" href="#RP37">[37]</a>
+- [ ] Incluir um **campo de busca**. <a id="TEC38" href="#RP38">[38]</a>
 
 ## Checklists de Desenvolvimento Web - ABNT NBR 17225:2025
 
@@ -383,6 +383,18 @@
 > <a id="RP31" href="#TEC31">31.</a> WCAG 2.2 Understanding Docs. SC 2.4.1 Bypass Blocks (Level A). Skip links para conteúdo principal.
 
 > <a id="RP32" href="#TEC32">32.</a> WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Hierarquia lógica de títulos.
+
+> <a id="RP33" href="#TEC33">33.</a> WCAG 2.2 Understanding Docs. SC 2.2.2 Pause, Stop, Hide (Level A). Controle de conteúdo em movimento.
+
+> <a id="RP34" href="#TEC34">34.</a> WCAG 2.2 Understanding Docs. SC 2.4.8 Location (Level AAA). Breadcrumbs para localização.
+
+> <a id="RP35" href="#TEC35">35.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 55. Área de ajuda e acessibilidade.
+
+> <a id="RP36" href="#TEC36">36.</a> WCAG 2.2 Understanding Docs. SC 2.5.5 Target Size (Level AAA). Área mínima de clique.
+
+> <a id="RP37" href="#TEC37">37.</a> WCAG 2.2 Understanding Docs. SC 1.1.1 Non-text Content (Level A). Alternativas para CAPTCHA.
+
+> <a id="RP38" href="#TEC38">38.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 52. Campo de busca acessível.
 
 ## Histórico de Versões
 

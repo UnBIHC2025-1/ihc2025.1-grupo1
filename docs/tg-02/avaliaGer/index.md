@@ -1,22 +1,22 @@
 # Avaliação quanto a Geração de Conteúdo
 
 ## Textos
-- [x] Usar textos descomplicados e objetivos. 
-- [x] Uso de palavras conhecidas. 
-- [ ] Evitar figuras de linguagem e frases com "senso de urgência".
-- [x] Usar pontuação adequada. 
-- [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). 
-- [x] Usar preferencialmente a ordem direta nas orações. 
+- [x] Usar textos descomplicados e objetivos. <a id="TEC1" href="#RP1">[1]</a>
+- [x] Uso de palavras conhecidas. <a id="TEC2" href="#RP2">[2]</a>
+- [ ] Evitar figuras de linguagem e frases com "senso de urgência". <a id="TEC3" href="#RP3">[3]</a>
+- [x] Usar pontuação adequada. <a id="TEC4" href="#RP4">[4]</a>
+- [ ] Evitar frases extensas (ideal é ter de 15 a 20 palavras). <a id="TEC5" href="#RP5">[5]</a>
+- [x] Usar preferencialmente a ordem direta nas orações. <a id="TEC6" href="#RP6">[6]</a> 
 
 ![Exemplo de textos no site](imagens/textos1.png)
 
 *Figura 1: Demonstração de uma das notícias na homepage da PCDF, evidenciando a aplicação dos critérios de clareza e objetividade textual.*
 
 ## Descrição de imagens
-- [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e "o que / quem"). 
-- [ ] Localizar (onde). 
-- [ ] Descrever a ação (o que faz, como faz). 
-- [ ] Referenciar. 
+- [ ] Identificar o tipo de imagem e personagem (foto, ilustração, mapa, gráfico... e "o que / quem"). <a id="TEC7" href="#RP7">[7]</a>
+- [ ] Localizar (onde). <a id="TEC8" href="#RP8">[8]</a>
+- [ ] Descrever a ação (o que faz, como faz). <a id="TEC9" href="#RP9">[9]</a>
+- [ ] Referenciar. <a id="TEC10" href="#RP10">[10]</a> 
 
 ![Análise de descrição de imagens](imagens/descricao_de_imagens1.png)
 
@@ -138,6 +138,28 @@
 - [ ] **Métricas de satisfação**: NPS segmentado por tipo de usuário
 
 ---
+
+## Referências Bibliográficas
+
+> <a id="RP1" href="#TEC1">1.</a> WCAG 2.2 Understanding Docs. SC 3.1.5 Reading Level (Level AAA). Textos descomplicados.
+
+> <a id="RP2" href="#TEC2">2.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 18. Uso de palavras conhecidas.
+
+> <a id="RP3" href="#TEC3">3.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 19. Evitar figuras de linguagem.
+
+> <a id="RP4" href="#TEC4">4.</a> ABNT NBR 17225:2025, item 5.4.2 – Pontuação adequada.
+
+> <a id="RP5" href="#TEC5">5.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 17. Frases com 15-20 palavras.
+
+> <a id="RP6" href="#TEC6">6.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 17. Ordem direta nas orações.
+
+> <a id="RP7" href="#TEC7">7.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 22. Identificação de elementos visuais.
+
+> <a id="RP8" href="#TEC8">8.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 22. Localização espacial.
+
+> <a id="RP9" href="#TEC9">9.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 22. Descrição de ações.
+
+> <a id="RP10" href="#TEC10">10.</a> ABNT NBR 17225:2025, item 5.3.1 – Referenciamento adequado.
 
 ## Histórico de Versões
 
