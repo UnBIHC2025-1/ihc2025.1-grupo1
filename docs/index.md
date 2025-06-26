@@ -1,24 +1,32 @@
-# WebAAA - Guia de Acessibilidade
+## WebAAA - Guia de Acessibilidade
 
-## Introdução
+### Introdução
 
-Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
+Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma aprimoração do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
 
-## Atualizações Recentes
+## Equipe do VerificaAAA
+
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
+    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
+    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
+    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
+  </tr>
+</table>
+
+### Atualizações Recentes
 
 Esta versão foi atualizada para incluir:
 
 - **WCAG 2.2**: Todos os novos critérios de sucesso da versão mais recente
-
 - **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
-
 - **Guia de Boas Práticas para Acessibilidade Digital**
-
 - **Checklist Manual de Acessibilidade - Desenvolvedores**
-
 - **Checklist Manual de Acessibilidade - Deficientes Visuais**
 
-## WebAAA
+### WebAAA
 
 O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais para profissionais que desejam criar projetos mais inclusivos. Este guia fornece checklists práticos e orientações detalhadas para implementar acessibilidade em:
 
@@ -29,7 +37,7 @@ O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais p
 - **WCAG 2.2**: Novos critérios e atualizações importantes
 - **Norma ABNT**: Requisitos específicos para o contexto brasileiro
 
-## Equipe
+## Equipe do WebAAA
 
 <table align="center">
   <tr>
@@ -40,9 +48,9 @@ O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais p
   </tr>
 </table>
 
-
 ## Histórico de Versões
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Criação do documento e adicionando informações da equipe | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
+| 1.1 | Realizando ajustes | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 25/06/2025 |

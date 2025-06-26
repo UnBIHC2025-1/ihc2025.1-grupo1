@@ -54,27 +54,9 @@ Este repositório materializa o **Guia de Acessibilidade WebAAA**, construído c
 - Guias internacionais de boas práticas
 - Experiências práticas e casos de uso brasileiros
 
-
-## TG-03
-
-guia de instalação da landing page em conformidade com os critérios 1.1.1, 1.2.1, 1.2.2 da WCAG 2.2.
-
-1. Acessar o caminho do arquivo: ihc2025.1-grupo1\docs\tg-03\saasable-ui-main\uikit.
-
-2. Instalar dependencias no path correto: npm install.
-
-3. Iniciar servidor local: npm run dev.
-
-4. Acessar a página: http://localhost:3000
-
-
-
-
-
 ## Histórico de Versões
 
 | Versão | Descrição                                                      | Autor(es)                            | Data       | Revisor(es)         | Data de revisão |
 |--------|----------------------------------------------------------------|--------------------------------------|------------|---------------------|------------------|
 | 1.0    | Versão inicial do WebAAA                                       | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023)     | 17/06/2025       |
 | 2.0    | Guia completo: WCAG 2.2, ABNT, UK-Brasil, ferramentas com tutoriais | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
-| 3.0    | guia de instalação frontend| [Pedro Luiz](https://github.com/pedroluizfo) | 25/06/2025 | [Uires Carlos](https://github.com/uires2023) | 25/06/2025 |
