@@ -333,13 +333,31 @@ article img {
     .md-typeset .task-list-item {
         margin-bottom: 1rem !important;
         padding: 0.5rem !important;
-        background: #f8f9fa;
-        border-radius: 8px;
-        border-left: 4px solid #007bff;
+        background: #f8f9fa !important;
+        border-radius: 8px !important;
+        border-left: 4px solid #007bff !important;
+        color: #333 !important;
     }
     
     .md-typeset .task-list-control {
         margin-right: 0.75rem !important;
+        min-width: 16px !important;
+        min-height: 16px !important;
+        border: 2px solid #007bff !important;
+        background-color: #fff !important;
+    }
+    
+    .md-typeset .task-list-control[checked] {
+        background-color: #007bff !important;
+        border-color: #0056b3 !important;
+    }
+    
+    /* Melhorar visibilidade do texto em task lists no mobile */
+    .md-typeset .task-list-item p,
+    .md-typeset .task-list-item span,
+    .md-typeset .task-list-item strong,
+    .md-typeset .task-list-item em {
+        color: #333 !important;
     }
     
     /* Tabelas responsivas */
@@ -536,8 +554,34 @@ article img {
     color: #f1f5f9 !important;
 }
 
-/* Correções para checklist items */
+/* Correções para checklist items - Modo Escuro */
 [data-md-color-scheme="slate"] .md-typeset .task-list-item {
+    color: #f1f5f9 !important;
+    background-color: #334155 !important;
+    border-left-color: #60a5fa !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .task-list-control {
+    opacity: 1 !important;
+    filter: brightness(1.2) contrast(1.1) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .task-list-control[checked] {
+    background-color: #22c55e !important;
+    border-color: #16a34a !important;
+}
+
+/* Correções para checkboxes em listas */
+[data-md-color-scheme="slate"] .md-typeset ul li::marker,
+[data-md-color-scheme="slate"] .md-typeset ol li::marker {
+    color: #f1f5f9 !important;
+}
+
+/* Melhorar visibilidade de texto em task lists */
+[data-md-color-scheme="slate"] .md-typeset .task-list-item p,
+[data-md-color-scheme="slate"] .md-typeset .task-list-item span,
+[data-md-color-scheme="slate"] .md-typeset .task-list-item strong,
+[data-md-color-scheme="slate"] .md-typeset .task-list-item em {
     color: #f1f5f9 !important;
 }
 
@@ -545,4 +589,43 @@ article img {
 [data-md-color-scheme="slate"] .md-typeset a[id^="TEC"],
 [data-md-color-scheme="slate"] .md-typeset a[id^="RP"] {
     color: #60a5fa !important;
+}
+
+/* Correções específicas para mobile no modo escuro */
+@media (max-width: 768px) {
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item {
+        background: #334155 !important;
+        border-left-color: #60a5fa !important;
+        color: #f1f5f9 !important;
+    }
+    
+    [data-md-color-scheme="slate"] .md-typeset .task-list-control {
+        border-color: #60a5fa !important;
+        background-color: #1e293b !important;
+    }
+    
+    [data-md-color-scheme="slate"] .md-typeset .task-list-control[checked] {
+        background-color: #22c55e !important;
+        border-color: #16a34a !important;
+    }
+    
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item p,
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item span,
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item strong,
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item em {
+        color: #f1f5f9 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    [data-md-color-scheme="slate"] .md-typeset .task-list-item {
+        padding: 0.75rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    [data-md-color-scheme="slate"] .md-typeset .task-list-control {
+        min-width: 18px !important;
+        min-height: 18px !important;
+        margin-right: 1rem !important;
+    }
 }
