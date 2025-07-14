@@ -1,4 +1,4 @@
-# Primeiro Passo
+## Primeiro Passo
 
 "Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade" <a id="TEC1" href="#RP1">[1]</a>.
 
@@ -34,7 +34,7 @@ Em seu projeto, foram elaboradas personas para...
 - [ ] **Pessoas com analfabetismo** (analfabetismo digital e funcional níveis 1, 2 e 3) <a id="TEC19" href="#RP19">[19]</a>
     - [ ] Garantir instruções simples e claras para todas as funcionalidades (WCAG 2.2, Critério 3.3.6: Sugestões de Correção de Erros). <a id="TEC20" href="#RP20">[20]</a>
 
-# Conscientização
+## Conscientização
 
 "Na iniciação do projeto, é necessário garantir que a equipe de projeto esteja consciente sobre a questão da acessibilidade digital, dos direitos das pessoas com deficiência e do potencial de mercado desse público" <a id="TEC1" href="#RP1">[1]</a>.
 
@@ -60,7 +60,7 @@ Em seu projeto, a equipe está consciente de...
 - [ ] **Legislação**: PORTARIA Nº 3, DE 7 DE MAIO DE 2007. <a id="TEC36" href="#RP36">[36]</a>
 - [ ] **Análise de mercado de software de acessibilidade digital**. <a id="TEC37" href="#RP37">[37]</a>
 
-# Planejamento
+## Planejamento
 
 "É importante prever e elaborar a arquitetura para todos os públicos com deficiência, visando uma vida autônoma, com segurança e bem-estar" <a id="TEC1" href="#RP1">[1]</a>.
 
@@ -74,34 +74,32 @@ Em seu planejamento, há...
 - [ ] **Tarefas com critérios de sucesso** que atendam pelo menos os níveis A e AA, segundo a documentação de acessibilidade (WCAG)? <a id="TEC41" href="#RP41">[41]</a>
     - [ ] Atender pelo menos ao nível AA é o mínimo necessário para garantir a acessibilidade digital universal (WCAG 2.2, Critério 3.2.1: Blocos de Conteúdo). <a id="TEC42" href="#RP42">[42]</a>
 
-## Checklists de Gestão de Projetos - Guia de Boas Práticas para Acessibilidade Digital
-
-### Introdução ao Projeto
+## Introdução ao Projeto
 
 - [ ] **Consideração de Acessibilidade desde o início**: Garantir que a acessibilidade seja pensada já na fase de concepção e planejamento do projeto. <a id="TEC43" href="#RP43">[43]</a>
 - [ ] **Desenho Universal**: Aplicar o conceito de desenho universal, garantindo que todos possam usar os produtos, serviços e ambientes digitais sem a necessidade de adaptações. <a id="TEC44" href="#RP44">[44]</a>
 - [ ] **Inclusão nas equipes de projeto**: Incluir pessoas com deficiência nas equipes de desenvolvimento para garantir um olhar mais empático e inclusivo. <a id="TEC45" href="#RP45">[45]</a>
 - [ ] **Engajamento organizacional**: Criar uma cultura de acessibilidade dentro da organização com a participação de diferentes departamentos. <a id="TEC46" href="#RP46">[46]</a>
 
-### Orientações de Acessibilidade
+## Orientações de Acessibilidade
 
 - [ ] **Consideração de deficiência permanente, temporária ou de envelhecimento**: Acessibilidade deve ser priorizada para todas as deficiências. <a id="TEC47" href="#RP47">[47]</a>
 - [ ] **Identificação de tipos de deficiência**: Considerar deficiência visual, auditiva, motora, neurodiversidade, entre outras. <a id="TEC48" href="#RP48">[48]</a>
 - [ ] **Acessibilidade em dispositivos móveis**: Garantir que o site ou app seja acessível também em dispositivos móveis. <a id="TEC49" href="#RP49">[49]</a>
 
-### Introdução ao WCAG
+## Introdução ao WCAG
 
 - [ ] **Seguir Diretrizes WCAG**: Implementar as recomendações do WCAG 2.1 (ou 2.2 quando disponível) para garantir acessibilidade em design, conteúdo e desenvolvimento. <a id="TEC50" href="#RP50">[50]</a>
 - [ ] **Níveis de Conformidade**: Garantir conformidade nos níveis A, AA (mínimo recomendado), e AAA. <a id="TEC51" href="#RP51">[51]</a>
 - [ ] **Princípios do WCAG**: Atender aos 4 princípios de acessibilidade: **Perceptível**, **Operável**, **Compreensível**, e **Robusto**. <a id="TEC52" href="#RP52">[52]</a>
 
-### Boas Práticas de Acessibilidade
+## Boas Práticas de Acessibilidade
 
 - [ ] **Acessibilidade como direito humano**: Garantir que a acessibilidade digital seja tratada como um direito, conforme estabelecido pela Convenção Internacional sobre os Direitos das Pessoas com Deficiência. <a id="TEC53" href="#RP53">[53]</a>
 - [ ] **Incluir a acessibilidade em todas as etapas do projeto**: Desde o planejamento, desenvolvimento, até a execução e manutenção. <a id="TEC54" href="#RP54">[54]</a>
 - [ ] **Educação sobre Acessibilidade**: Promover treinamentos sobre acessibilidade digital para todos os membros da equipe, incluindo os envolvidos em design e conteúdo. <a id="TEC55" href="#RP55">[55]</a>
 
-### Gestão de Projetos
+## Gestão de Projetos
 
 - [ ] **Considerar a acessibilidade nas fases iniciais**: Integrar a acessibilidade desde o início do projeto e garantir seu acompanhamento ao longo de todas as fases. <a id="TEC56" href="#RP56">[56]</a>
 - [ ] **Definir objetivos claros**: Identificar e alinhar claramente os objetivos do projeto com relação à acessibilidade digital. <a id="TEC57" href="#RP57">[57]</a>
@@ -242,3 +240,4 @@ Em seu planejamento, há...
 | 1.0 | Adição de WCAG 2.2, conformidade ABNT NBR 17225:2025 e itens sobre o guia Brasil - Reino Unido| [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 | 1.1 | Correção e Adicionando mais itens em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
 | 1.2 | Adicionando mais itens sobre a ABNT NBR 17225:2025 | [Uires Carlos](https://github.com/uires2023) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
+| 1.3 | Remoção de itens desnecessarios e ajustando o documento | [Gabriel Lopes](https://github.com/BrzGab) | 14/07/2025 | [Uires Carlos](https://github.com/uires2023) | 14/07/2025 |

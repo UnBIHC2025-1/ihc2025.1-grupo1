@@ -59,26 +59,24 @@
 - [ ] **Descrição de links e botões devem ser compreensíveis** de maneira isolada. <a id="TEC55" href="#RP55">[55]</a>
 - [ ] **Links Acessíveis**: Cada link deve ser identificado com um nome acessível que indique claramente seu destino ou a ação que será realizada, sem a necessidade de contexto adicional. <a id="TEC56" href="#RP56">[56]</a>
 
-## Novas Seções Baseadas na ABNT NBR 17225:2025
-
-### Acessibilidade de Navegação
+## Acessibilidade de Navegação
 - [ ] **Teclado**: Garantir que todos os conteúdos e funcionalidades da página sejam acessíveis apenas pelo teclado, sem a necessidade de dispositivos apontadores (como o mouse), utilizando mecanismos adequados de navegação por teclado. <a id="TEC57" href="#RP57">[57]</a>
 - [ ] **Foco Visível**: Adicionar indicadores de foco visível para todos os elementos interativos. Isso facilita a navegação para pessoas que não utilizam o mouse ou dependem de teclados e tecnologias assistivas. <a id="TEC58" href="#RP58">[58]</a>
 - [ ] **Evitar Armadilhas de Foco**: Garantir que o foco não seja preso ou direcionado para elementos que dificultem a navegação do usuário. Isso é crucial para a acessibilidade de usuários que navegam apenas com o teclado. <a id="TEC59" href="#RP59">[59]</a>
 
-### Acessibilidade de Imagens e Mídias
+## Acessibilidade de Imagens e Mídias
 - [ ] **Texto Alternativo**: Para todas as imagens que contêm informação ou funcionalidade, deve-se adicionar texto alternativo descritivo, tornando essas imagens acessíveis a tecnologias assistivas como leitores de tela. <a id="TEC60" href="#RP60">[60]</a>
 - [ ] **Imagens de Texto**: Evitar o uso de imagens de texto, ou, se necessário, garantir que o texto da imagem seja duplicado em formato de texto acessível, para que os usuários com deficiência visual possam compreender o conteúdo sem dificuldades. <a id="TEC61" href="#RP61">[61]</a>
 
-### Acessibilidade de Links e Navegação
+## Acessibilidade de Links e Navegação
 - [ ] **Texto de Links**: O texto dos links deve ser descritivo e indicar claramente seu destino ou ação, para que usuários de tecnologias assistivas possam compreender a função do link sem precisar de contexto adicional. <a id="TEC62" href="#RP62">[62]</a>
 - [ ] **Navegação Consistente**: Garantir que todos os elementos de navegação se mantenham consistentes ao longo das páginas, evitando confusão para o usuário. <a id="TEC63" href="#RP63">[63]</a>
 
-### Acessibilidade de Formulários e Botões
+## Acessibilidade de Formulários e Botões
 - [ ] **Rótulos de Campo**: Cada campo de formulário deve ter um rótulo claro e visível associado, com uma descrição que permita a compreensão completa da sua função. <a id="TEC64" href="#RP64">[64]</a>
 - [ ] **Botões Acessíveis**: Todos os botões e controles interativos devem ser descritos com texto alternativo ou rótulos de maneira que qualquer pessoa, incluindo as que utilizam tecnologias assistivas, saiba qual ação eles realizarão. <a id="TEC65" href="#RP65">[65]</a>
 
-### Acessibilidade de Cores e Contraste
+## Acessibilidade de Cores e Contraste
 - [ ] **Contraste de Cores**: Garantir que o contraste entre texto e fundo seja suficiente para que os usuários com baixa visão ou dificuldades de percepção de cores possam ler o conteúdo sem dificuldade. A ABNT recomenda que o contraste mínimo seja de 4,5:1 para texto normal e 3:1 para texto grande. <a id="TEC66" href="#RP66">[66]</a>
 - [ ] **Evitar o Uso Exclusivo de Cores**: As cores não devem ser usadas isoladamente para transmitir informações importantes, pois isso pode prejudicar pessoas com deficiências de percepção de cores. <a id="TEC67" href="#RP67">[67]</a>
 
@@ -117,9 +115,7 @@
 5. **Navegação Consistente e Acessível**
    - [ ] **Manter uma estrutura de navegação consistente**, com links e botões acessíveis e com texto descritivo, que possa ser facilmente compreendido por usuários com tecnologias assistivas. <a id="TEC78" href="#RP78">[78]</a>
 
-## Checklists de Conteúdo - Guia de Boas Práticas para Acessibilidade Digital
-
-### Conteúdo
+## Conteúdo
 
 - [ ] **Usar a terminologia correta**: Sempre usar a terminologia atualizada e respeitosa, como "pessoas com deficiência (PcD)". <a id="TEC79" href="#RP79">[79]</a>
 - [ ] **Texto claro e objetivo**: Evitar ambiguidades e criar textos claros, simples e objetivos para facilitar a compreensão. <a id="TEC80" href="#RP80">[80]</a>
@@ -271,3 +267,4 @@
 | 1.0 | Adição de WCAG 2.2, conformidade ABNT NBR 17225:2025 e itens sobre o guia Brasil - Reino Unido| [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 | 1.1 | Correção e Adicionando mais itens em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
 | 1.2 | Adicionando mais itens sobre a ABNT NBR 17225:2025 | [Uires Carlos](https://github.com/uires2023) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
+| 1.3 | Remoção de itens desnecessarios e ajustando o documento | [Gabriel Lopes](https://github.com/BrzGab) | 14/07/2025 | [Uires Carlos](https://github.com/uires2023) | 14/07/2025 |

@@ -2,18 +2,18 @@
 
 Para auxiliar e facilitar o desenvolvimento de soluções acessíveis, foram elencadas ferramentas de acessibilidade abaixo. Essas ferramentas permitem a análise, correção e teste de websites e aplicativos para garantir que atendam aos requisitos de acessibilidade digital.
 
-- [Framework de Testes de Acessibilidade](https://github.com/google/Accessibility-Test-Framework-for-Android)
-- [Wave - Web Accessibility Evaluation Tool](https://wave.webaim.org/)
-- [DynoVisual Sitemap Generator](https://dynomapper.com/)
-- [JAWS - Leitor de telas para Windows](https://www.tecassistiva.com.br/catalogo/jaws/)
-- [ACHECKS - Caixa de ferramentas para acessibilidade](https://www.achecks.org/)
-- [AXE - Accessibility Engine for Automated Web UI Testing](https://github.com/dequelabs/axe-core)
-- [Lighthouse - Google - Auditar Acessibilidade](https://developer.chrome.com/docs/lighthouse)
-- [WebAim - Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- [Color Oracle - Simulador de Deficiência Cromática](http://colororacle.org/)
-- [Tota11y - Accessibility Visualization Tool](https://khan.github.io/tota11y/)
-- [Microsoft Accessibility Insights](https://accessibilityinsights.io/)
-- [NVDA - Leitor de Tela Gratuito para Windows](https://www.nvaccess.org/)
+- [Framework de Testes de Acessibilidade](https://github.com/google/Accessibility-Test-Framework-for-Android) <a id="TEC1" href="#RP1">1.</a>
+- [Wave - Web Accessibility Evaluation Tool](https://wave.webaim.org/) <a id="TEC2" href="#RP4">4.</a>
+- [DynoVisual Sitemap Generator](https://dynomapper.com/) <a id="TEC3" href="#RP1">1.</a>
+- [JAWS - Leitor de telas para Windows](https://www.tecassistiva.com.br/catalogo/jaws/) <a id="TEC4" href="#RP4">4.</a>
+- [ACHECKS - Caixa de ferramentas para acessibilidade](https://www.achecks.org/) <a id="TEC5" href="#RP4">4.</a>
+- [AXE - Accessibility Engine for Automated Web UI Testing](https://github.com/dequelabs/axe-core) <a id="TEC6" href="#RP4">4.</a>
+- [Lighthouse - Google - Auditar Acessibilidade](https://developer.chrome.com/docs/lighthouse) <a id="TEC7" href="#RP4">4.</a>
+- [WebAim - Contrast Checker](https://webaim.org/resources/contrastchecker/) <a id="TEC8" href="#RP4">4.</a>
+- [Color Oracle - Simulador de Deficiência Cromática](http://colororacle.org/) <a id="TEC9" href="#RP4">4.</a>
+- [Tota11y - Accessibility Visualization Tool](https://khan.github.io/tota11y/) <a id="TEC10" href="#RP4">4.</a>
+- [Microsoft Accessibility Insights](https://accessibilityinsights.io/) <a id="TEC11" href="#RP1">1.</a>
+- [NVDA - Leitor de Tela Gratuito para Windows](https://www.nvaccess.org/) <a id="TEC12" href="#RP4">4.</a>
 
 ### Comentários sobre o uso das ferramentas
 
@@ -147,11 +147,11 @@ Essas ferramentas são indispensáveis para a criação de soluções acessívei
 
 > <a id="RP1" href="#TEC1">1.</a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 23 Jun. 2025.
 
-> </a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
+> <a id="RP2" href="#TEC2">2.</a> A Convenção sobre Direitos das Pessoas com Deficiência comentada / Coordenação de Ana Paula Crosara de Resende e Flavia Maria de Paiva Vital. _Brasília : Secretaria Especial dos Direitos Humanos, 2008. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/convencao-direitos-pessoas-deficiencia-comentada.pdf). Acesso em: 23 Jun. 2025.
 
-> </a> BRASIL. Secretaria de Logística e Tecnologia da Informação. Portaria nº 3, de 7 de maio de 2007. Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG no âmbito do Sistema de Administração dos Recursos de Informação e Informática – SISP. Diário Oficial da União, Brasília, DF, 7 maio 2007. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf). Acesso em: 23 Jun. 2025.
+> <a id="RP3" href="#TEC3">3.</a> BRASIL. Secretaria de Logística e Tecnologia da Informação. Portaria nº 3, de 7 de maio de 2007. Institucionaliza o Modelo de Acessibilidade em Governo Eletrônico – e-MAG no âmbito do Sistema de Administração dos Recursos de Informação e Informática – SISP. Diário Oficial da União, Brasília, DF, 7 maio 2007. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/legislacao/portaria3_eMAG.pdf). Acesso em: 23 Jun. 2025.
 
-> </a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
+> <a id="RP4" href="#TEC4">4.</a> WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. Recomendação W3C, 21 setembro 2023. Disponível em: [https://www.w3.org/TR/WCAG22/#sotd](https://www.w3.org/TR/WCAG22/#sotd). Acesso em: 23 Jun. 2025.
 
 ## Histórico de Versões
 

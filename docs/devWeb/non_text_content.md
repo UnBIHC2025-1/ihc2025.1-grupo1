@@ -112,7 +112,7 @@
 ## Dispositivo Móvel e Tocável
 
 - [ ] O site pode ser **rotacionado** para qualquer orientação. <a id="TEC15" href="#RP15">[15]</a>
-- [ ] **Impedir** rolagem horizontal. <a id="TEC16" href="#RP15">[16]</a>
+- [ ] **Impedir** rolagem horizontal. <a id="TEC115" href="#RP15">[15]</a>
 - [ ] **Garantir** que botões e links possam ser ativados facilmente. <a id="TEC18" href="#RP18">[18]</a>
 - [ ] **Garantir** espaço suficiente entre elementos interativos. <a id="TEC7" href="#RP7">[7]</a>
 
@@ -125,198 +125,191 @@
 - [ ] No caso de **captcha** garanta que seja simples de entender e tenha alternativas para pessoas com deficiência. <a id="TEC37" href="#RP37">[37]</a>
 - [ ] Incluir um **campo de busca**. <a id="TEC38" href="#RP38">[38]</a>
 
-## Checklists de Desenvolvimento Web - ABNT NBR 17225:2025
+## Interação por Teclado
 
-### Interação por Teclado
+- [ ] **Indicador de foco visível**: Todos os elementos focáveis devem ter um indicador de foco visível. <a id="TEC68" href="#RP6">[6]</a>
+- [ ] **Elemento em foco totalmente visível**: Todos os elementos focáveis devem estar completamente visíveis quando recebem foco. <a id="TEC69" href="#RP6">[6]</a>
+- [ ] **Elemento em foco parcialmente visível**: Todos os elementos focáveis devem estar pelo menos parcialmente visíveis quando recebem foco. <a id="TEC70" href="#RP6">[6]</a>
+- [ ] **Ordem de foco previsível**: A ordem de foco deve ser lógica e intuitiva, consistente com a apresentação da página. <a id="TEC71" href="#RP6">[6]</a>
+- [ ] **Uso de foco**: Todos os elementos focáveis devem ser utilizáveis para interação. <a id="TEC72" href="#RP6">[6]</a>
+- [ ] **Armadilha de foco**: Não pode haver componentes que bloqueiem ou interrompam a navegação por teclado. <a id="TEC73" href="#RP4">[4]</a>
+- [ ] **Conteúdo adicional**: Nenhum conteúdo adicional deve ser exibido apenas pelo foco do teclado ou posicionamento do cursor. <a id="TEC74" href="#RP4">[4]</a>
+- [ ] **Conteúdo adicional persistente**: Todo conteúdo adicional exibido por foco do teclado deve permanecer visível até que o usuário o dispense. <a id="TEC75" href="#RP4">[4]</a>
+- [ ] **Conteúdo adicional dispensável**: O conteúdo adicional deve poder ser dispensado sem necessidade de retirar o foco ou reposicionar o cursor. <a id="TEC76" href="#RP4">[4]</a>
+- [ ] **Atalhos de teclado**: Evite atalhos de teclado que utilizam apenas uma tecla; sempre use uma tecla modificadora (como Ctrl ou Alt). <a id="TEC77" href="#RP30">[30]</a>
+- [ ] **Atalhos de teclado sem tecla modificadora**: Se houver atalhos sem tecla modificadora, deve haver um mecanismo simples para desativá-los ou remapeá-los. <a id="TEC78" href="#RP30">[30]</a>
+- [ ] **Acessibilidade por teclado total**: Toda a funcionalidade do site deve ser acessível via teclado. <a id="TEC79" href="#RP4">[4]</a>
+- [ ] **Acessibilidade por teclado parcial**: Certifique-se de que funcionalidades não acessíveis por teclado tenham alternativas equivalentes. <a id="TEC80" href="#RP4">[4]</a>
+- [ ] **Mecanismos de entrada simultâneos**: Não deve haver restrições de uso de múltiplos mecanismos de entrada, a não ser que seja necessário por questões de segurança. <a id="TEC81" href="#RP4">[4]</a>
+- [ ] **Comportamento de componentes customizados**: Todos os componentes personalizados devem ter comportamentos previsíveis. <a id="TEC82" href="#RP18">[18]</a>
+- [ ] **Instruções para componentes customizados**: Se um componente exige interação complexa, deve haver instruções claras para sua operação. <a id="TEC83" href="#RP18">[18]</a>
 
-- [ ] **Indicador de foco visível**: Todos os elementos focáveis devem ter um indicador de foco visível.
-- [ ] **Elemento em foco totalmente visível**: Todos os elementos focáveis devem estar completamente visíveis quando recebem foco.
-- [ ] **Elemento em foco parcialmente visível**: Todos os elementos focáveis devem estar pelo menos parcialmente visíveis quando recebem foco.
-- [ ] **Ordem de foco previsível**: A ordem de foco deve ser lógica e intuitiva, consistente com a apresentação da página.
-- [ ] **Uso de foco**: Todos os elementos focáveis devem ser utilizáveis para interação.
-- [ ] **Armadilha de foco**: Não pode haver componentes que bloqueiem ou interrompam a navegação por teclado.
-- [ ] **Conteúdo adicional**: Nenhum conteúdo adicional deve ser exibido apenas pelo foco do teclado ou posicionamento do cursor.
-- [ ] **Conteúdo adicional persistente**: Todo conteúdo adicional exibido por foco do teclado deve permanecer visível até que o usuário o dispense.
-- [ ] **Conteúdo adicional dispensável**: O conteúdo adicional deve poder ser dispensado sem necessidade de retirar o foco ou reposicionar o cursor.
-- [ ] **Atalhos de teclado**: Evite atalhos de teclado que utilizam apenas uma tecla; sempre use uma tecla modificadora (como Ctrl ou Alt).
-- [ ] **Atalhos de teclado sem tecla modificadora**: Se houver atalhos sem tecla modificadora, deve haver um mecanismo simples para desativá-los ou remapeá-los.
-- [ ] **Acessibilidade por teclado total**: Toda a funcionalidade do site deve ser acessível via teclado.
-- [ ] **Acessibilidade por teclado parcial**: Certifique-se de que funcionalidades não acessíveis por teclado tenham alternativas equivalentes.
-- [ ] **Mecanismos de entrada simultâneos**: Não deve haver restrições de uso de múltiplos mecanismos de entrada, a não ser que seja necessário por questões de segurança.
-- [ ] **Comportamento de componentes customizados**: Todos os componentes personalizados devem ter comportamentos previsíveis.
-- [ ] **Instruções para componentes customizados**: Se um componente exige interação complexa, deve haver instruções claras para sua operação.
+## Imagens
 
-### Imagens
+- [ ] **Texto alternativo para imagens de conteúdo**: Todas as imagens informativas devem ter um texto alternativo que descreve seu conteúdo. <a id="TEC84" href="#RP1">[1]</a>
+- [ ] **Texto alternativo para imagens funcionais**: Imagens funcionais (como ícones ou botões) devem ter um texto alternativo que descreva sua função. <a id="TEC85" href="#RP1">[1]</a>
+- [ ] **Texto alternativo para imagens decorativas**: Imagens decorativas devem ter um texto alternativo vazio, ou ser implementadas de forma que possam ser ignoradas por tecnologias assistivas. <a id="TEC86" href="#RP1">[1]</a>
+- [ ] **Descrição para imagens complexas**: Imagens complexas devem ter uma descrição detalhada disponível na página ou em uma página indicada. <a id="TEC87" href="#RP14">[14]</a>
+- [ ] **Imagens de texto**: Evite o uso de imagens de texto. Se for essencial, deve haver texto alternativo correspondente. <a id="TEC88" href="#RP23">[23]</a>
+- [ ] **Texto alternativo para mapas de imagens**: Mapas de imagens devem ter texto alternativo para cada área interativa. <a id="TEC89" href="#RP1">[1]</a>
 
-- [ ] **Texto alternativo para imagens de conteúdo**: Todas as imagens informativas devem ter um texto alternativo que descreve seu conteúdo.
-- [ ] **Texto alternativo para imagens funcionais**: Imagens funcionais (como ícones ou botões) devem ter um texto alternativo que descreva sua função.
-- [ ] **Texto alternativo para imagens decorativas**: Imagens decorativas devem ter um texto alternativo vazio, ou ser implementadas de forma que possam ser ignoradas por tecnologias assistivas.
-- [ ] **Descrição para imagens complexas**: Imagens complexas devem ter uma descrição detalhada disponível na página ou em uma página indicada.
-- [ ] **Imagens de texto**: Evite o uso de imagens de texto. Se for essencial, deve haver texto alternativo correspondente.
-- [ ] **Texto alternativo para mapas de imagens**: Mapas de imagens devem ter texto alternativo para cada área interativa.
+## Cabeçalhos
 
-### Cabeçalhos
+- [ ] **Semântica de cabeçalho**: Cabeçalhos devem ser usados de forma semântica, de acordo com sua importância (H1, H2, H3, etc.). <a id="TEC90" href="#RP17">[17]</a>
+- [ ] **Uso de cabeçalhos**: Todos os cabeçalhos devem ser utilizados para organizar seções de conteúdo de forma lógica. <a id="TEC91" href="#RP17">[17]</a>
+- [ ] **Cabeçalho principal**: Deve haver apenas um cabeçalho de nível 1 (H1), que identifica o título principal da página. <a id="TEC92" href="#RP17">[17]</a>
+- [ ] **Seções com cabeçalhos**: Todas as seções importantes do conteúdo devem ter um cabeçalho correspondente. <a id="TEC93" href="#RP17">[17]</a>
+- [ ] **Estrutura de cabeçalhos**: A hierarquia dos cabeçalhos deve ser lógica e semântica. <a id="TEC94" href="#RP17">[17]</a>
 
-- [ ] **Semântica de cabeçalho**: Cabeçalhos devem ser usados de forma semântica, de acordo com sua importância (H1, H2, H3, etc.).
-- [ ] **Uso de cabeçalhos**: Todos os cabeçalhos devem ser utilizados para organizar seções de conteúdo de forma lógica.
-- [ ] **Cabeçalho principal**: Deve haver apenas um cabeçalho de nível 1 (H1), que identifica o título principal da página.
-- [ ] **Seções com cabeçalhos**: Todas as seções importantes do conteúdo devem ter um cabeçalho correspondente.
-- [ ] **Estrutura de cabeçalhos**: A hierarquia dos cabeçalhos deve ser lógica e semântica.
+## Regiões
 
-### Regiões
+- [ ] **Semântica de região**: As regiões da página devem ter uma semântica clara, indicando a função de cada área (como cabeçalho, navegação, conteúdo principal, etc.). <a id="TEC95" href="#RP18">[18]</a>
+- [ ] **Uso de regiões**: As regiões devem ser usadas para organizar o conteúdo da página de acordo com o tipo de conteúdo. <a id="TEC96" href="#RP18">[18]</a>
+- [ ] **Conteúdo em regiões**: Todo o conteúdo deve estar contido em regiões bem definidas. <a id="TEC97" href="#RP18">[18]</a>
+- [ ] **Regiões únicas**: Não deve haver mais de uma região do tipo 'header', 'main' ou 'footer'. <a id="TEC98" href="#RP19">[19]</a>
+- [ ] **Regiões identificadas unicamente**: Cada região deve ter um identificador único acessível. <a id="TEC99" href="#RP19">[19]</a>
 
-- [ ] **Semântica de região**: As regiões da página devem ter uma semântica clara, indicando a função de cada área (como cabeçalho, navegação, conteúdo principal, etc.).
-- [ ] **Uso de regiões**: As regiões devem ser usadas para organizar o conteúdo da página de acordo com o tipo de conteúdo.
-- [ ] **Conteúdo em regiões**: Todo o conteúdo deve estar contido em regiões bem definidas.
-- [ ] **Regiões únicas**: Não deve haver mais de uma região do tipo 'header', 'main' ou 'footer'.
-- [ ] **Regiões identificadas unicamente**: Cada região deve ter um identificador único acessível.
+## Listas
 
-### Listas
+- [ ] **Semântica de lista**: Listas devem ser usadas de forma semântica, para agrupar itens de forma ordenada ou não ordenada. <a id="TEC100" href="#RP21">[21]</a>
+- [ ] **Uso de listas**: As listas devem agrupar itens de mesma natureza (ex.: uma lista de características, de passos, etc.). <a id="TEC101" href="#RP21">[21]</a>
 
-- [ ] **Semântica de lista**: Listas devem ser usadas de forma semântica, para agrupar itens de forma ordenada ou não ordenada.
-- [ ] **Uso de listas**: As listas devem agrupar itens de mesma natureza (ex.: uma lista de características, de passos, etc.).
+## Tabelas
 
-### Tabelas
+- [ ] **Semântica de tabela**: Tabelas devem ser usadas para apresentar dados tabulares, e não para layout visual. <a id="TEC102" href="#RP15">[15]</a>
+- [ ] **Uso de tabelas**: As tabelas devem ser usadas corretamente para apresentar dados, sem uso de tabelas para layout visual. <a id="TEC103" href="#RP15">[15]</a>
+- [ ] **Cabeçalhos de tabela**: As células de dados em tabelas devem ser associadas com cabeçalhos de linha e coluna. <a id="TEC104" href="#RP17">[17]</a>
+- [ ] **Título de tabela**: Toda tabela deve ter um título que a descreva. <a id="TEC105" href="#RP17">[17]</a>
+- [ ] **Título de tabela associado**: O título ou legenda da tabela deve ser associado corretamente à tabela. <a id="TEC106" href="#RP17">[17]</a>
+- [ ] **Descrição para tabelas complexas**: Tabelas complexas devem ter uma descrição textual explicando sua estrutura. <a id="TEC107" href="#RP17">[17]</a>
 
-- [ ] **Semântica de tabela**: Tabelas devem ser usadas para apresentar dados tabulares, e não para layout visual.
-- [ ] **Uso de tabelas**: As tabelas devem ser usadas corretamente para apresentar dados, sem uso de tabelas para layout visual.
-- [ ] **Cabeçalhos de tabela**: As células de dados em tabelas devem ser associadas com cabeçalhos de linha e coluna.
-- [ ] **Título de tabela**: Toda tabela deve ter um título que a descreva.
-- [ ] **Título de tabela associado**: O título ou legenda da tabela deve ser associado corretamente à tabela.
-- [ ] **Descrição para tabelas complexas**: Tabelas complexas devem ter uma descrição textual explicando sua estrutura.
+## Links e Navegação
 
-### Links e Navegação
+- [ ] **Semântica de link**: Todos os links devem ser semânticos e indicar claramente seu propósito ou destino. <a id="TEC108" href="#RP4">[4]</a>
+- [ ] **Uso de links**: Os links devem ser utilizados exclusivamente para navegação. <a id="TEC109" href="#RP4">[4]</a>
+- [ ] **Propósito do link sem contexto**: O texto do link deve indicar claramente sua função ou destino, mesmo fora de contexto. <a id="TEC110" href="#RP5">[5]</a>
+- [ ] **Propósito do link no contexto**: O texto do link deve, junto com seu contexto, informar sua função ou destino. <a id="TEC111" href="#RP5">[5]</a>
+- [ ] **Links com identificação consistente**: Links que possuem o mesmo texto ou função devem ter identificação consistente. <a id="TEC112" href="#RP7">[7]</a>
+- [ ] **Links que abrem em uma nova guia ou janela**: Links que abrem novas guias ou janelas devem informar isso ao usuário. <a id="TEC113" href="#RP8">[8]</a>
+- [ ] **Links para arquivos (não HTML)**: Links para arquivos (PDF, DOC, etc.) devem informar o formato e tamanho do arquivo. <a id="TEC114" href="#RP8">[8]</a>
+- [ ] **Links para sites externos**: Links para sites externos devem indicar isso claramente. <a id="TEC115" href="#RP8">[8]</a>
+- [ ] **Texto complementar do link**: Evite a repetição desnecessária de texto nos links. <a id="TEC116" href="#RP5">[5]</a>
+- [ ] **Links adjacentes**: Não deve haver links adjacentes que levem ao mesmo destino. <a id="TEC117" href="#RP5">[5]</a>
+- [ ] **Links para contornar blocos de conteúdo**: Deve haver links que permitam ao usuário contornar conteúdo repetido. <a id="TEC118" href="#RP7">[7]</a>
+- [ ] **Links para contornar blocos de conteúdo em conjunto de páginas**: Deve haver links para contornar conteúdo repetido entre páginas. <a id="TEC119" href="#RP7">[7]</a>
+- [ ] **Alternativas para localização**: Deve haver mais de uma forma de encontrar uma página dentro de um conjunto de páginas. <a id="TEC120" href="#RP7">[7]</a>
+- [ ] **Localização em conjunto de páginas**: O usuário deve saber sua localização dentro de um conjunto de páginas ou seções. <a id="TEC121" href="#RP7">[7]</a>
+- [ ] **Navegação consistente**: A navegação deve ser consistente em todas as páginas do site. <a id="TEC122" href="#RP7">[7]</a>
+- [ ] **Ajuda consistente**: Mecanismos de ajuda devem ser consistentes em todas as páginas do site. <a id="TEC123" href="#RP7">[7]</a>
 
-- [ ] **Semântica de link**: Todos os links devem ser semânticos e indicar claramente seu propósito ou destino.
-- [ ] **Uso de links**: Os links devem ser utilizados exclusivamente para navegação.
-- [ ] **Propósito do link sem contexto**: O texto do link deve indicar claramente sua função ou destino, mesmo fora de contexto.
-- [ ] **Propósito do link no contexto**: O texto do link deve, junto com seu contexto, informar sua função ou destino.
-- [ ] **Links com identificação consistente**: Links que possuem o mesmo texto ou função devem ter identificação consistente.
-- [ ] **Links que abrem em uma nova guia ou janela**: Links que abrem novas guias ou janelas devem informar isso ao usuário.
-- [ ] **Links para arquivos (não HTML)**: Links para arquivos (PDF, DOC, etc.) devem informar o formato e tamanho do arquivo.
-- [ ] **Links para sites externos**: Links para sites externos devem indicar isso claramente.
-- [ ] **Texto complementar do link**: Evite a repetição desnecessária de texto nos links.
-- [ ] **Links adjacentes**: Não deve haver links adjacentes que levem ao mesmo destino.
-- [ ] **Links para contornar blocos de conteúdo**: Deve haver links que permitam ao usuário contornar conteúdo repetido.
-- [ ] **Links para contornar blocos de conteúdo em conjunto de páginas**: Deve haver links para contornar conteúdo repetido entre páginas.
-- [ ] **Alternativas para localização**: Deve haver mais de uma forma de encontrar uma página dentro de um conjunto de páginas.
-- [ ] **Localização em conjunto de páginas**: O usuário deve saber sua localização dentro de um conjunto de páginas ou seções.
-- [ ] **Navegação consistente**: A navegação deve ser consistente em todas as páginas do site.
-- [ ] **Ajuda consistente**: Mecanismos de ajuda devem ser consistentes em todas as páginas do site.
+## Botões e Controles
 
-### Botões e Controles
-
-- [ ] **Semântica de botão**: Todos os botões devem ser semanticamente definidos.
-- [ ] **Uso de botões**: Botões devem ser usados para executar uma ação clara e específica.
-- [ ] **Propósito do botão**: O texto ou nome acessível do botão deve indicar claramente sua função.
-- [ ] **Identificação consistente na página**: Botões com a mesma função devem ser identificados de forma consistente.
-- [ ] **Identificação consistente em conjunto de páginas**: A identificação de botões deve ser consistente entre páginas.
-- [ ] **Área de acionamento (aprimorada)**: A área de acionamento dos botões deve ser suficientemente grande (mínimo de 44x44 pixels).
-- [ ] **Área de acionamento (mínima)**: A área de acionamento dos botões não pode ser menor que 24x24 pixels.
-- [ ] **Mudança de contexto previsível**: Mudanças de contexto no site devem ser controladas pelo usuário, ou o usuário deve ser avisado.
-- [ ] **Mudança de contexto previsível no foco**: Nenhuma mudança de contexto deve ocorrer apenas ao mudar o foco do teclado ou posicionamento do cursor.
-- [ ] **Mudança de contexto previsível na entrada**: O usuário deve ser avisado sobre qualquer mudança de contexto ao inserir ou selecionar dados.
-- [ ] **Acionamento por ponteiro único**: Funcionalidades não devem ser acionadas pelo pressionamento do ponteiro, mas pelo **soltar** do ponteiro.
-- [ ] **Operação por gestos de ponteiro**: Funcionalidades baseadas em gestos de múltiplos toques ou movimentos devem ser acessíveis com um único ponteiro.
+- [ ] **Semântica de botão**: Todos os botões devem ser semanticamente definidos. <a id="TEC124" href="#RP4">[4]</a>
+- [ ] **Uso de botões**: Botões devem ser usados para executar uma ação clara e específica. <a id="TEC125" href="#RP4">[4]</a>
+- [ ] **Propósito do botão**: O texto ou nome acessível do botão deve indicar claramente sua função. <a id="TEC126" href="#RP18">[18]</a>
+- [ ] **Identificação consistente na página**: Botões com a mesma função devem ser identificados de forma consistente. <a id="TEC127" href="#RP18">[18]</a>
+- [ ] **Identificação consistente em conjunto de páginas**: A identificação de botões deve ser consistente entre páginas. <a id="TEC128" href="#RP18">[18]</a>
+- [ ] **Área de acionamento (aprimorada)**: A área de acionamento dos botões deve ser suficientemente grande (mínimo de 44x44 pixels). <a id="TEC129" href="#RP18">[18]</a>
+- [ ] **Área de acionamento (mínima)**: A área de acionamento dos botões não pode ser menor que 24x24 pixels. <a id="TEC130" href="#RP18">[18]</a>
+- [ ] **Mudança de contexto previsível**: Mudanças de contexto no site devem ser controladas pelo usuário, ou o usuário deve ser avisado. <a id="TEC131" href="#RP18">[18]</a>
+- [ ] **Mudança de contexto previsível no foco**: Nenhuma mudança de contexto deve ocorrer apenas ao mudar o foco do teclado ou posicionamento do cursor. <a id="TEC132" href="#RP18">[18]</a>
+- [ ] **Mudança de contexto previsível na entrada**: O usuário deve ser avisado sobre qualquer mudança de contexto ao inserir ou selecionar dados. <a id="TEC133" href="#RP18">[18]</a>
+- [ ] **Acionamento por ponteiro único**: Funcionalidades não devem ser acionadas pelo pressionamento do ponteiro, mas pelo **soltar** do ponteiro. <a id="TEC134" href="#RP18">[18]</a>
+- [ ] **Operação por gestos de ponteiro**: Funcionalidades baseadas em gestos de múltiplos toques ou movimentos devem ser acessíveis com um único ponteiro. <a id="TEC135" href="#RP18">[18]</a>
 
 ---
 
-## Checklists de Desenvolvimento Web - Guia de Boas Práticas para Acessibilidade Digital
+## Desenvolvimento
 
-### Desenvolvimento
-
-- [ ] **Uso do WCAG nas práticas de desenvolvimento**: Implementar as diretrizes de acessibilidade durante o processo de desenvolvimento.
-- [ ] **Evitar ferramentas "milagrosas"**: Não depender apenas de plugins ou ferramentas automáticas para garantir a acessibilidade.
-- [ ] **Testes de acessibilidade**: Realizar testes manuais e automáticos para garantir que o conteúdo está acessível para todos os tipos de deficiências.
-- [ ] **Semântica HTML**: Usar uma semântica HTML correta para garantir que os leitores de tela e tecnologias assistivas reconheçam adequadamente os elementos.
+- [ ] **Uso do WCAG nas práticas de desenvolvimento**: Implementar as diretrizes de acessibilidade durante o processo de desenvolvimento. <a id="TEC136" href="#RP18">[18]</a>
+- [ ] **Evitar ferramentas "milagrosas"**: Não depender apenas de plugins ou ferramentas automáticas para garantir a acessibilidade. <a id="TEC137" href="#RP18">[18]</a>
+- [ ] **Testes de acessibilidade**: Realizar testes manuais e automáticos para garantir que o conteúdo está acessível para todos os tipos de deficiências. <a id="TEC138" href="#RP18">[18]</a>
+- [ ] **Semântica HTML**: Usar uma semântica HTML correta para garantir que os leitores de tela e tecnologias assistivas reconheçam adequadamente os elementos. <a id="TEC139" href="#RP18">[18]</a>
 
 ---
 
-## Checklists de Desenvolvimento Web - Acessibilidade Manual para Desenvolvedores
 
-### Links
+## Links
 
-- [ ] **Remetem corretamente ao destino**: Os links devem redirecionar para o destino correto e ser claros quanto à sua ação.
-- [ ] **Descrição adequada**: A descrição dos links deve ser curta, objetiva e informativa.
-- [ ] **Atalhos de teclado**: Devem ser implementados e funcionar corretamente, com descrição adequada.
-- [ ] **Uso correto de âncoras**: As âncoras devem ser descritas adequadamente e funcionar como esperado.
-- [ ] **Localização do usuário**: A página deve fornecer links que indiquem a localização do usuário nas páginas internas.
+- [ ] **Remetem corretamente ao destino**: Os links devem redirecionar para o destino correto e ser claros quanto à sua ação. <a id="TEC140" href="#RP4">[4]</a>
+- [ ] **Descrição adequada**: A descrição dos links deve ser curta, objetiva e informativa. <a id="TEC141" href="#RP5">[5]</a>
+- [ ] **Atalhos de teclado**: Devem ser implementados e funcionar corretamente, com descrição adequada. <a id="TEC142" href="#RP4">[4]</a>
+- [ ] **Uso correto de âncoras**: As âncoras devem ser descritas adequadamente e funcionar como esperado. <a id="TEC143" href="#RP7">[7]</a>
+- [ ] **Localização do usuário**: A página deve fornecer links que indiquem a localização do usuário nas páginas internas. <a id="TEC144" href="#RP7">[7]</a>
 
-### Conteúdos
+## Conteúdos
 
-- [ ] **Gráficos e Imagens**: As imagens devem ser adequadamente descritas com o uso do atributo `alt`.
-- [ ] **Texto claro e conciso**: Evitar verborragia e garantir que as palavras e frases sejam compreendidas.
-- [ ] **Conteúdos em Flash**: Quando usados, devem ser descritos corretamente, e sua tabulação deve ser clara para leitores de tela.
-- [ ] **Arquivos para leitura e download**: Arquivos disponibilizados devem ser compatíveis com leitores de tela e ter extensão visível.
-- [ ] **Tabelas**: Devem ser usadas apenas quando necessárias, e seu conteúdo deve ser acessível com cabeçalhos e descrições adequadas.
+- [ ] **Gráficos e Imagens**: As imagens devem ser adequadamente descritas com o uso do atributo `alt`. <a id="TEC145" href="#RP1">[1]</a>
+- [ ] **Texto claro e conciso**: Evitar verborragia e garantir que as palavras e frases sejam compreendidas. <a id="TEC146" href="#RP18">[18]</a>
+- [ ] **Conteúdos em Flash**: Quando usados, devem ser descritos corretamente, e sua tabulação deve ser clara para leitores de tela. <a id="TEC147" href="#RP18">[18]</a>
+- [ ] **Arquivos para leitura e download**: Arquivos disponibilizados devem ser compatíveis com leitores de tela e ter extensão visível. <a id="TEC148" href="#RP8">[8]</a>
+- [ ] **Tabelas**: Devem ser usadas apenas quando necessárias, e seu conteúdo deve ser acessível com cabeçalhos e descrições adequadas. <a id="TEC149" href="#RP15">[15]</a>
 
-### Formulários
+## Formulários
 
-- [ ] **Formulários organizados e compreensíveis**: Os campos devem ser claros e a ordem de tabulação deve estar correta.
-- [ ] **Botões**: Devem ser bem descritos e realizar as ações de forma eficaz.
-- [ ] **Caixas combinadas e de seleção**: Não devem submeter automaticamente e devem ser navegáveis com o teclado.
-- [ ] **Capcha**: Caso utilizado, deve ter uma alternativa em áudio acessível para deficientes visuais.
+- [ ] **Formulários organizados e compreensíveis**: Os campos devem ser claros e a ordem de tabulação deve estar correta. <a id="TEC150" href="#RP4">[4]</a>
+- [ ] **Botões**: Devem ser bem descritos e realizar as ações de forma eficaz. <a id="TEC151" href="#RP4">[4]</a>
+- [ ] **Caixas combinadas e de seleção**: Não devem submeter automaticamente e devem ser navegáveis com o teclado. <a id="TEC152" href="#RP4">[4]</a>
+- [ ] **Capcha**: Caso utilizado, deve ter uma alternativa em áudio acessível para deficientes visuais. <a id="TEC153" href="#RP1">[1]</a>
 
-### Estrutura do Site
+## Estrutura do Site
 
-- [ ] **Estrutura lógica e padronizada**: A página deve ter uma estrutura clara e uniforme, facilitando a navegação.
-- [ ] **Títulos com ordem lógica**: Os títulos (h1, h2, h3) devem estar em ordem hierárquica para facilitar a navegação.
-- [ ] **Menu acessível**: O menu deve ser apresentado de forma lista, com descrição para mostrar/ocultar submenus.
-- [ ] **Sumário para conteúdos longos**: Se o conteúdo for extenso, deve haver um sumário de fácil acesso.
-- [ ] **Mapa do site**: O site deve possuir um mapa acessível com links para todas as páginas.
+- [ ] **Estrutura lógica e padronizada**: A página deve ter uma estrutura clara e uniforme, facilitando a navegação. <a id="TEC154" href="#RP18">[18]</a>
+- [ ] **Títulos com ordem lógica**: Os títulos (h1, h2, h3) devem estar em ordem hierárquica para facilitar a navegação. <a id="TEC155" href="#RP17">[17]</a>
+- [ ] **Menu acessível**: O menu deve ser apresentado de forma lista, com descrição para mostrar/ocultar submenus. <a id="TEC156" href="#RP21">[21]</a>
+- [ ] **Sumário para conteúdos longos**: Se o conteúdo for extenso, deve haver um sumário de fácil acesso. <a id="TEC157" href="#RP7">[7]</a>
+- [ ] **Mapa do site**: O site deve possuir um mapa acessível com links para todas as páginas. <a id="TEC158" href="#RP7">[7]</a>
 
-### Acessibilidade
+## Acessibilidade
 
-- [ ] **Recursos para baixa visão**: O site deve permitir aumentar a fonte e oferecer contraste adequado.
-- [ ] **Dicas de navegação**: Devem ser oferecidas dicas claras de navegação para deficientes visuais.
-- [ ] **Tabulação da página**: A tabulação deve seguir uma ordem lógica, com o conteúdo sendo lido antes do menu.
+- [ ] **Recursos para baixa visão**: O site deve permitir aumentar a fonte e oferecer contraste adequado. <a id="TEC159" href="#RP24">[24]</a>
+- [ ] **Dicas de navegação**: Devem ser oferecidas dicas claras de navegação para deficientes visuais. <a id="TEC160" href="#RP7">[7]</a>
+- [ ] **Tabulação da página**: A tabulação deve seguir uma ordem lógica, com o conteúdo sendo lido antes do menu. <a id="TEC161" href="#RP4">[4]</a>
 
 ---
 
-## Checklists de Desenvolvimento Web - WCAG 2.2
+## Perceptível
 
-### Perceptível
-
-- [ ] **Alternativas em Texto (1.1.1)**: Forneça alternativas textuais para todo conteúdo não textual, como imagens, gráficos e ícones, exceto em casos de uso específico.
+- [ ] **Alternativas em Texto (1.1.1)**: Forneça alternativas textuais para todo conteúdo não textual, como imagens, gráficos e ícones, exceto em casos de uso específico. <a id="TEC162" href="#RP1">[1]</a>
 - [ ] **Mídias com Base em Tempo (1.2.1 a 1.2.9)**:
   - Legendas e audiodescrição para conteúdo de áudio e vídeo (pré-gravado e ao vivo).
-  - Fornecer alternativas para conteúdo de mídia baseada em tempo, como audiodescrição estendida e tradução em Língua de Sinais.
-- [ ] **Contraste Mínimo (1.4.3)**: Assegure uma relação de contraste mínima de 4.5:1 entre texto e fundo.
-- [ ] **Contraste Melhorado (1.4.6)**: Assegure uma relação de contraste de 7:1 para texto e imagens de texto.
-- [ ] **Espaçamento de Texto (1.4.12)**: O espaçamento de texto deve ser redimensionado de acordo com requisitos específicos sem perda de funcionalidade ou conteúdo.
-- [ ] **Imagens de Texto (1.4.5)**: Evite usar imagens de texto, exceto quando seja essencial ou personalizável.
+  - Fornecer alternativas para conteúdo de mídia baseada em tempo, como audiodescrição estendida e tradução em Língua de Sinais. <a id="TEC163" href="#RP2">[2]</a>
+- [ ] **Contraste Mínimo (1.4.3)**: Assegure uma relação de contraste mínima de 4.5:1 entre texto e fundo. <a id="TEC164" href="#RP24">[24]</a>
+- [ ] **Contraste Melhorado (1.4.6)**: Assegure uma relação de contraste de 7:1 para texto e imagens de texto. <a id="TEC165" href="#RP24">[24]</a>
+- [ ] **Espaçamento de Texto (1.4.12)**: O espaçamento de texto deve ser redimensionado de acordo com requisitos específicos sem perda de funcionalidade ou conteúdo. <a id="TEC166" href="#RP25">[25]</a>
+- [ ] **Imagens de Texto (1.4.5)**: Evite usar imagens de texto, exceto quando seja essencial ou personalizável. <a id="TEC167" href="#RP23">[23]</a>
 
-### Operável
+## Operável
 
-- [ ] **Foco Visível (2.4.7)**: Garanta que o foco de teclado seja visível e fácil de localizar.
-- [ ] **Ordem do Foco (2.4.3)**: A ordem do foco de navegação deve ser lógica e permitir que o conteúdo seja acessado de forma consistente.
-- [ ] **Atalhos de Teclado (2.1.4)**: Se forem utilizados atalhos de teclado, ofereça mecanismos para desativá-los ou remapear os atalhos.
-- [ ] **Sem Bloqueio do Teclado (2.1.2)**: Garantir que o foco de teclado possa ser removido facilmente.
-- [ ] **Limite de Tempo (2.2.3)**: Garanta que os usuários tenham a opção de ajustar ou desativar os limites de tempo.
-- [ ] **Movimentos de Arrastar (2.5.7)**: Ofereça alternativas para interações que exigem gestos de arrastar.
-- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho do alvo para interação deve ser no mínimo 44x44 pixels.
+- [ ] **Foco Visível (2.4.7)**: Garanta que o foco de teclado seja visível e fácil de localizar. <a id="TEC168" href="#RP6">[6]</a>
+- [ ] **Ordem do Foco (2.4.3)**: A ordem do foco de navegação deve ser lógica e permitir que o conteúdo seja acessado de forma consistente. <a id="TEC169" href="#RP6">[6]</a>
+- [ ] **Atalhos de Teclado (2.1.4)**: Se forem utilizados atalhos de teclado, ofereça mecanismos para desativá-los ou remapear os atalhos. <a id="TEC170" href="#RP30">[30]</a>
+- [ ] **Sem Bloqueio do Teclado (2.1.2)**: Garantir que o foco de teclado possa ser removido facilmente. <a id="TEC171" href="#RP4">[4]</a>
+- [ ] **Limite de Tempo (2.2.3)**: Garanta que os usuários tenham a opção de ajustar ou desativar os limites de tempo. <a id="TEC172" href="#RP13">[13]</a>
+- [ ] **Movimentos de Arrastar (2.5.7)**: Ofereça alternativas para interações que exigem gestos de arrastar. <a id="TEC173" href="#RP18">[18]</a>
+- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho do alvo para interação deve ser no mínimo 44x44 pixels. <a id="TEC174" href="#RP36">[36]</a>
 
-### Compreensível
+## Compreensível
 
-- [ ] **Identificação do Erro (3.3.1)**: Forneça feedback claro sobre erros de entrada e sugestões de correção.
-- [ ] **Rótulos e Instruções (3.3.2)**: Garanta que todos os campos de entrada tenham rótulos claros e instrua os usuários sobre como completar as informações corretamente.
-- [ ] **Previsibilidade (3.2.2)**: A navegação e os comportamentos do site devem ser previsíveis, sem mudanças inesperadas de contexto.
-- [ ] **Entrada Redundante (3.3.7)**: Evite pedir ao usuário que forneça as mesmas informações em múltiplos formulários ou etapas de um processo.
-- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Assegure que todos os métodos de autenticação sejam acessíveis e possam ser realizados sem a necessidade de interação complexa.
+- [ ] **Identificação do Erro (3.3.1)**: Forneça feedback claro sobre erros de entrada e sugestões de correção. <a id="TEC175" href="#RP11">[11]</a>
+- [ ] **Rótulos e Instruções (3.3.2)**: Garanta que todos os campos de entrada tenham rótulos claros e instrua os usuários sobre como completar as informações corretamente. <a id="TEC176" href="#RP9">[9]</a>
+- [ ] **Previsibilidade (3.2.2)**: A navegação e os comportamentos do site devem ser previsíveis, sem mudanças inesperadas de contexto. <a id="TEC177" href="#RP18">[18]</a>
+- [ ] **Entrada Redundante (3.3.7)**: Evite pedir ao usuário que forneça as mesmas informações em múltiplos formulários ou etapas de um processo. <a id="TEC178" href="#RP10">[10]</a>
+- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Assegure que todos os métodos de autenticação sejam acessíveis e possam ser realizados sem a necessidade de interação complexa. <a id="TEC179" href="#RP18">[18]</a>
 
-### Robusto
+## Robusto
 
-- [ ] **Compatibilidade com Tecnologias Assistivas (4.1.2)**: Certifique-se de que o conteúdo da web seja compatível com tecnologias assistivas, como leitores de tela.
-- [ ] **Mensagens de Status (4.1.3)**: As mensagens de status devem ser programaticamente acessíveis para tecnologias assistivas.
+- [ ] **Compatibilidade com Tecnologias Assistivas (4.1.2)**: Certifique-se de que o conteúdo da web seja compatível com tecnologias assistivas, como leitores de tela. <a id="TEC180" href="#RP18">[18]</a>
+- [ ] **Mensagens de Status (4.1.3)**: As mensagens de status devem ser programaticamente acessíveis para tecnologias assistivas. <a id="TEC181" href="#RP18">[18]</a>
 
-### Novos Critérios de Sucesso
+## Novos Critérios de Sucesso
 
-- [ ] **Foco Não Obscurecido (2.4.11 e 2.4.12)**: Garantir que o foco de teclado não seja obscurecido por conteúdo adicional da página.
-- [ ] **Aparência do Foco (2.4.13)**: O foco do teclado deve ser claramente visível e ter contraste suficiente.
-- [ ] **Gestos de Acionamento (2.5.1)**: Permitir que interações baseadas em gestos sejam substituídas por interações com um ponteiro único.
-- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho dos alvos de interação deve ser, no mínimo, de 44x44 pixels.
-- [ ] **Entrada Redundante (3.3.7)**: Evitar que o usuário tenha que preencher a mesma informação em diferentes partes do site.
-- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Fornecer métodos de autenticação acessíveis para todos os usuários.
+- [ ] **Foco Não Obscurecido (2.4.11 e 2.4.12)**: Garantir que o foco de teclado não seja obscurecido por conteúdo adicional da página. <a id="TEC182" href="#RP6">[6]</a>
+- [ ] **Aparência do Foco (2.4.13)**: O foco do teclado deve ser claramente visível e ter contraste suficiente. <a id="TEC183" href="#RP6">[6]</a>
+- [ ] **Gestos de Acionamento (2.5.1)**: Permitir que interações baseadas em gestos sejam substituídas por interações com um ponteiro único. <a id="TEC184" href="#RP18">[18]</a>
+- [ ] **Tamanho do Alvo (2.5.8)**: O tamanho dos alvos de interação deve ser, no mínimo, de 44x44 pixels. <a id="TEC185" href="#RP36">[36]</a>
+- [ ] **Entrada Redundante (3.3.7)**: Evitar que o usuário tenha que preencher a mesma informação em diferentes partes do site. <a id="TEC186" href="#RP10">[10]</a>
+- [ ] **Autenticação Acessível (3.3.8 e 3.3.9)**: Fornecer métodos de autenticação acessíveis para todos os usuários. <a id="TEC187" href="#RP18">[18]</a>
 
 ## Referência Bibliográfica
 
@@ -402,3 +395,4 @@
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Adição de WCAG 2.2, conformidade ABNT NBR 17225:2025 e itens sobre o guia Brasil - Reino Unido| [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 | 1.1 | Correção e Adicionando mais itens em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
+| 1.2 | Removendo titulos desnecessários| [Gabriel Lopes](https://github.com/BrzGab) | 14/07/2025 | [Uires Carlos](https://github.com/uires2023) | 14/07/2025 |

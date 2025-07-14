@@ -177,7 +177,7 @@
 ## Checklists de Design - ABNT NBR 17225:2025
 
 ### Contraste de Cores
-- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos.
+- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos. <a id="TEC20" href="#RP9">[9]</a>
 
 **Justificativa:** Alguns textos sobrepostos a imagens apresentam contraste insuficiente, dificultando a leitura. Testado com Ctrl + A (Selecionar tudo): Isso destaca textos ocultos ou com baixo contraste em relação ao fundo.
 
@@ -189,7 +189,7 @@
 
 ### Design
 
-- [x] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops.
+- [x] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops. <a id="TEC21" href="#RP10">[10]</a>
 
 **Justificativa:** O site apresenta design responsivo adequado, adaptando-se corretamente a diferentes tamanhos de tela e dispositivos móveis. Layout adapta-se corretamente em celular, Menu móvel aparece corretamente.
 

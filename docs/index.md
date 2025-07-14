@@ -4,18 +4,6 @@
 
 Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma aprimoração do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
 
-## Equipe do VerificaAAA
-
-<table align="center">
-  <tr>
-    <td align="center"><a href="https://github.com/vitorfleonardo"><img style="border-radius: 50%;" src="https://github.com/vitorfleonardo.png" width="100px;" alt=""/><br /><sub><b>Vitor Feijó</b></sub></a><br />
-    <td align="center"><a href="https://github.com/CADU110"><img style="border-radius: 50%;" src="https://github.com/CADU110.png" width="100px;" alt=""/><br /><sub><b>Carlos Eduardo</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Angelicahaas"><img style="border-radius: 50%;" src="https://github.com/Angelicahaas.png" width="100px;" alt=""/><br /><sub><b>Harleny Angéllica</b></sub></a><br />   
-    <td align="center"><a href="https://github.com/Erick-ems "><img style="border-radius: 50%;" src="https://github.com/Erick-ems.png" width="100px;" alt=""/><br /><sub><b>Erick Santos</b></sub></a><br />
-    <td align="center"><a href="https://github.com/maykonjuso "><img style="border-radius: 50%;" src="https://github.com/maykonjuso.png" width="100px;" alt=""/><br /><sub><b>Maykon Júnio</b></sub></a><br />
-  </tr>
-</table>
-
 ### Atualizações Recentes
 
 Esta versão foi atualizada para incluir:
@@ -54,3 +42,4 @@ O WebAAA é um Guia de Acessibilidade completo que oferece recursos essenciais p
 |--------|-----------|-----------|------|-------------|-----------------|
 | 1.0 | Criação do documento e adicionando informações da equipe | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 | 1.1 | Realizando ajustes | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 25/06/2025 |
+| 1.1 | Realizando ajustes na pagina | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 14/07/2025 |

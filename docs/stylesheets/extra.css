@@ -1,12 +1,12 @@
-.wy-side-nav-search .wy-dropdown>a img.logo, .wy-side-nav-search>a img.logo {
+/* Material Theme - Logo customization */
+.md-header__button.md-logo img, .md-nav__button.md-logo img {
     width: 50% !important;
 }
 
-/* Padronização de imagens para TG-02 - ReadTheDocs Theme */
-.rst-content img,
+/* Padronização de imagens para TG-02 - Material Theme */
 .md-content img,
-article img,
-.wy-nav-content img {
+.md-typeset img,
+article img {
     max-width: 80% !important;
     height: auto !important;
     display: block !important;
@@ -17,71 +17,71 @@ article img,
 }
 
 /* Imagens menores para capturas de código */
-.rst-content img[src*="codigo"], 
-.rst-content img[src*="html"],
-.rst-content img[src*="insTab"],
-.rst-content img[src*="href"],
-.rst-content img[src*="type"],
-.rst-content img[src*="label"],
-.rst-content img[src*="link"],
-.rst-content img[src*="foco"],
-.rst-content img[src*="erro"],
-.rst-content img[src*="alt"],
-.rst-content img[src*="h3"] {
+.md-content img[src*="codigo"], 
+.md-typeset img[src*="codigo"],
+.md-content img[src*="html"],
+.md-content img[src*="insTab"],
+.md-content img[src*="href"],
+.md-content img[src*="type"],
+.md-content img[src*="label"],
+.md-content img[src*="link"],
+.md-content img[src*="foco"],
+.md-content img[src*="erro"],
+.md-content img[src*="alt"],
+.md-content img[src*="h3"] {
     max-width: 60% !important;
 }
 
 /* Imagens grandes para capturas de tela completas */
-.rst-content img[src*="home"],
-.rst-content img[src*="interface"],
-.rst-content img[src*="contraste_de_cores.png"],
-.rst-content img[src*="legendas"],
-.rst-content img[src*="teclado"],
-.rst-content img[src*="video"],
-.rst-content img[src*="tamanho_fonte"],
-.rst-content img[src*="voz_e_gestos"] {
+.md-content img[src*="home"],
+.md-content img[src*="interface"],
+.md-content img[src*="contraste_de_cores.png"],
+.md-content img[src*="legendas"],
+.md-content img[src*="teclado"],
+.md-content img[src*="video"],
+.md-content img[src*="tamanho_fonte"],
+.md-content img[src*="voz_e_gestos"] {
     max-width: 90% !important;
 }
 
 /* Imagens médias para elementos específicos */
-.rst-content img[src*="icones"],
-.rst-content img[src*="textos"],
-.rst-content img[src*="form"],
-.rst-content img[src*="tabela"],
-.rst-content img[src*="bread"],
-.rst-content img[src*="busca"],
-.rst-content img[src*="nativo"],
-.rst-content img[src*="modal"],
-.rst-content img[src*="rot"],
-.rst-content img[src*="area"],
-.rst-content img[src*="descricao"],
-.rst-content img[src*="hiperlinks"],
-.rst-content img[src*="ajudaconsistente"],
-.rst-content img[src*="linguagem"],
-.rst-content img[src*="gesto"] {
+.md-content img[src*="icones"],
+.md-content img[src*="textos"],
+.md-content img[src*="form"],
+.md-content img[src*="tabela"],
+.md-content img[src*="bread"],
+.md-content img[src*="busca"],
+.md-content img[src*="nativo"],
+.md-content img[src*="modal"],
+.md-content img[src*="rot"],
+.md-content img[src*="area"],
+.md-content img[src*="descricao"],
+.md-content img[src*="hiperlinks"],
+.md-content img[src*="ajudaconsistente"],
+.md-content img[src*="linguagem"],
+.md-content img[src*="gesto"] {
     max-width: 70% !important;
 }
 
 /* Imagens pequenas para ícones e elementos menores */
-.rst-content img[src*="Imagem1"],
-.rst-content img[src*="contraste_de_cores_prova"] {
+.md-content img[src*="Imagem1"],
+.md-content img[src*="contraste_de_cores_prova"] {
     max-width: 50% !important;
 }
 
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
-    .rst-content img,
     .md-content img,
-    article img,
-    .wy-nav-content img {
+    .md-typeset img,
+    article img {
         max-width: 95% !important;
         margin: 15px auto !important;
     }
 }
 
 /* Estilo para legendas das figuras */
-.rst-content em,
-.md-content em {
+.md-content em,
+.md-typeset em {
     display: block !important;
     text-align: center !important;
     font-style: italic !important;
@@ -93,12 +93,456 @@ article img,
 }
 
 /* Melhorar espaçamento entre imagem e legenda */
-.rst-content img + em,
-.md-content img + em {
+.md-content img + em,
+.md-typeset img + em {
     margin-top: -10px !important;
 }
 
 /* Estilo especial para imagens do design */
-.rst-content img[src*="Imagem"] {
+.md-content img[src*="Imagem"] {
     max-width: 75% !important;
+}
+
+/* Contador de Checklist Flutuante */
+.checklist-counter-floating {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    min-width: 80px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.checklist-counter-floating:hover {
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.counter-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    line-height: 1;
+}
+
+.counter-subtitle {
+    font-size: 0.7rem;
+    color: #666;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Estados do contador baseados no progresso */
+.progress-low {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #dc3545;
+}
+
+.progress-low .counter-text {
+    color: #721c24;
+}
+
+.progress-low .counter-subtitle {
+    color: #a71e2a;
+}
+
+.progress-medium {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #fd7e14;
+}
+
+.progress-medium .counter-text {
+    color: #833a0c;
+}
+
+.progress-medium .counter-subtitle {
+    color: #b54e19;
+}
+
+.progress-high {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #007bff;
+}
+
+.progress-high .counter-text {
+    color: #0056b3;
+}
+
+.progress-high .counter-subtitle {
+    color: #0069d9;
+}
+
+.progress-complete {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #28a745;
+    animation: pulse-complete 1s ease-in-out;
+}
+
+.progress-complete .counter-text {
+    color: #1e7e34;
+}
+
+.progress-complete .counter-subtitle {
+    color: #28a745;
+}
+
+@keyframes pulse-complete {
+    0% { transform: translateY(-50%) scale(1); }
+    50% { transform: translateY(-50%) scale(1.1); }
+    100% { transform: translateY(-50%) scale(1); }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .checklist-counter-floating {
+        right: 10px;
+        padding: 8px 12px;
+        min-width: 70px;
+    }
+    
+    .counter-text {
+        font-size: 1rem;
+    }
+    
+    .counter-subtitle {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .checklist-counter-floating {
+        right: 5px;
+        padding: 6px 10px;
+        min-width: 60px;
+    }
+    
+    .counter-text {
+        font-size: 0.9rem;
+    }
+    
+    .counter-subtitle {
+        font-size: 0.55rem;
+    }
+}
+
+/* Tema escuro - Contador */
+[data-md-color-scheme="slate"] .checklist-counter-floating {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-color: #475569 !important;
+}
+
+[data-md-color-scheme="slate"] .counter-text {
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .counter-subtitle {
+    color: #cbd5e1 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-low {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-color: #ef4444 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-low .counter-text {
+    color: #fca5a5 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-low .counter-subtitle {
+    color: #f87171 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-medium {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-color: #f59e0b !important;
+}
+
+[data-md-color-scheme="slate"] .progress-medium .counter-text {
+    color: #fcd34d !important;
+}
+
+[data-md-color-scheme="slate"] .progress-medium .counter-subtitle {
+    color: #fbbf24 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-high {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-color: #3b82f6 !important;
+}
+
+[data-md-color-scheme="slate"] .progress-high .counter-text {
+    color: #93c5fd !important;
+}
+
+[data-md-color-scheme="slate"] .progress-high .counter-subtitle {
+    color: #60a5fa !important;
+}
+
+[data-md-color-scheme="slate"] .progress-complete {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-color: #22c55e !important;
+}
+
+[data-md-color-scheme="slate"] .progress-complete .counter-text {
+    color: #86efac !important;
+}
+
+[data-md-color-scheme="slate"] .progress-complete .counter-subtitle {
+    color: #4ade80 !important;
+}
+
+/* Melhorias de responsividade para Material Theme */
+@media (max-width: 1200px) {
+    .md-content {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Melhorar legibilidade em dispositivos móveis */
+    .md-typeset h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    .md-typeset h3 {
+        font-size: 1.3rem !important;
+    }
+    
+    /* Checklist mobile otimizado */
+    .md-typeset .task-list-item {
+        margin-bottom: 1rem !important;
+        padding: 0.5rem !important;
+        background: #f8f9fa;
+        border-radius: 8px;
+        border-left: 4px solid #007bff;
+    }
+    
+    .md-typeset .task-list-control {
+        margin-right: 0.75rem !important;
+    }
+    
+    /* Tabelas responsivas */
+    .md-typeset table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 100%;
+    }
+    
+    /* Melhorar espaçamento dos links */
+    .md-typeset a {
+        word-break: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para telas muito pequenas */
+    .md-content {
+        padding: 0 0.5rem;
+    }
+    
+    .md-typeset {
+        font-size: 0.9rem;
+    }
+    
+    .md-typeset h1 {
+        font-size: 1.6rem !important;
+    }
+    
+    .md-typeset h2 {
+        font-size: 1.3rem !important;
+    }
+    
+    .md-typeset h3 {
+        font-size: 1.1rem !important;
+    }
+    
+    /* Contador ainda mais compacto */
+    .checklist-counter {
+        padding: 10px 12px;
+        margin: 10px 0;
+        font-size: 0.85rem;
+    }
+}
+
+/* Melhorias de acessibilidade */
+.md-typeset .task-list-item:focus-within {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+/* Melhorar contraste dos links */
+.md-typeset a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.md-typeset a:hover {
+    color: #004085;
+}
+
+/* Estilo para elementos de código */
+.md-typeset code {
+    background-color: #f1f3f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Melhorar aparência das caixas de citação */
+.md-typeset blockquote {
+    border-left: 4px solid #007bff;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    background-color: #f8f9fa;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Estilo para tabelas */
+.md-typeset table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.md-typeset th,
+.md-typeset td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.md-typeset th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.md-typeset tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Correções para modo escuro */
+[data-md-color-scheme="slate"] .md-typeset table th,
+[data-md-color-scheme="slate"] .md-typeset table td {
+    border-color: #475569 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table th {
+    background-color: #334155 !important;
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table tr:nth-child(even) {
+    background-color: #334155 !important;
+}
+
+/* Correções para texto alternativo e referências */
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+    background-color: #334155 !important;
+    border-left-color: #3b82f6 !important;
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote p {
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote a {
+    color: #60a5fa !important;
+    text-decoration: underline !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote a:hover {
+    color: #93c5fd !important;
+}
+
+/* Correções para referências bibliográficas */
+[data-md-color-scheme="slate"] .md-typeset p {
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset strong {
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset em {
+    color: #cbd5e1 !important;
+}
+
+/* Correções para histórico de versões */
+[data-md-color-scheme="slate"] .md-typeset table tbody tr td {
+    color: #f1f5f9 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table tbody tr td a {
+    color: #60a5fa !important;
+    text-decoration: underline !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table tbody tr td a:hover {
+    color: #93c5fd !important;
+}
+
+/* Correções para listas */
+[data-md-color-scheme="slate"] .md-typeset ul li,
+[data-md-color-scheme="slate"] .md-typeset ol li {
+    color: #f1f5f9 !important;
+}
+
+/* Correções para cabeçalhos */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+    color: #f1f5f9 !important;
+}
+
+/* Correções para links gerais */
+[data-md-color-scheme="slate"] .md-typeset a {
+    color: #60a5fa !important;
+    text-decoration: underline !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+    color: #93c5fd !important;
+}
+
+/* Correções para código */
+[data-md-color-scheme="slate"] .md-typeset code {
+    background-color: #475569 !important;
+    color: #f1f5f9 !important;
+}
+
+/* Correções para checklist items */
+[data-md-color-scheme="slate"] .md-typeset .task-list-item {
+    color: #f1f5f9 !important;
+}
+
+/* Correções para âncoras de citação */
+[data-md-color-scheme="slate"] .md-typeset a[id^="TEC"],
+[data-md-color-scheme="slate"] .md-typeset a[id^="RP"] {
+    color: #60a5fa !important;
 }

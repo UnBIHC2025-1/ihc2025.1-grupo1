@@ -1,4 +1,4 @@
-# WebAAA - Guia de Acessibilidade v2.0
+# WebAAA - Guia de Acessibilidade
 
 <div align="center">
   <img src="docs/imagens/logo-webaa.png" alt="Logo WebAAA" width="300">
@@ -7,13 +7,6 @@
 ## Introdução
 
 Este projeto foi desenvolvido como parte da disciplina de Interação Humano-Computador (IHC) da Universidade de Brasília (UnB), ministrada pela Profª. Drª. Rejane Maria da Costa Figueiredo. O trabalho representa uma evolução do [VerificaAAA](https://github.com/vitorfleonardo/VerificaAAA), expandindo o conceito original de checklist prático de acessibilidade para um Guia de Acessibilidade completo e atualizado.
-
-## Atualizações Recentes
-
-Esta versão foi atualizada para incluir:
-- ✅ **WCAG 2.2**: Todos os novos critérios de sucesso da versão mais recente
-- ✅ **Norma ABNT NBR 17225:2025**: Diretrizes brasileiras para acessibilidade web
-- ✅ **Guia UK-Brasil**: Boas práticas do programa de cooperação internacional
 
 ## WebAAA
 

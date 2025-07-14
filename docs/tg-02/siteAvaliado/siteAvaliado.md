@@ -52,5 +52,5 @@ Além disso baseado nos novos critérios da WCAG, busca-se adequar o site a um n
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de revisão |
 |--------|-----------|-----------|------|-------------|-----------------|
-| 1.0 |Criação da página site avaliado  | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 | |  |
-| 1.0 |Adicionando mais informações  | [Gabriel Lopes](https://github.com/BrzGab) | 25/06/2025 | [Pedro Luiz](https://github.com/pedroluizfo) | 25/06/2025 |
+| 1.0 |Criação da página site avaliado  | [Pedro Luiz](https://github.com/pedroluizfo) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025  |
+| 1.1 |Adicionando mais informações  | [Gabriel Lopes](https://github.com/BrzGab) | 25/06/2025 | [Pedro Luiz](https://github.com/pedroluizfo) | 25/06/2025 |

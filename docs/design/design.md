@@ -5,16 +5,16 @@
 ## Aparência
 
 * [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-* [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
+* [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC30" href="#RP1">[1]</a>
 * [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
 * [ ] <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3" href="#RP3">[3]</a>
 * [ ] <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a>
 * [ ] <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5" href="#RP5">[5]</a>
 * [ ] Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes. <a id="TEC17" href="#RP17">[17]</a>
 * [ ] Parágrafos com no <b> máximo 80 caracteres por linha </b>. <a id="TEC10" href="#RP10">[10]</a>
-* [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>. <a id="TEC10" href="#RP10">[10]</a>
-* [ ] Evita o alinhamento justificado. <a id="TEC10" href="#RP10">[10]</a>
-* [ ] <b> Fontes são fluidas </b> e de fácil entendimento. <a id="TEC10" href="#RP10">[10]</a>
+* [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>. <a id="TEC35" href="#RP10">[10]</a>
+* [ ] Evita o alinhamento justificado. <a id="TEC36" href="#RP10">[10]</a>
+* [ ] <b> Fontes são fluidas </b> e de fácil entendimento. <a id="TEC37" href="#RP10">[10]</a>
 * [ ] Toma o devido cuidado com <b>`display:none` e `visibility:hidden` para os recursos de tecnologia assistiva</b>. <a id="TEC18" href="#RP18">[18]</a>
 * [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones têm o nome acessível. <a id="TEC19" href="#RP19">[19]</a>
 * [ ] <b> Links devem ter aparência distinta</b> (como texto sublinhado e cor diferente). <a id="TEC11" href="#RP11">[11]</a>
@@ -33,15 +33,13 @@
 ## Contraste de Cores
 
 * [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
-* [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
-* [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
-* [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="TEC4" href="#RP4">[4]</a>
-* [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-* [ ] <b> Verificar `::selection` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+* [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC32" href="#RP9">[9]</a>
+* [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC38" href="#RP4">[4]</a>
+* [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="TEC31" href="#RP4">[4]</a>
+* [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC33" href="#RP9">[9]</a>
+* [ ] <b> Verificar `::selection` cores</b> personalizadas. <a id="TEC34" href="#RP9">[9]</a>
 
-## Checklists de Design - ABNT NBR 17225:2025
-
-### Contraste de Cores
+## Contraste de Cores
 
 - [ ] **Verificar o contraste** de todo texto tamanho normal. <a id="TEC20" href="#RP33">[33]</a>
 - [ ] **Verificar o contraste** de todo texto tamanho grande. <a id="TEC21" href="#RP34">[34]</a>
@@ -50,9 +48,7 @@
 - [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos. <a id="TEC24" href="#RP37">[37]</a>
 - [ ] **Verificar `::selection` cores** personalizadas. <a id="TEC25" href="#RP38">[38]</a>
 
-## Checklists de Design - Guia de Boas Práticas para Acessibilidade Digital
-
-### Design
+## Design
 
 - [ ] **Desenho Universal**: Garantir que o design do site ou aplicativo seja acessível para todas as pessoas sem a necessidade de adaptações. <a id="TEC26" href="#RP39">[39]</a>
 - [ ] **Design Responsivo**: Certificar-se de que o design é responsivo e se adapta a diferentes dispositivos, incluindo móveis e desktops. <a id="TEC27" href="#RP40">[40]</a>
@@ -121,6 +117,24 @@
 
 > <a id="RP42" href="#TEC29">42.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 43. Tipografia e espaçamento acessível.
 
+> <a id="RP1" href="#TEC30">1.</a> WCAG 2.2 Understanding Docs. SC 1.4.1 Use of Color (Level A).
+
+> <a id="RP4" href="#TEC31">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA).
+
+> <a id="RP9" href="#TEC32">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA).
+
+> <a id="RP9" href="#TEC33">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA).
+
+> <a id="RP9" href="#TEC34">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA).
+
+> <a id="RP10" href="#TEC35">10.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 43–44. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital)
+
+> <a id="RP10" href="#TEC36">10.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 43–44. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital)
+
+> <a id="RP10" href="#TEC37">10.</a> Guia de Boas Práticas para Acessibilidade Digital (UK-BR), p. 43–44. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital)
+
+> <a id="RP4" href="#TEC38">4.</a> WCAG 2.2 Understanding Docs. SC 1.4.11 Non-text Contrast (Level AA).
+
 ## Bibliografia
 
 > DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. *Guia de Boas Práticas para Acessibilidade Digital*. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023.
@@ -135,3 +149,4 @@
 | 1.0 | Adição de WCAG 2.2 e conformidade ABNT NBR 17225:2025 | [Gabriel Lopes](https://github.com/BrzGab) | 17/06/2025 | [Uires Carlos](https://github.com/uires2023) | 17/06/2025 |
 | 1.1 | Correção em conformidade WCAG 2.2 e ABNT NBR 17225:2025 | [Taynara Vitorino](https://github.com/taybalau) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
 | 1.2 | Adicionando mais itens sobre a ABNT NBR 17225:2025 | [Uires Carlos](https://github.com/uires2023) | 23/06/2025 | [Gabriel Lopes](https://github.com/BrzGab) | 23/06/2025 |
+| 1.3 | Remoção de itens desnecessarios e ajustando o documento | [Gabriel Lopes](https://github.com/BrzGab) | 14/07/2025 | [Uires Carlos](https://github.com/uires2023) | 14/07/2025 |
